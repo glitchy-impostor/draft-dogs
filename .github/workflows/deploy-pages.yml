@@ -24,13 +24,23 @@ jobs:
           node-version: 20
           cache: npm
       - run: npm ci
+      - name: Resolve base path
+        id: base
+        run: |
+          if [ -f public/CNAME ]; then
+            DOMAIN=$(head -n1 public/CNAME | tr -d '\r\n')
+            echo "value=/" >> "$GITHUB_OUTPUT"
+            echo "custom domain detected (public/CNAME → $DOMAIN) — base=/"
+          elif [ -n "${{ vars.VITE_BASE_PATH }}" ]; then
+            echo "value=${{ vars.VITE_BASE_PATH }}" >> "$GITHUB_OUTPUT"
+            echo "using VITE_BASE_PATH from repo variable"
+          else
+            echo "value=/${{ github.event.repository.name }}/" >> "$GITHUB_OUTPUT"
+            echo "defaulting to /<repo-name>/ (no CNAME, no variable)"
+          fi
       - name: Build
         env:
-          # VITE_BASE_PATH defaults to "/<repo-name>/" using the runtime repo
-          # name, so a fresh fork builds correctly out of the box. Override it
-          # with the repository variable (Settings → Variables) if you need
-          # a custom subpath or you're hosting at a root URL.
-          VITE_BASE_PATH: ${{ vars.VITE_BASE_PATH != '' && vars.VITE_BASE_PATH || format('/{0}/', github.event.repository.name) }}
+          VITE_BASE_PATH: ${{ steps.base.outputs.value }}
           # Required when the frontend and backend are split deploys (GH Pages
           # + Railway). Leave the variable unset for a single-origin host.
           VITE_API_URL: ${{ vars.VITE_API_URL }}

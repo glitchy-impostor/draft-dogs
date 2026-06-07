@@ -42,6 +42,40 @@ SQLite leaderboard. CORS, HMAC, and the DB path are all env-driven.
 
 Unchanged — `npm run dev` (port 5180) + `uvicorn backend.app.main:app --reload --port 8000`. The Vite dev proxy routes `/api/*` to the backend, and `VITE_API_URL` is left blank so requests are same-origin.
 
+## Custom domain (e.g. draftdogs.app)
+
+The repo ships with `public/CNAME` containing the apex domain. The deploy workflow detects this file and rebuilds with `VITE_BASE_PATH=/` automatically — no variable override needed.
+
+Set these records at your registrar:
+
+| Record | Host | Value |
+|---|---|---|
+| A | `@` (apex) | `185.199.108.153` |
+| A | `@` (apex) | `185.199.109.153` |
+| A | `@` (apex) | `185.199.110.153` |
+| A | `@` (apex) | `185.199.111.153` |
+| AAAA | `@` | `2606:50c0:8000::153` |
+| AAAA | `@` | `2606:50c0:8001::153` |
+| AAAA | `@` | `2606:50c0:8002::153` |
+| AAAA | `@` | `2606:50c0:8003::153` |
+| CNAME | `www` | `<your-user>.github.io.` |
+
+After DNS propagates (5 min – 24 h):
+
+1. Repo Settings → Pages → "Custom domain" → enter `draftdogs.app` → Save. GitHub verifies the DNS, then provisions a Let's Encrypt cert (usually within minutes).
+2. Once the cert is ready, tick **"Enforce HTTPS"**. (`.app` is HSTS-preloaded so HTTPS is mandatory — the site won't load over plain HTTP regardless.)
+3. Visit `https://draftdogs.app` and `https://www.draftdogs.app` — both should serve the app, with the `www` variant 301-redirecting to apex.
+
+Update the Railway backend:
+
+```
+DD_ALLOWED_ORIGINS=https://draftdogs.app,https://www.draftdogs.app
+```
+
+(Comma-separated. The localhost dev origins stay live for local testing.)
+
+To switch back to a Pages subpath later, delete `public/CNAME` and the workflow will fall back to `/<repo-name>/`.
+
 ## Troubleshooting
 
 - **404 on direct route deep-links** (e.g. `/arcade/epl`) — confirm `dist/404.html` exists; postbuild script should have made it.
