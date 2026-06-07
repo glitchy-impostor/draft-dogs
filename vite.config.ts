@@ -15,6 +15,8 @@ export default defineConfig(({ mode }) => {
   const base = env.VITE_BASE_PATH || '/';
   return {
     base,
+    // Explicit so a CI runner with a different cwd can't drop the static assets.
+    publicDir: path.resolve(__dirname, 'public'),
     plugins: [react()],
     resolve: {
       alias: {
