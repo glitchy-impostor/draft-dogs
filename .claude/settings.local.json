@@ -58,7 +58,14 @@
       "Bash(git init *)",
       "Bash(git remote *)",
       "Bash(git add *)",
-      "Bash(grep -iE \"\\\\.env$|\\\\.env\\\\.|secret|credential|\\\\.pem$|\\\\.key$\")"
+      "Bash(grep -iE \"\\\\.env$|\\\\.env\\\\.|secret|credential|\\\\.pem$|\\\\.key$\")",
+      "Bash(git commit -m ' *)",
+      "Bash(grep -E \"tsbuildinfo|\\\\.cache|\\\\.pytest_cache|__pycache__|\\\\.pyc$\")",
+      "Bash(git rm *)",
+      "Bash(git commit *)",
+      "Bash(grep -E \"tsbuildinfo|__pycache__|\\\\.pyc$\")",
+      "Bash(git push *)",
+      "Bash(VITE_BASE_PATH=/draft-dogs/ npm run build)"
     ]
   }
 }

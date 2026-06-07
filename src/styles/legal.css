@@ -1,0 +1,77 @@
+/* Privacy / Terms / legal pages — long-form prose layout. */
+.legal {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: clamp(16px, 4vw, 32px);
+  padding-bottom: 64px;
+  color: var(--fg);
+  line-height: 1.55;
+}
+.legal__head {
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--border);
+}
+.legal__back {
+  display: inline-block;
+  font-size: 0.78rem;
+  letter-spacing: 0.2em;
+  color: var(--fg-dim);
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-bottom: 12px;
+}
+.legal__back:hover { color: var(--accent); }
+.legal__title {
+  font-size: clamp(32px, 7vw, 52px);
+  margin: 0 0 6px;
+  letter-spacing: 0.04em;
+  font-weight: 900;
+}
+.legal__updated {
+  font-size: 0.82rem;
+  color: var(--fg-dim);
+  letter-spacing: 0.08em;
+  margin: 0;
+}
+.legal__section {
+  margin: 24px 0;
+}
+.legal__section h2 {
+  font-size: 1.05rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 10px;
+}
+.legal__section p {
+  margin: 8px 0;
+  font-size: 0.95rem;
+}
+.legal__section ul {
+  margin: 6px 0 12px;
+  padding-left: 22px;
+}
+.legal__section li {
+  margin: 4px 0;
+  font-size: 0.93rem;
+}
+.legal__section a {
+  color: var(--accent);
+}
+.legal__section code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.88em;
+  background: var(--bg-2);
+  padding: 1px 5px;
+  border-radius: 3px;
+}
+.legal__section--summary {
+  margin-top: 32px;
+  padding: 14px 16px;
+  background: var(--bg-2);
+  border-left: 3px solid var(--accent);
+}
+.legal__section--summary h2 {
+  color: var(--fg);
+}
