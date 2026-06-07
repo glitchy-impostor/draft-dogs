@@ -26,12 +26,23 @@ jobs:
       - run: npm ci
       - name: Build
         env:
-          # Set these in Settings → Secrets and variables → Actions → Variables.
-          # VITE_BASE_PATH should be "/<repo-name>/" — e.g. /draft-dogs-redesign/
-          # VITE_API_URL is your Railway URL — e.g. https://draft-dogs.up.railway.app
-          VITE_BASE_PATH: ${{ vars.VITE_BASE_PATH }}
+          # VITE_BASE_PATH defaults to "/<repo-name>/" using the runtime repo
+          # name, so a fresh fork builds correctly out of the box. Override it
+          # with the repository variable (Settings → Variables) if you need
+          # a custom subpath or you're hosting at a root URL.
+          VITE_BASE_PATH: ${{ vars.VITE_BASE_PATH != '' && vars.VITE_BASE_PATH || format('/{0}/', github.event.repository.name) }}
+          # Required when the frontend and backend are split deploys (GH Pages
+          # + Railway). Leave the variable unset for a single-origin host.
           VITE_API_URL: ${{ vars.VITE_API_URL }}
-        run: npm run build
+        run: |
+          echo "Building with VITE_BASE_PATH=$VITE_BASE_PATH VITE_API_URL=$VITE_API_URL"
+          npm run build
+      - name: Show built index.html (top)
+        run: |
+          echo "----- dist/index.html -----"
+          head -40 dist/index.html
+          echo "----- dist/ listing -----"
+          ls -la dist/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
