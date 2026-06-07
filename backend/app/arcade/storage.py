@@ -92,12 +92,17 @@ class LeaderboardStore:
     def __init__(self, path: str = ":memory:") -> None:
         self._path = path
         self._lock = threading.Lock()
+        # Ensure the parent dir exists BEFORE connecting. Without this,
+        # sqlite3.connect("/data/leaderboard.db") raises OperationalError on
+        # startup if the Railway volume isn't mounted yet (or the path was
+        # mistyped), crashing the worker before it can serve /health.
+        if path != ":memory:":
+            os.makedirs(os.path.dirname(os.path.abspath(path)) or ".", exist_ok=True)
         # check_same_thread=False lets uvicorn's async event-loop workers all
         # share one connection; the lock above serializes writes.
         self._conn = sqlite3.connect(path, check_same_thread=False)
         self._conn.row_factory = sqlite3.Row
         if path != ":memory:":
-            os.makedirs(os.path.dirname(os.path.abspath(path)) or ".", exist_ok=True)
             self._conn.execute("PRAGMA journal_mode = WAL")
             self._conn.execute("PRAGMA synchronous = NORMAL")
         self._conn.executescript(_SCHEMA)
