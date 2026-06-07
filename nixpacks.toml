@@ -1,0 +1,7 @@
+# Pin Nixpacks to the Python provider so Railway only installs the backend.
+# Without this, Nixpacks sees `package.json` and tries to also run `npm ci` +
+# `npm run build`, which is unnecessary (frontend lives on GH Pages) and slow.
+providers = ["python"]
+
+[start]
+cmd = "uvicorn backend.app.main:app --host 0.0.0.0 --port $PORT"
