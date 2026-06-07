@@ -1,5 +1,7 @@
 import { COMPETITIONS } from '@data/registry';
 import { HubCard } from '@/components/HubCard';
+import { Seo } from '@/components/Seo';
+import { hubSeo } from '@/lib/seoHelpers';
 import '@/styles/hub.css';
 
 export default function ArcadeHub() {
@@ -8,6 +10,7 @@ export default function ArcadeHub() {
 
   return (
     <main className="hub">
+      <Seo {...hubSeo()} />
       <header className="hub__head">
         <span className="chip chip--live hub__live-chip">ON AIR</span>
         <img

@@ -6,6 +6,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { fetchLeaderboard, type LeaderboardRow } from '@/lib/arcadeApi';
 import { getCompetition } from '@data/registry';
+import { Seo } from '@/components/Seo';
 import '@/styles/leaderboard.css';
 
 type Tab = 'global' | 'daily';
@@ -50,6 +51,12 @@ export default function ArcadeLeaderboard() {
 
   return (
     <main className={`leaderboard sport-${entry.sport}`}>
+      <Seo
+        title={`${entry.display} ${entry.recordLabel} Leaderboard — Draft Dogs Arcade`}
+        description={`Top runs for the ${entry.display} ${entry.recordLabel} perfect-season draft. Daily and all-time rankings.`}
+        path={`/arcade/${entry.slug}/leaderboard`}
+        noindex
+      />
       <header className="leaderboard__head">
         <Link to={`/arcade/${slug}`} className="leaderboard__back">←</Link>
         <div className="leaderboard__title">

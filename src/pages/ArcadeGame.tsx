@@ -2,6 +2,8 @@ import { useEffect, useMemo, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { ModeChooser } from '@/components/ModeChooser';
 import { GameView } from '@/components/GameView';
+import { Seo } from '@/components/Seo';
+import { competitionSeo } from '@/lib/seoHelpers';
 import { getCompetition } from '@data/registry';
 import { readLastMode } from '@/lib/storage';
 import { fetchDaily } from '@/lib/arcadeApi';
@@ -75,15 +77,24 @@ export default function ArcadeGame() {
   if (!entry) {
     return (
       <main className="game game--missing">
+        <Seo
+          title="Unknown competition — Draft Dogs Arcade"
+          description="That competition doesn't exist. Browse the live games on the Draft Dogs hub."
+          path={`/arcade/${slug}`}
+          noindex
+        />
         <h1>Unknown competition: {slug}</h1>
         <Link to="/arcade">← Back to arcade</Link>
       </main>
     );
   }
 
+  const seoProps = competitionSeo(entry);
+
   if (entry.status === 'soon' || !entry.config || !entry.loadPool) {
     return (
       <main className="game game--soon">
+        <Seo {...seoProps} title={`${entry.display} (coming soon) — Draft Dogs Arcade`} noindex />
         <div className="game__brand">DRAFT DOGS · {entry.recordLabel}</div>
         <h1>{entry.display}</h1>
         <p>This competition isn't live yet. Pool curation in progress.</p>
@@ -95,6 +106,7 @@ export default function ArcadeGame() {
   if (phase === 'mode') {
     return (
       <main className="game">
+        <Seo {...seoProps} />
         <ModeChooser
           initial={mode}
           competitionName={entry.display}
@@ -117,6 +129,7 @@ export default function ArcadeGame() {
     const formations = entry.config.roster.formations ?? [];
     return (
       <main className={`game game--formation sport-${entry.sport}`}>
+        <Seo {...seoProps} />
         <header className="game__header">
           <button type="button" onClick={() => setPhase('mode')} className="game__back">←</button>
           <div className="game__title">
@@ -147,7 +160,9 @@ export default function ArcadeGame() {
   }
 
   return (
-    <GameView
+    <>
+      <Seo {...seoProps} />
+      <GameView
       key={runId}
       config={entry.config}
       loadPool={entry.loadPool}
@@ -164,5 +179,6 @@ export default function ArcadeGame() {
         setRunId(n => n + 1);
       }}
     />
+    </>
   );
 }

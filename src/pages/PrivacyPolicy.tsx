@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { Seo } from '@/components/Seo';
 import '@/styles/legal.css';
 
 const CONTACT = 'info@draftdogs.app';
@@ -6,6 +7,11 @@ const CONTACT = 'info@draftdogs.app';
 export default function PrivacyPolicy() {
   return (
     <main className="legal">
+      <Seo
+        title="Privacy Policy — Draft Dogs Arcade"
+        description="What Draft Dogs Arcade collects, why, and how to delete your data. No tracking, no ads, no third parties."
+        path="/privacy"
+      />
       <header className="legal__head">
         <Link to="/arcade" className="legal__back" aria-label="Back to arcade">← Arcade</Link>
         <h1 className="legal__title">Privacy Policy</h1>

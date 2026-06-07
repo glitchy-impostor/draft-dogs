@@ -65,7 +65,8 @@
       "Bash(git commit *)",
       "Bash(grep -E \"tsbuildinfo|__pycache__|\\\\.pyc$\")",
       "Bash(git push *)",
-      "Bash(VITE_BASE_PATH=/draft-dogs/ npm run build)"
+      "Bash(VITE_BASE_PATH=/draft-dogs/ npm run build)",
+      "Bash(grep -n \"phase === 'playing'\\\\|return \\(\\\\s*$\" src/pages/ArcadeGame.tsx)"
     ]
   }
 }
