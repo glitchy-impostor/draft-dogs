@@ -1,0 +1,373 @@
+{
+  "slug": "nba",
+  "name": "Draft Dogs 82-0: NBA",
+  "sport": "nba",
+  "runMode": "season",
+  "target": {
+    "games": 82,
+    "label": "82-0"
+  },
+  "eraBands": [
+    "1960s",
+    "1970s",
+    "1980s",
+    "1990s",
+    "2000s",
+    "2010s",
+    "2020s"
+  ],
+  "eraRepeat": false,
+  "rerolls": {
+    "entity": 1,
+    "era": 1
+  },
+  "rounds": 5,
+  "perfectionTier": "Untouchable 82-0 · TOP DOG",
+  "disclaimer": "Draft Dogs is an independent project, not affiliated with, endorsed by, or sponsored by the National Basketball Association.",
+  "roster": {
+    "type": "free",
+    "count": 5
+  },
+  "tiers": [
+    {
+      "stage": "champion",
+      "label": "NBA Champion"
+    },
+    {
+      "stage": "final",
+      "label": "NBA Finals Loser"
+    },
+    {
+      "stage": "conference",
+      "label": "Conference Finals exit"
+    },
+    {
+      "stage": "semis",
+      "label": "Conference Semifinals exit"
+    },
+    {
+      "stage": "first",
+      "label": "First Round exit"
+    },
+    {
+      "minWins": 35,
+      "label": "Play-in"
+    },
+    {
+      "minWins": 25,
+      "label": "Lottery"
+    },
+    {
+      "minWins": 0,
+      "label": "Tanking"
+    }
+  ],
+  "sim": {
+    "k": 0.2,
+    "r50": 80,
+    "drawPeak": 0,
+    "opp": {
+      "season": {
+        "mean": 78,
+        "std": 6
+      }
+    },
+    "playoffThreshold": 42,
+    "playoffStages": [
+      {
+        "id": "first",
+        "label": "First Round",
+        "opp": {
+          "mean": 82,
+          "std": 5
+        }
+      },
+      {
+        "id": "semis",
+        "label": "Conference Semis",
+        "opp": {
+          "mean": 86,
+          "std": 4
+        }
+      },
+      {
+        "id": "conference",
+        "label": "Conference Finals",
+        "opp": {
+          "mean": 90,
+          "std": 3
+        }
+      },
+      {
+        "id": "final",
+        "label": "NBA Finals",
+        "opp": {
+          "mean": 93,
+          "std": 3
+        }
+      }
+    ]
+  },
+  "axisLabels": {
+    "entity": "Franchise",
+    "era": "Decade"
+  },
+  "entities": [
+    {
+      "id": "LAL",
+      "name": "Lakers",
+      "colors": [
+        "#552583",
+        "#FDB927"
+      ],
+      "spinWeight": 1
+    },
+    {
+      "id": "BOS",
+      "name": "Celtics",
+      "colors": [
+        "#007A33",
+        "#FFFFFF"
+      ],
+      "spinWeight": 1
+    },
+    {
+      "id": "CHI",
+      "name": "Bulls",
+      "colors": [
+        "#CE1141",
+        "#000000"
+      ],
+      "spinWeight": 1
+    },
+    {
+      "id": "GSW",
+      "name": "Warriors",
+      "colors": [
+        "#1D428A",
+        "#FFC72C"
+      ],
+      "spinWeight": 0.9
+    },
+    {
+      "id": "MIA",
+      "name": "Heat",
+      "colors": [
+        "#98002E",
+        "#F9A01B"
+      ],
+      "spinWeight": 0.85
+    },
+    {
+      "id": "SAS",
+      "name": "Spurs",
+      "colors": [
+        "#C4CED4",
+        "#000000"
+      ],
+      "spinWeight": 0.85
+    },
+    {
+      "id": "PHI",
+      "name": "76ers",
+      "colors": [
+        "#006BB6",
+        "#ED174C"
+      ],
+      "spinWeight": 0.8
+    },
+    {
+      "id": "DET",
+      "name": "Pistons",
+      "colors": [
+        "#C8102E",
+        "#1D42BA"
+      ],
+      "spinWeight": 0.7
+    }
+  ],
+  "spinTable": [
+    {
+      "entity": "LAL",
+      "era": "1960s"
+    },
+    {
+      "entity": "LAL",
+      "era": "1980s"
+    },
+    {
+      "entity": "LAL",
+      "era": "2000s"
+    },
+    {
+      "entity": "LAL",
+      "era": "2010s"
+    },
+    {
+      "entity": "LAL",
+      "era": "2020s"
+    },
+    {
+      "entity": "BOS",
+      "era": "1960s"
+    },
+    {
+      "entity": "BOS",
+      "era": "1980s"
+    },
+    {
+      "entity": "BOS",
+      "era": "2000s"
+    },
+    {
+      "entity": "BOS",
+      "era": "2020s"
+    },
+    {
+      "entity": "CHI",
+      "era": "1990s"
+    },
+    {
+      "entity": "GSW",
+      "era": "2010s"
+    },
+    {
+      "entity": "MIA",
+      "era": "2000s"
+    },
+    {
+      "entity": "MIA",
+      "era": "2010s"
+    },
+    {
+      "entity": "SAS",
+      "era": "2000s"
+    },
+    {
+      "entity": "SAS",
+      "era": "2010s"
+    },
+    {
+      "entity": "PHI",
+      "era": "1980s"
+    },
+    {
+      "entity": "PHI",
+      "era": "2000s"
+    },
+    {
+      "entity": "DET",
+      "era": "1980s"
+    },
+    {
+      "entity": "DET",
+      "era": "2000s"
+    }
+  ],
+  "tableOpponents": [
+    "Boston Celtics",
+    "Brooklyn Nets",
+    "New York Knicks",
+    "Philadelphia 76ers",
+    "Toronto Raptors",
+    "Chicago Bulls",
+    "Cleveland Cavaliers",
+    "Detroit Pistons",
+    "Indiana Pacers",
+    "Milwaukee Bucks",
+    "Atlanta Hawks",
+    "Charlotte Hornets",
+    "Miami Heat",
+    "Orlando Magic",
+    "Washington Wizards",
+    "Denver Nuggets",
+    "Minnesota Timberwolves",
+    "Oklahoma City Thunder",
+    "Portland Trail Blazers",
+    "Utah Jazz",
+    "Golden State Warriors",
+    "Los Angeles Clippers",
+    "Los Angeles Lakers",
+    "Phoenix Suns",
+    "Sacramento Kings",
+    "Dallas Mavericks",
+    "Houston Rockets",
+    "Memphis Grizzlies",
+    "New Orleans Pelicans",
+    "San Antonio Spurs"
+  ],
+  "tableLayout": {
+    "conferences": [
+      {
+        "name": "Eastern",
+        "divisions": [
+          {
+            "name": "Atlantic",
+            "teams": [
+              "Boston Celtics",
+              "Brooklyn Nets",
+              "New York Knicks",
+              "Philadelphia 76ers",
+              "Toronto Raptors"
+            ]
+          },
+          {
+            "name": "Central",
+            "teams": [
+              "Chicago Bulls",
+              "Cleveland Cavaliers",
+              "Detroit Pistons",
+              "Indiana Pacers",
+              "Milwaukee Bucks"
+            ]
+          },
+          {
+            "name": "Southeast",
+            "teams": [
+              "Atlanta Hawks",
+              "Charlotte Hornets",
+              "Miami Heat",
+              "Orlando Magic",
+              "Washington Wizards"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Western",
+        "divisions": [
+          {
+            "name": "Northwest",
+            "teams": [
+              "Denver Nuggets",
+              "Minnesota Timberwolves",
+              "Oklahoma City Thunder",
+              "Portland Trail Blazers",
+              "Utah Jazz"
+            ]
+          },
+          {
+            "name": "Pacific",
+            "teams": [
+              "Golden State Warriors",
+              "Los Angeles Clippers",
+              "Los Angeles Lakers",
+              "Phoenix Suns",
+              "Sacramento Kings"
+            ]
+          },
+          {
+            "name": "Southwest",
+            "teams": [
+              "Dallas Mavericks",
+              "Houston Rockets",
+              "Memphis Grizzlies",
+              "New Orleans Pelicans",
+              "San Antonio Spurs"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

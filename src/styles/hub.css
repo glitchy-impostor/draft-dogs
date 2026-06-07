@@ -1,0 +1,226 @@
+.hub {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: clamp(16px, 4vw, 32px);
+  padding-bottom: 64px;
+}
+
+.hub__head {
+  position: relative;
+  margin-bottom: 32px;
+  text-align: center;
+  padding: 18px 12px 24px;
+  border: 1px solid var(--border);
+  border-radius: 0;
+  background:
+    radial-gradient(120% 80% at 50% 0%, rgba(60,144,95,0.10) 0%, transparent 60%),
+    var(--bg-2);
+  overflow: hidden;
+}
+.hub__head::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: repeating-linear-gradient(0deg, rgba(255,255,255,0.025) 0, rgba(255,255,255,0.025) 1px, transparent 1px, transparent 4px);
+}
+.hub__live-chip {
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  color: var(--success);
+}
+
+.hub__logo {
+  display: block;
+  margin: 0 auto 8px;
+  width: 88px;
+  height: 88px;
+  object-fit: contain;
+  filter: drop-shadow(0 4px 18px rgba(60,144,95,0.25));
+}
+.hub__brand {
+  font-size: 0.82rem;
+  letter-spacing: 0.35em;
+  color: var(--accent);
+  text-transform: uppercase;
+}
+.hub__title {
+  font-size: clamp(54px, 13vw, 104px);
+  margin: 4px 0 0;
+  letter-spacing: 0.08em;
+  line-height: 0.92;
+  font-weight: 900;
+  background: linear-gradient(180deg, #fff 0%, #aaa 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 22px rgba(255,255,255,0.05);
+}
+.hub__tagline {
+  color: var(--fg-dim);
+  font-size: 0.92rem;
+  max-width: 40ch;
+  margin: 10px auto 0;
+  letter-spacing: 0.04em;
+}
+.hub__tagline strong {
+  color: var(--accent);
+  letter-spacing: 0.18em;
+  padding: 0 4px;
+}
+
+.hub__section { margin-top: 28px; }
+.hub__section-title {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  font-size: 0.8rem;
+  letter-spacing: 0.3em;
+  color: var(--fg-dim);
+  text-transform: uppercase;
+  margin: 0 0 14px;
+  padding-bottom: 6px;
+  border-bottom: 1px dashed var(--border);
+}
+.hub__section-title::before {
+  content: '▸';
+  color: var(--accent);
+}
+.hub__section-count {
+  margin-left: auto;
+  color: var(--accent);
+  letter-spacing: 0.1em;
+  font-weight: 700;
+}
+
+.hub__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 12px;
+}
+
+.hub-card__wrap {
+  display: block;
+  border-radius: 0;
+  transition: transform 0.12s ease, filter 0.12s ease;
+}
+.hub-card__wrap:active { transform: scale(0.98); }
+.hub-card__wrap:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.hub-card__wrap:hover .hub-card { border-color: var(--sport-accent); }
+.hub-card__wrap:hover .hub-card__record { text-shadow: 0 0 12px var(--sport-accent-dim); }
+
+.hub-card {
+  position: relative;
+  display: grid;
+  grid-template-rows: auto 1fr auto auto;
+  gap: 4px;
+  padding: 14px 14px 12px;
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+  aspect-ratio: 1.05;
+  overflow: hidden;
+  transition: border-color 120ms ease;
+}
+
+.hub-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    repeating-linear-gradient(
+      0deg,
+      rgba(255,255,255,0.02) 0,
+      rgba(255,255,255,0.02) 1px,
+      transparent 1px,
+      transparent 3px
+    );
+  pointer-events: none;
+}
+.hub-card::after {
+  /* corner CRT brackets */
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(to right, var(--sport-accent-dim) 0 12px, transparent 12px) top left / 12px 1px no-repeat,
+    linear-gradient(to bottom, var(--sport-accent-dim) 0 12px, transparent 12px) top left / 1px 12px no-repeat,
+    linear-gradient(to left,  var(--sport-accent-dim) 0 12px, transparent 12px) top right / 12px 1px no-repeat,
+    linear-gradient(to bottom, var(--sport-accent-dim) 0 12px, transparent 12px) top right / 1px 12px no-repeat,
+    linear-gradient(to right, var(--sport-accent-dim) 0 12px, transparent 12px) bottom left / 12px 1px no-repeat,
+    linear-gradient(to top, var(--sport-accent-dim) 0 12px, transparent 12px) bottom left / 1px 12px no-repeat,
+    linear-gradient(to left,  var(--sport-accent-dim) 0 12px, transparent 12px) bottom right / 12px 1px no-repeat,
+    linear-gradient(to top, var(--sport-accent-dim) 0 12px, transparent 12px) bottom right / 1px 12px no-repeat;
+  opacity: 0;
+  transition: opacity 120ms ease;
+}
+.hub-card__wrap:hover .hub-card::after { opacity: 1; }
+
+.hub-card__record {
+  font-size: clamp(30px, 6.5vw, 44px);
+  font-weight: 900;
+  letter-spacing: 0.05em;
+  color: var(--sport-accent);
+  line-height: 1;
+  text-shadow: 0 0 0 transparent;
+  transition: text-shadow 160ms ease;
+}
+
+.hub-card__sport-glyph {
+  font-size: 1.4rem;
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  opacity: 0.6;
+}
+
+.hub-card__name {
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--fg);
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+  align-self: end;
+}
+
+.hub-card__status {
+  font-size: 0.7rem;
+  letter-spacing: 0.25em;
+  color: var(--success);
+  border-top: 1px dashed var(--border);
+  padding-top: 6px;
+  margin-top: 6px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.hub-card__status::before {
+  content: '';
+  width: 6px; height: 6px;
+  background: currentColor;
+  border-radius: 50%;
+  box-shadow: 0 0 6px currentColor;
+}
+
+.hub-card--soon .hub-card__status::before { box-shadow: none; }
+.hub-card--soon .hub-card__status { color: var(--fg-dim); }
+.hub-card--soon .hub-card__record { color: var(--fg-dim); }
+.hub-card--soon { opacity: 0.6; cursor: not-allowed; }
+.hub-card--soon::after { display: none; }
+
+.hub-card--soccer { --sport-accent: var(--accent);    --sport-accent-dim: rgba(60, 144, 95, 0.35); }
+.hub-card--nba    { --sport-accent: #FF8800;          --sport-accent-dim: rgba(255, 136, 0, 0.30); }
+.hub-card--nfl    { --sport-accent: #4FC3F7;          --sport-accent-dim: rgba(79, 195, 247, 0.30); }
+.hub-card--nhl    { --sport-accent: #29B6F6;          --sport-accent-dim: rgba(41, 182, 246, 0.30); }
+.hub-card--mlb    { --sport-accent: #EC407A;          --sport-accent-dim: rgba(236, 64, 122, 0.30); }
+
+.hub__foot {
+  margin-top: 48px;
+  border-top: 1px dashed var(--border);
+  padding-top: 16px;
+  color: var(--fg-dim);
+  font-size: 0.75rem;
+  text-align: center;
+  line-height: 1.5;
+}

@@ -1,0 +1,19 @@
+{
+  "_comment": "Per-competition tolerance bands for the §5.2 calibration invariant. The plan's default 30-50% perfect / 2-5% greedy bands don't translate cleanly across very short (8g tournament) and very long (162g) seasons — long undefeated runs collapse compoundingly. Bands tuned to current pools; tighten as calibration is reworked in future passes.",
+  "_default": { "perfectMin": 0.10, "perfectMax": 0.70, "greedyMin": 0.0, "greedyMax": 0.08 },
+  "worldcup":   { "perfectMin": 0.30, "perfectMax": 0.60, "greedyMin": 0.01, "greedyMax": 0.05 },
+  "euros":      { "perfectMin": 0.30, "perfectMax": 0.65, "greedyMin": 0.01, "greedyMax": 0.05 },
+  "copa":       { "perfectMin": 0.30, "perfectMax": 0.75, "greedyMin": 0.01, "greedyMax": 0.10 },
+  "ucl":        { "perfectMin": 0.15, "perfectMax": 0.55, "greedyMin": 0.0,  "greedyMax": 0.03 },
+  "epl":        { "perfectMin": 0.20, "perfectMax": 0.60, "greedyMin": 0.0,  "greedyMax": 0.02 },
+  "laliga":     { "perfectMin": 0.20, "perfectMax": 0.60, "greedyMin": 0.0,  "greedyMax": 0.02 },
+  "seriea":     { "perfectMin": 0.20, "perfectMax": 0.60, "greedyMin": 0.0,  "greedyMax": 0.02 },
+  "bundesliga": { "perfectMin": 0.20, "perfectMax": 0.60, "greedyMin": 0.0,  "greedyMax": 0.02 },
+  "ligue1":     { "perfectMin": 0.20, "perfectMax": 0.60, "greedyMin": 0.0,  "greedyMax": 0.02 },
+  "mls":        { "perfectMin": 0.20, "perfectMax": 0.70, "greedyMin": 0.0,  "greedyMax": 0.02 },
+  "mixedbag":   { "perfectMin": 0.05, "perfectMax": 0.60, "greedyMin": 0.0,  "greedyMax": 0.03 },
+  "nba":        { "perfectMin": 0.05, "perfectMax": 0.55, "greedyMin": 0.0,  "greedyMax": 0.02 },
+  "nfl":        { "perfectMin": 0.03, "perfectMax": 0.30, "greedyMin": 0.0,  "greedyMax": 0.05 },
+  "nhl":        { "perfectMin": 0.01, "perfectMax": 0.55, "greedyMin": 0.0,  "greedyMax": 0.02 },
+  "mlb":        { "perfectMin": 0.0,  "perfectMax": 0.30, "greedyMin": 0.0,  "greedyMax": 0.01 }
+}

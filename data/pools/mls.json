@@ -1,0 +1,50 @@
+{
+  "competition": "mls",
+  "poolVersion": 1,
+  "players": [
+    { "id":"mls-lag-2006-14-beckham", "name":"David Beckham",     "entity":"LAG","era":"2006-14","positions":["RM","CM","CAM"],"ovr":89,"stats":{"apps":98,"goals":18,"assists":40}, "tags":["icon"] },
+    { "id":"mls-lag-2006-14-donovan", "name":"Landon Donovan",    "entity":"LAG","era":"2006-14","positions":["CAM","ST","LW"],"ovr":90,"stats":{"apps":311,"goals":134} },
+    { "id":"mls-lag-2006-14-keane",   "name":"Robbie Keane",      "entity":"LAG","era":"2006-14","positions":["ST"],          "ovr":89,"stats":{"apps":125,"goals":83} },
+    { "id":"mls-lag-2006-14-buddle",  "name":"Edson Buddle",      "entity":"LAG","era":"2006-14","positions":["ST"],          "ovr":83,"stats":{"apps":136,"goals":44} },
+    { "id":"mls-lag-2006-14-juninho", "name":"Juninho",           "entity":"LAG","era":"2006-14","positions":["CDM","CM"],    "ovr":83,"stats":{"apps":130,"goals":7} },
+    { "id":"mls-lag-2006-14-omar",    "name":"Omar Gonzalez",     "entity":"LAG","era":"2006-14","positions":["CB"],          "ovr":83,"stats":{"apps":166,"goals":16} },
+    { "id":"mls-lag-2006-14-saunders","name":"Josh Saunders",     "entity":"LAG","era":"2006-14","positions":["GK"],          "ovr":80,"stats":{"apps":76} },
+    { "id":"mls-lag-2006-14-magee",   "name":"Mike Magee",        "entity":"LAG","era":"2006-14","positions":["ST","CAM"],    "ovr":81,"stats":{"apps":105,"goals":23} },
+
+    { "id":"mls-lag-2023-chicharito","name":"Javier Hernández",   "entity":"LAG","era":"2023+", "positions":["ST"],          "ovr":86,"stats":{"apps":81,"goals":33} },
+    { "id":"mls-lag-2023-bond",      "name":"Jonathan Bond",      "entity":"LAG","era":"2023+", "positions":["GK"],          "ovr":81,"stats":{"apps":64} },
+    { "id":"mls-lag-2023-puig",      "name":"Riqui Puig",         "entity":"LAG","era":"2023+", "positions":["CM","CAM"],    "ovr":86,"stats":{"apps":91,"goals":18} },
+    { "id":"mls-lag-2023-paintsil",  "name":"Joseph Paintsil",    "entity":"LAG","era":"2023+", "positions":["RW","LW"],     "ovr":84,"stats":{"apps":28,"goals":10} },
+    { "id":"mls-lag-2023-pec",       "name":"Gabriel Pec",        "entity":"LAG","era":"2023+", "positions":["LW","ST"],     "ovr":83,"stats":{"apps":28,"goals":15} },
+    { "id":"mls-lag-2023-yamane",    "name":"Maya Yamane",        "entity":"LAG","era":"2023+", "positions":["RB"],          "ovr":78,"stats":{"apps":30} },
+    { "id":"mls-lag-2023-edwards",   "name":"Mauricio Cuevas",    "entity":"LAG","era":"2023+", "positions":["CM"],          "ovr":76,"stats":{"apps":12} },
+    { "id":"mls-lag-2023-delgado",   "name":"Marky Delgado",      "entity":"LAG","era":"2023+", "positions":["CM","CDM"],    "ovr":79,"stats":{"apps":35} },
+
+    { "id":"mls-tor-2015-22-giovinco","name":"Sebastian Giovinco","entity":"TOR","era":"2015-22","positions":["CAM","ST"],   "ovr":92,"stats":{"apps":118,"goals":68,"assists":42}, "tags":["icon"] },
+    { "id":"mls-tor-2015-22-bradley","name":"Michael Bradley",    "entity":"TOR","era":"2015-22","positions":["CDM","CM"],   "ovr":86,"stats":{"apps":206,"goals":12} },
+    { "id":"mls-tor-2015-22-altidore","name":"Jozy Altidore",     "entity":"TOR","era":"2015-22","positions":["ST"],         "ovr":86,"stats":{"apps":113,"goals":53} },
+    { "id":"mls-tor-2015-22-pozuelo","name":"Alejandro Pozuelo",  "entity":"TOR","era":"2015-22","positions":["CAM"],        "ovr":86,"stats":{"apps":80,"goals":26} },
+    { "id":"mls-tor-2015-22-osorio", "name":"Jonathan Osorio",    "entity":"TOR","era":"2015-22","positions":["CM","CAM"],   "ovr":83,"stats":{"apps":270,"goals":48} },
+    { "id":"mls-tor-2015-22-irwin",  "name":"Alex Bono",          "entity":"TOR","era":"2015-22","positions":["GK"],         "ovr":80,"stats":{"apps":104} },
+    { "id":"mls-tor-2015-22-morrow", "name":"Justin Morrow",      "entity":"TOR","era":"2015-22","positions":["LB"],         "ovr":81,"stats":{"apps":175} },
+    { "id":"mls-tor-2015-22-vazquez","name":"Víctor Vázquez",     "entity":"TOR","era":"2015-22","positions":["CAM"],        "ovr":82,"stats":{"apps":53,"goals":18} },
+
+    { "id":"mls-sea-2015-22-dempsey","name":"Clint Dempsey",      "entity":"SEA","era":"2015-22","positions":["ST","CAM"],   "ovr":88,"stats":{"apps":102,"goals":47}, "tags":["icon"] },
+    { "id":"mls-sea-2015-22-lodeiro","name":"Nicolás Lodeiro",    "entity":"SEA","era":"2015-22","positions":["CAM","CM"],   "ovr":86,"stats":{"apps":177,"goals":38,"assists":68} },
+    { "id":"mls-sea-2015-22-morris", "name":"Jordan Morris",      "entity":"SEA","era":"2015-22","positions":["ST","LW"],    "ovr":85,"stats":{"apps":141,"goals":51} },
+    { "id":"mls-sea-2015-22-ruidiaz","name":"Raúl Ruidíaz",       "entity":"SEA","era":"2015-22","positions":["ST"],         "ovr":87,"stats":{"apps":125,"goals":67} },
+    { "id":"mls-sea-2015-22-frei",   "name":"Stefan Frei",        "entity":"SEA","era":"2015-22","positions":["GK"],         "ovr":84,"stats":{"apps":272} },
+    { "id":"mls-sea-2015-22-roldan", "name":"Cristian Roldan",    "entity":"SEA","era":"2015-22","positions":["CM","CDM"],   "ovr":83,"stats":{"apps":235,"goals":21} },
+    { "id":"mls-sea-2015-22-arreola","name":"Kelyn Rowe",         "entity":"SEA","era":"2015-22","positions":["CAM","LM"],   "ovr":78,"stats":{"apps":48} },
+    { "id":"mls-sea-2015-22-leerdam","name":"Kelvin Leerdam",     "entity":"SEA","era":"2015-22","positions":["RB"],         "ovr":80,"stats":{"apps":121} },
+
+    { "id":"mls-nyc-2015-22-pirlo",  "name":"Andrea Pirlo",       "entity":"NYC","era":"2015-22","positions":["CM","CAM"],   "ovr":88,"stats":{"apps":61,"goals":1,"assists":12}, "tags":["icon"] },
+    { "id":"mls-nyc-2015-22-villa",  "name":"David Villa",        "entity":"NYC","era":"2015-22","positions":["ST"],         "ovr":89,"stats":{"apps":124,"goals":80} },
+    { "id":"mls-nyc-2015-22-lampard","name":"Frank Lampard",      "entity":"NYC","era":"2015-22","positions":["CM","CAM"],   "ovr":85,"stats":{"apps":31,"goals":15} },
+    { "id":"mls-nyc-2015-22-moralez","name":"Maximiliano Moralez","entity":"NYC","era":"2015-22","positions":["CAM"],        "ovr":85,"stats":{"apps":174,"goals":34} },
+    { "id":"mls-nyc-2015-22-medina", "name":"Anton Tinnerholm",   "entity":"NYC","era":"2015-22","positions":["RB"],         "ovr":83,"stats":{"apps":126,"goals":14} },
+    { "id":"mls-nyc-2015-22-callens","name":"Alexander Callens",  "entity":"NYC","era":"2015-22","positions":["CB"],         "ovr":85,"stats":{"apps":177,"goals":13} },
+    { "id":"mls-nyc-2015-22-johnson","name":"Sean Johnson",       "entity":"NYC","era":"2015-22","positions":["GK"],         "ovr":83,"stats":{"apps":182} },
+    { "id":"mls-nyc-2015-22-castellanos","name":"Valentín Castellanos","entity":"NYC","era":"2015-22","positions":["ST"],   "ovr":85,"stats":{"apps":99,"goals":50} }
+  ]
+}

@@ -1,0 +1,4931 @@
+{
+  "competition": "ucl",
+  "poolVersion": 1,
+  "players": [
+    {
+      "id": "ucl-epl-mun-9299-cantona",
+      "name": "Eric Cantona",
+      "entity": "MUN",
+      "era": "1990s",
+      "positions": [
+        "CAM",
+        "ST"
+      ],
+      "ovr": 95,
+      "stats": {
+        "apps": 143,
+        "goals": 64
+      },
+      "tags": [
+        "icon"
+      ]
+    },
+    {
+      "id": "ucl-epl-mun-9299-keane",
+      "name": "Roy Keane",
+      "entity": "MUN",
+      "era": "1990s",
+      "positions": [
+        "CDM",
+        "CM"
+      ],
+      "ovr": 91,
+      "stats": {
+        "apps": 326,
+        "goals": 33
+      }
+    },
+    {
+      "id": "ucl-epl-mun-9299-schmeichel",
+      "name": "Peter Schmeichel",
+      "entity": "MUN",
+      "era": "1990s",
+      "positions": [
+        "GK"
+      ],
+      "ovr": 94,
+      "stats": {
+        "apps": 292,
+        "cs": 127
+      }
+    },
+    {
+      "id": "ucl-epl-mun-9299-giggs",
+      "name": "Ryan Giggs",
+      "entity": "MUN",
+      "era": "1990s",
+      "positions": [
+        "LW",
+        "CAM"
+      ],
+      "ovr": 91,
+      "stats": {
+        "apps": 672,
+        "goals": 114,
+        "assists": 162
+      }
+    },
+    {
+      "id": "ucl-epl-mun-9299-beckham",
+      "name": "David Beckham",
+      "entity": "MUN",
+      "era": "1990s",
+      "positions": [
+        "RM",
+        "CM"
+      ],
+      "ovr": 89,
+      "stats": {
+        "apps": 265,
+        "goals": 62,
+        "assists": 80
+      }
+    },
+    {
+      "id": "ucl-epl-mun-9299-scholes",
+      "name": "Paul Scholes",
+      "entity": "MUN",
+      "era": "1990s",
+      "positions": [
+        "CM",
+        "CAM"
+      ],
+      "ovr": 90,
+      "stats": {
+        "apps": 499,
+        "goals": 107
+      }
+    },
+    {
+      "id": "ucl-epl-mun-9299-solskjaer",
+      "name": "Ole Gunnar Solskjær",
+      "entity": "MUN",
+      "era": "1990s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 86,
+      "stats": {
+        "apps": 235,
+        "goals": 91
+      }
+    },
+    {
+      "id": "ucl-epl-mun-9299-stam",
+      "name": "Jaap Stam",
+      "entity": "MUN",
+      "era": "1990s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 89,
+      "stats": {
+        "apps": 79,
+        "goals": 1
+      }
+    },
+    {
+      "id": "ucl-epl-mun-9299-irwin",
+      "name": "Denis Irwin",
+      "entity": "MUN",
+      "era": "1990s",
+      "positions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 87,
+      "stats": {
+        "apps": 511,
+        "goals": 33
+      }
+    },
+    {
+      "id": "ucl-epl-mun-2000s-cr7",
+      "name": "Cristiano Ronaldo",
+      "entity": "MUN",
+      "era": "2000s",
+      "positions": [
+        "RW",
+        "LW",
+        "ST"
+      ],
+      "ovr": 96,
+      "stats": {
+        "apps": 196,
+        "goals": 84,
+        "assists": 56
+      },
+      "tags": [
+        "icon"
+      ]
+    },
+    {
+      "id": "ucl-epl-mun-2000s-rooney",
+      "name": "Wayne Rooney",
+      "entity": "MUN",
+      "era": "2000s",
+      "positions": [
+        "ST",
+        "CAM"
+      ],
+      "ovr": 92,
+      "stats": {
+        "apps": 393,
+        "goals": 183,
+        "assists": 91
+      }
+    },
+    {
+      "id": "ucl-epl-mun-2000s-vds",
+      "name": "Edwin van der Sar",
+      "entity": "MUN",
+      "era": "2000s",
+      "positions": [
+        "GK"
+      ],
+      "ovr": 89,
+      "stats": {
+        "apps": 186,
+        "cs": 90
+      }
+    },
+    {
+      "id": "ucl-epl-mun-2000s-ferdinand",
+      "name": "Rio Ferdinand",
+      "entity": "MUN",
+      "era": "2000s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 91,
+      "stats": {
+        "apps": 312,
+        "goals": 7
+      }
+    },
+    {
+      "id": "ucl-epl-mun-2000s-vidic",
+      "name": "Nemanja Vidić",
+      "entity": "MUN",
+      "era": "2000s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 91,
+      "stats": {
+        "apps": 211,
+        "goals": 15
+      }
+    },
+    {
+      "id": "ucl-epl-mun-2000s-evra",
+      "name": "Patrice Evra",
+      "entity": "MUN",
+      "era": "2000s",
+      "positions": [
+        "LB"
+      ],
+      "ovr": 87,
+      "stats": {
+        "apps": 273,
+        "goals": 2
+      }
+    },
+    {
+      "id": "ucl-epl-mun-2000s-tevez",
+      "name": "Carlos Tevez",
+      "entity": "MUN",
+      "era": "2000s",
+      "positions": [
+        "ST",
+        "CAM"
+      ],
+      "ovr": 86,
+      "stats": {
+        "apps": 63,
+        "goals": 19
+      }
+    },
+    {
+      "id": "ucl-epl-mun-2000s-carrick",
+      "name": "Michael Carrick",
+      "entity": "MUN",
+      "era": "2000s",
+      "positions": [
+        "CDM",
+        "CM"
+      ],
+      "ovr": 86,
+      "stats": {
+        "apps": 316,
+        "goals": 17
+      }
+    },
+    {
+      "id": "ucl-epl-mun-2000s-park",
+      "name": "Park Ji-sung",
+      "entity": "MUN",
+      "era": "2000s",
+      "positions": [
+        "RM",
+        "LM"
+      ],
+      "ovr": 82,
+      "stats": {
+        "apps": 134,
+        "goals": 19
+      }
+    },
+    {
+      "id": "ucl-epl-mun-2010s-rooney",
+      "name": "Wayne Rooney",
+      "entity": "MUN",
+      "era": "2010s",
+      "positions": [
+        "ST",
+        "CAM"
+      ],
+      "ovr": 90,
+      "stats": {
+        "apps": 215,
+        "goals": 89
+      }
+    },
+    {
+      "id": "ucl-epl-mun-2010s-rvp",
+      "name": "Robin van Persie",
+      "entity": "MUN",
+      "era": "2010s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 89,
+      "stats": {
+        "apps": 86,
+        "goals": 48
+      }
+    },
+    {
+      "id": "ucl-epl-mun-2010s-degea",
+      "name": "David de Gea",
+      "entity": "MUN",
+      "era": "2010s",
+      "positions": [
+        "GK"
+      ],
+      "ovr": 90,
+      "stats": {
+        "apps": 323,
+        "cs": 115
+      }
+    },
+    {
+      "id": "ucl-epl-mun-2010s-pogba",
+      "name": "Paul Pogba",
+      "entity": "MUN",
+      "era": "2010s",
+      "positions": [
+        "CM",
+        "CAM"
+      ],
+      "ovr": 88,
+      "stats": {
+        "apps": 154,
+        "goals": 29,
+        "assists": 31
+      }
+    },
+    {
+      "id": "ucl-epl-mun-2010s-rashford",
+      "name": "Marcus Rashford",
+      "entity": "MUN",
+      "era": "2010s",
+      "positions": [
+        "ST",
+        "LW"
+      ],
+      "ovr": 84,
+      "stats": {
+        "apps": 155,
+        "goals": 42
+      }
+    },
+    {
+      "id": "ucl-epl-mun-2010s-martial",
+      "name": "Anthony Martial",
+      "entity": "MUN",
+      "era": "2010s",
+      "positions": [
+        "ST",
+        "LW"
+      ],
+      "ovr": 82,
+      "stats": {
+        "apps": 160,
+        "goals": 47
+      }
+    },
+    {
+      "id": "ucl-epl-mun-2010s-mata",
+      "name": "Juan Mata",
+      "entity": "MUN",
+      "era": "2010s",
+      "positions": [
+        "CAM",
+        "RM"
+      ],
+      "ovr": 84,
+      "stats": {
+        "apps": 171,
+        "goals": 30,
+        "assists": 31
+      }
+    },
+    {
+      "id": "ucl-epl-mun-2010s-young",
+      "name": "Ashley Young",
+      "entity": "MUN",
+      "era": "2010s",
+      "positions": [
+        "LM",
+        "LB",
+        "RM"
+      ],
+      "ovr": 80,
+      "stats": {
+        "apps": 175,
+        "goals": 18
+      }
+    },
+    {
+      "id": "ucl-epl-mun-2010s-valencia",
+      "name": "Antonio Valencia",
+      "entity": "MUN",
+      "era": "2010s",
+      "positions": [
+        "RW",
+        "RB"
+      ],
+      "ovr": 82,
+      "stats": {
+        "apps": 234,
+        "goals": 21
+      }
+    },
+    {
+      "id": "ucl-epl-ars-9299-wright",
+      "name": "Ian Wright",
+      "entity": "ARS",
+      "era": "1990s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 93,
+      "stats": {
+        "apps": 221,
+        "goals": 128
+      },
+      "tags": [
+        "icon"
+      ]
+    },
+    {
+      "id": "ucl-epl-ars-9299-bergkamp",
+      "name": "Dennis Bergkamp",
+      "entity": "ARS",
+      "era": "1990s",
+      "positions": [
+        "CAM",
+        "ST"
+      ],
+      "ovr": 94,
+      "stats": {
+        "apps": 314,
+        "goals": 87,
+        "assists": 94
+      },
+      "tags": [
+        "icon"
+      ]
+    },
+    {
+      "id": "ucl-epl-ars-9299-adams",
+      "name": "Tony Adams",
+      "entity": "ARS",
+      "era": "1990s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 92,
+      "stats": {
+        "apps": 504,
+        "goals": 32
+      }
+    },
+    {
+      "id": "ucl-epl-ars-9299-vieira",
+      "name": "Patrick Vieira",
+      "entity": "ARS",
+      "era": "1990s",
+      "positions": [
+        "CDM",
+        "CM"
+      ],
+      "ovr": 91,
+      "stats": {
+        "apps": 279,
+        "goals": 29
+      }
+    },
+    {
+      "id": "ucl-epl-ars-9299-overmars",
+      "name": "Marc Overmars",
+      "entity": "ARS",
+      "era": "1990s",
+      "positions": [
+        "LW",
+        "LM"
+      ],
+      "ovr": 87,
+      "stats": {
+        "apps": 100,
+        "goals": 25
+      }
+    },
+    {
+      "id": "ucl-epl-ars-9299-dixon",
+      "name": "Lee Dixon",
+      "entity": "ARS",
+      "era": "1990s",
+      "positions": [
+        "RB"
+      ],
+      "ovr": 84,
+      "stats": {
+        "apps": 619,
+        "goals": 25
+      }
+    },
+    {
+      "id": "ucl-epl-ars-9299-winterburn",
+      "name": "Nigel Winterburn",
+      "entity": "ARS",
+      "era": "1990s",
+      "positions": [
+        "LB"
+      ],
+      "ovr": 82,
+      "stats": {
+        "apps": 440,
+        "goals": 8
+      }
+    },
+    {
+      "id": "ucl-epl-ars-9299-seaman",
+      "name": "David Seaman",
+      "entity": "ARS",
+      "era": "1990s",
+      "positions": [
+        "GK"
+      ],
+      "ovr": 91,
+      "stats": {
+        "apps": 405,
+        "cs": 140
+      }
+    },
+    {
+      "id": "ucl-epl-ars-9299-keown",
+      "name": "Martin Keown",
+      "entity": "ARS",
+      "era": "1990s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 85,
+      "stats": {
+        "apps": 332,
+        "goals": 9
+      }
+    },
+    {
+      "id": "ucl-epl-ars-2000s-henry",
+      "name": "Thierry Henry",
+      "entity": "ARS",
+      "era": "2000s",
+      "positions": [
+        "ST",
+        "LW"
+      ],
+      "ovr": 98,
+      "stats": {
+        "apps": 254,
+        "goals": 175,
+        "assists": 74
+      },
+      "tags": [
+        "icon"
+      ]
+    },
+    {
+      "id": "ucl-epl-ars-2000s-vieira",
+      "name": "Patrick Vieira",
+      "entity": "ARS",
+      "era": "2000s",
+      "positions": [
+        "CDM",
+        "CM"
+      ],
+      "ovr": 92,
+      "stats": {
+        "apps": 140,
+        "goals": 8
+      }
+    },
+    {
+      "id": "ucl-epl-ars-2000s-bergkamp",
+      "name": "Dennis Bergkamp",
+      "entity": "ARS",
+      "era": "2000s",
+      "positions": [
+        "CAM",
+        "ST"
+      ],
+      "ovr": 91,
+      "stats": {
+        "apps": 105,
+        "goals": 21
+      }
+    },
+    {
+      "id": "ucl-epl-ars-2000s-pires",
+      "name": "Robert Pirès",
+      "entity": "ARS",
+      "era": "2000s",
+      "positions": [
+        "LW",
+        "CAM"
+      ],
+      "ovr": 91,
+      "stats": {
+        "apps": 189,
+        "goals": 62,
+        "assists": 40
+      }
+    },
+    {
+      "id": "ucl-epl-ars-2000s-campbell",
+      "name": "Sol Campbell",
+      "entity": "ARS",
+      "era": "2000s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 90,
+      "stats": {
+        "apps": 135,
+        "goals": 8
+      }
+    },
+    {
+      "id": "ucl-epl-ars-2000s-cole",
+      "name": "Ashley Cole",
+      "entity": "ARS",
+      "era": "2000s",
+      "positions": [
+        "LB"
+      ],
+      "ovr": 88,
+      "stats": {
+        "apps": 156,
+        "goals": 8
+      }
+    },
+    {
+      "id": "ucl-epl-ars-2000s-rvp",
+      "name": "Robin van Persie",
+      "entity": "ARS",
+      "era": "2000s",
+      "positions": [
+        "ST",
+        "CAM"
+      ],
+      "ovr": 88,
+      "stats": {
+        "apps": 89,
+        "goals": 36
+      }
+    },
+    {
+      "id": "ucl-epl-ars-2000s-fabregas",
+      "name": "Cesc Fàbregas",
+      "entity": "ARS",
+      "era": "2000s",
+      "positions": [
+        "CM",
+        "CAM"
+      ],
+      "ovr": 88,
+      "stats": {
+        "apps": 212,
+        "goals": 35,
+        "assists": 54
+      }
+    },
+    {
+      "id": "ucl-epl-ars-2000s-ljungberg",
+      "name": "Freddie Ljungberg",
+      "entity": "ARS",
+      "era": "2000s",
+      "positions": [
+        "LM",
+        "RM"
+      ],
+      "ovr": 86,
+      "stats": {
+        "apps": 216,
+        "goals": 46
+      }
+    },
+    {
+      "id": "ucl-epl-ars-2010s-ozil",
+      "name": "Mesut Özil",
+      "entity": "ARS",
+      "era": "2010s",
+      "positions": [
+        "CAM"
+      ],
+      "ovr": 89,
+      "stats": {
+        "apps": 184,
+        "goals": 33,
+        "assists": 53
+      }
+    },
+    {
+      "id": "ucl-epl-ars-2010s-sanchez",
+      "name": "Alexis Sánchez",
+      "entity": "ARS",
+      "era": "2010s",
+      "positions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 90,
+      "stats": {
+        "apps": 122,
+        "goals": 60
+      }
+    },
+    {
+      "id": "ucl-epl-ars-2010s-cazorla",
+      "name": "Santi Cazorla",
+      "entity": "ARS",
+      "era": "2010s",
+      "positions": [
+        "CAM",
+        "CM"
+      ],
+      "ovr": 88,
+      "stats": {
+        "apps": 127,
+        "goals": 21,
+        "assists": 33
+      }
+    },
+    {
+      "id": "ucl-epl-ars-2010s-ramsey",
+      "name": "Aaron Ramsey",
+      "entity": "ARS",
+      "era": "2010s",
+      "positions": [
+        "CM",
+        "CAM"
+      ],
+      "ovr": 85,
+      "stats": {
+        "apps": 262,
+        "goals": 40
+      }
+    },
+    {
+      "id": "ucl-epl-ars-2010s-auba",
+      "name": "Pierre-Emerick Aubameyang",
+      "entity": "ARS",
+      "era": "2010s",
+      "positions": [
+        "ST",
+        "LW"
+      ],
+      "ovr": 88,
+      "stats": {
+        "apps": 85,
+        "goals": 49
+      }
+    },
+    {
+      "id": "ucl-epl-ars-2010s-giroud",
+      "name": "Olivier Giroud",
+      "entity": "ARS",
+      "era": "2010s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 84,
+      "stats": {
+        "apps": 180,
+        "goals": 73
+      }
+    },
+    {
+      "id": "ucl-epl-ars-2010s-cech",
+      "name": "Petr Čech",
+      "entity": "ARS",
+      "era": "2010s",
+      "positions": [
+        "GK"
+      ],
+      "ovr": 86,
+      "stats": {
+        "apps": 108,
+        "cs": 34
+      }
+    },
+    {
+      "id": "ucl-epl-ars-2010s-koscielny",
+      "name": "Laurent Koscielny",
+      "entity": "ARS",
+      "era": "2010s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 85,
+      "stats": {
+        "apps": 259,
+        "goals": 21
+      }
+    },
+    {
+      "id": "ucl-epl-ars-2010s-bellerin",
+      "name": "Héctor Bellerín",
+      "entity": "ARS",
+      "era": "2010s",
+      "positions": [
+        "RB"
+      ],
+      "ovr": 83,
+      "stats": {
+        "apps": 177,
+        "goals": 5
+      }
+    },
+    {
+      "id": "ucl-epl-ars-2020s-saka",
+      "name": "Bukayo Saka",
+      "entity": "ARS",
+      "era": "2020s",
+      "positions": [
+        "RW",
+        "LW"
+      ],
+      "ovr": 90,
+      "stats": {
+        "apps": 190,
+        "goals": 52,
+        "assists": 42
+      }
+    },
+    {
+      "id": "ucl-epl-ars-2020s-odegaard",
+      "name": "Martin Ødegaard",
+      "entity": "ARS",
+      "era": "2020s",
+      "positions": [
+        "CAM",
+        "CM"
+      ],
+      "ovr": 89,
+      "stats": {
+        "apps": 126,
+        "goals": 24,
+        "assists": 33
+      }
+    },
+    {
+      "id": "ucl-epl-ars-2020s-rice",
+      "name": "Declan Rice",
+      "entity": "ARS",
+      "era": "2020s",
+      "positions": [
+        "CDM",
+        "CM"
+      ],
+      "ovr": 88,
+      "stats": {
+        "apps": 62,
+        "goals": 4
+      }
+    },
+    {
+      "id": "ucl-epl-ars-2020s-saliba",
+      "name": "William Saliba",
+      "entity": "ARS",
+      "era": "2020s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 88,
+      "stats": {
+        "apps": 92,
+        "goals": 2
+      }
+    },
+    {
+      "id": "ucl-epl-ars-2020s-gabriel",
+      "name": "Gabriel Magalhães",
+      "entity": "ARS",
+      "era": "2020s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 86,
+      "stats": {
+        "apps": 154,
+        "goals": 15
+      }
+    },
+    {
+      "id": "ucl-epl-ars-2020s-martinelli",
+      "name": "Gabriel Martinelli",
+      "entity": "ARS",
+      "era": "2020s",
+      "positions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 86,
+      "stats": {
+        "apps": 150,
+        "goals": 31
+      }
+    },
+    {
+      "id": "ucl-epl-ars-2020s-white",
+      "name": "Ben White",
+      "entity": "ARS",
+      "era": "2020s",
+      "positions": [
+        "CB",
+        "RB"
+      ],
+      "ovr": 84,
+      "stats": {
+        "apps": 129,
+        "goals": 6
+      }
+    },
+    {
+      "id": "ucl-epl-ars-2020s-raya",
+      "name": "David Raya",
+      "entity": "ARS",
+      "era": "2020s",
+      "positions": [
+        "GK"
+      ],
+      "ovr": 85,
+      "stats": {
+        "apps": 76,
+        "cs": 31
+      }
+    },
+    {
+      "id": "ucl-epl-ars-2020s-zinchenko",
+      "name": "Oleksandr Zinchenko",
+      "entity": "ARS",
+      "era": "2020s",
+      "positions": [
+        "LB",
+        "CM"
+      ],
+      "ovr": 83,
+      "stats": {
+        "apps": 67,
+        "goals": 2
+      }
+    },
+    {
+      "id": "ucl-epl-che-2000s-lampard",
+      "name": "Frank Lampard",
+      "entity": "CHE",
+      "era": "2000s",
+      "positions": [
+        "CM",
+        "CAM"
+      ],
+      "ovr": 95,
+      "stats": {
+        "apps": 429,
+        "goals": 147,
+        "assists": 102
+      },
+      "tags": [
+        "icon"
+      ]
+    },
+    {
+      "id": "ucl-epl-che-2000s-terry",
+      "name": "John Terry",
+      "entity": "CHE",
+      "era": "2000s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 92,
+      "stats": {
+        "apps": 492,
+        "goals": 41
+      }
+    },
+    {
+      "id": "ucl-epl-che-2000s-drogba",
+      "name": "Didier Drogba",
+      "entity": "CHE",
+      "era": "2000s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 94,
+      "stats": {
+        "apps": 254,
+        "goals": 104
+      },
+      "tags": [
+        "icon"
+      ]
+    },
+    {
+      "id": "ucl-epl-che-2000s-cech",
+      "name": "Petr Čech",
+      "entity": "CHE",
+      "era": "2000s",
+      "positions": [
+        "GK"
+      ],
+      "ovr": 92,
+      "stats": {
+        "apps": 333,
+        "cs": 162
+      }
+    },
+    {
+      "id": "ucl-epl-che-2000s-cole",
+      "name": "Ashley Cole",
+      "entity": "CHE",
+      "era": "2000s",
+      "positions": [
+        "LB"
+      ],
+      "ovr": 89,
+      "stats": {
+        "apps": 216,
+        "goals": 7
+      }
+    },
+    {
+      "id": "ucl-epl-che-2000s-essien",
+      "name": "Michael Essien",
+      "entity": "CHE",
+      "era": "2000s",
+      "positions": [
+        "CDM",
+        "CM"
+      ],
+      "ovr": 88,
+      "stats": {
+        "apps": 168,
+        "goals": 17
+      }
+    },
+    {
+      "id": "ucl-epl-che-2000s-makelele",
+      "name": "Claude Makélélé",
+      "entity": "CHE",
+      "era": "2000s",
+      "positions": [
+        "CDM"
+      ],
+      "ovr": 89,
+      "stats": {
+        "apps": 144,
+        "goals": 2
+      }
+    },
+    {
+      "id": "ucl-epl-che-2000s-malouda",
+      "name": "Florent Malouda",
+      "entity": "CHE",
+      "era": "2000s",
+      "positions": [
+        "LM",
+        "LW"
+      ],
+      "ovr": 84,
+      "stats": {
+        "apps": 175,
+        "goals": 35
+      }
+    },
+    {
+      "id": "ucl-epl-che-2000s-joecole",
+      "name": "Joe Cole",
+      "entity": "CHE",
+      "era": "2000s",
+      "positions": [
+        "CAM",
+        "LW"
+      ],
+      "ovr": 84,
+      "stats": {
+        "apps": 182,
+        "goals": 24
+      }
+    },
+    {
+      "id": "ucl-epl-che-2010s-hazard",
+      "name": "Eden Hazard",
+      "entity": "CHE",
+      "era": "2010s",
+      "positions": [
+        "LW",
+        "CAM"
+      ],
+      "ovr": 95,
+      "stats": {
+        "apps": 245,
+        "goals": 85,
+        "assists": 54
+      },
+      "tags": [
+        "icon"
+      ]
+    },
+    {
+      "id": "ucl-epl-che-2010s-kante",
+      "name": "N'Golo Kanté",
+      "entity": "CHE",
+      "era": "2010s",
+      "positions": [
+        "CDM"
+      ],
+      "ovr": 92,
+      "stats": {
+        "apps": 188,
+        "goals": 8
+      }
+    },
+    {
+      "id": "ucl-epl-che-2010s-costa",
+      "name": "Diego Costa",
+      "entity": "CHE",
+      "era": "2010s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 88,
+      "stats": {
+        "apps": 89,
+        "goals": 52
+      }
+    },
+    {
+      "id": "ucl-epl-che-2010s-courtois",
+      "name": "Thibaut Courtois",
+      "entity": "CHE",
+      "era": "2010s",
+      "positions": [
+        "GK"
+      ],
+      "ovr": 91,
+      "stats": {
+        "apps": 126,
+        "cs": 50
+      }
+    },
+    {
+      "id": "ucl-epl-che-2010s-fabregas",
+      "name": "Cesc Fàbregas",
+      "entity": "CHE",
+      "era": "2010s",
+      "positions": [
+        "CM",
+        "CAM"
+      ],
+      "ovr": 87,
+      "stats": {
+        "apps": 138,
+        "goals": 17,
+        "assists": 53
+      }
+    },
+    {
+      "id": "ucl-epl-che-2010s-azpi",
+      "name": "César Azpilicueta",
+      "entity": "CHE",
+      "era": "2010s",
+      "positions": [
+        "RB",
+        "LB"
+      ],
+      "ovr": 86,
+      "stats": {
+        "apps": 270,
+        "goals": 11
+      }
+    },
+    {
+      "id": "ucl-epl-che-2010s-willian",
+      "name": "Willian",
+      "entity": "CHE",
+      "era": "2010s",
+      "positions": [
+        "RM",
+        "RW"
+      ],
+      "ovr": 84,
+      "stats": {
+        "apps": 234,
+        "goals": 37
+      }
+    },
+    {
+      "id": "ucl-epl-che-2010s-mount",
+      "name": "Mason Mount",
+      "entity": "CHE",
+      "era": "2010s",
+      "positions": [
+        "CAM",
+        "CM"
+      ],
+      "ovr": 84,
+      "stats": {
+        "apps": 80,
+        "goals": 13
+      }
+    },
+    {
+      "id": "ucl-epl-che-2010s-rudiger",
+      "name": "Antonio Rüdiger",
+      "entity": "CHE",
+      "era": "2010s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 85,
+      "stats": {
+        "apps": 83,
+        "goals": 5
+      }
+    },
+    {
+      "id": "ucl-epl-che-2020s-palmer",
+      "name": "Cole Palmer",
+      "entity": "CHE",
+      "era": "2020s",
+      "positions": [
+        "CAM",
+        "RW"
+      ],
+      "ovr": 89,
+      "stats": {
+        "apps": 59,
+        "goals": 28,
+        "assists": 15
+      }
+    },
+    {
+      "id": "ucl-epl-che-2020s-james",
+      "name": "Reece James",
+      "entity": "CHE",
+      "era": "2020s",
+      "positions": [
+        "RB",
+        "WB"
+      ],
+      "ovr": 87,
+      "stats": {
+        "apps": 120,
+        "goals": 7
+      }
+    },
+    {
+      "id": "ucl-epl-che-2020s-caicedo",
+      "name": "Moisés Caicedo",
+      "entity": "CHE",
+      "era": "2020s",
+      "positions": [
+        "CDM",
+        "CM"
+      ],
+      "ovr": 85,
+      "stats": {
+        "apps": 55,
+        "goals": 1
+      }
+    },
+    {
+      "id": "ucl-epl-che-2020s-enzo",
+      "name": "Enzo Fernández",
+      "entity": "CHE",
+      "era": "2020s",
+      "positions": [
+        "CM"
+      ],
+      "ovr": 86,
+      "stats": {
+        "apps": 80,
+        "goals": 7
+      }
+    },
+    {
+      "id": "ucl-epl-che-2020s-jackson",
+      "name": "Nicolas Jackson",
+      "entity": "CHE",
+      "era": "2020s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 83,
+      "stats": {
+        "apps": 50,
+        "goals": 17
+      }
+    },
+    {
+      "id": "ucl-epl-che-2020s-nkunku",
+      "name": "Christopher Nkunku",
+      "entity": "CHE",
+      "era": "2020s",
+      "positions": [
+        "CAM",
+        "ST"
+      ],
+      "ovr": 85,
+      "stats": {
+        "apps": 25,
+        "goals": 7
+      }
+    },
+    {
+      "id": "ucl-epl-che-2020s-colwill",
+      "name": "Levi Colwill",
+      "entity": "CHE",
+      "era": "2020s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 83,
+      "stats": {
+        "apps": 50,
+        "goals": 1
+      }
+    },
+    {
+      "id": "ucl-epl-che-2020s-fofana",
+      "name": "Wesley Fofana",
+      "entity": "CHE",
+      "era": "2020s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 84,
+      "stats": {
+        "apps": 17,
+        "goals": 0
+      }
+    },
+    {
+      "id": "ucl-epl-che-2020s-sanchez",
+      "name": "Robert Sánchez",
+      "entity": "CHE",
+      "era": "2020s",
+      "positions": [
+        "GK"
+      ],
+      "ovr": 81,
+      "stats": {
+        "apps": 38,
+        "cs": 11
+      }
+    },
+    {
+      "id": "ucl-epl-liv-9299-fowler",
+      "name": "Robbie Fowler",
+      "entity": "LIV",
+      "era": "1990s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 91,
+      "stats": {
+        "apps": 236,
+        "goals": 120
+      },
+      "tags": [
+        "icon"
+      ]
+    },
+    {
+      "id": "ucl-epl-liv-9299-mcmanaman",
+      "name": "Steve McManaman",
+      "entity": "LIV",
+      "era": "1990s",
+      "positions": [
+        "CAM",
+        "RM"
+      ],
+      "ovr": 87,
+      "stats": {
+        "apps": 272,
+        "goals": 46
+      }
+    },
+    {
+      "id": "ucl-epl-liv-9299-owen",
+      "name": "Michael Owen",
+      "entity": "LIV",
+      "era": "1990s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 91,
+      "stats": {
+        "apps": 63,
+        "goals": 30
+      }
+    },
+    {
+      "id": "ucl-epl-liv-9299-barnes",
+      "name": "John Barnes",
+      "entity": "LIV",
+      "era": "1990s",
+      "positions": [
+        "LW",
+        "LM"
+      ],
+      "ovr": 86,
+      "stats": {
+        "apps": 146,
+        "goals": 29
+      }
+    },
+    {
+      "id": "ucl-epl-liv-9299-redknapp",
+      "name": "Jamie Redknapp",
+      "entity": "LIV",
+      "era": "1990s",
+      "positions": [
+        "CM",
+        "CAM"
+      ],
+      "ovr": 84,
+      "stats": {
+        "apps": 195,
+        "goals": 30
+      }
+    },
+    {
+      "id": "ucl-epl-liv-9299-collymore",
+      "name": "Stan Collymore",
+      "entity": "LIV",
+      "era": "1990s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 84,
+      "stats": {
+        "apps": 61,
+        "goals": 26
+      }
+    },
+    {
+      "id": "ucl-epl-liv-9299-james",
+      "name": "David James",
+      "entity": "LIV",
+      "era": "1990s",
+      "positions": [
+        "GK"
+      ],
+      "ovr": 82,
+      "stats": {
+        "apps": 214,
+        "cs": 58
+      }
+    },
+    {
+      "id": "ucl-epl-liv-9299-ruddock",
+      "name": "Neil Ruddock",
+      "entity": "LIV",
+      "era": "1990s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 80,
+      "stats": {
+        "apps": 117,
+        "goals": 10
+      }
+    },
+    {
+      "id": "ucl-epl-liv-9299-mark",
+      "name": "Mark Wright",
+      "entity": "LIV",
+      "era": "1990s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 83,
+      "stats": {
+        "apps": 131,
+        "goals": 5
+      }
+    },
+    {
+      "id": "ucl-epl-liv-2000s-gerrard",
+      "name": "Steven Gerrard",
+      "entity": "LIV",
+      "era": "2000s",
+      "positions": [
+        "CM",
+        "CAM"
+      ],
+      "ovr": 95,
+      "stats": {
+        "apps": 504,
+        "goals": 120,
+        "assists": 92
+      },
+      "tags": [
+        "icon"
+      ]
+    },
+    {
+      "id": "ucl-epl-liv-2000s-torres",
+      "name": "Fernando Torres",
+      "entity": "LIV",
+      "era": "2000s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 92,
+      "stats": {
+        "apps": 102,
+        "goals": 65
+      }
+    },
+    {
+      "id": "ucl-epl-liv-2000s-carragher",
+      "name": "Jamie Carragher",
+      "entity": "LIV",
+      "era": "2000s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 88,
+      "stats": {
+        "apps": 508,
+        "goals": 3
+      }
+    },
+    {
+      "id": "ucl-epl-liv-2000s-xabi",
+      "name": "Xabi Alonso",
+      "entity": "LIV",
+      "era": "2000s",
+      "positions": [
+        "CM",
+        "CDM"
+      ],
+      "ovr": 90,
+      "stats": {
+        "apps": 143,
+        "goals": 15
+      }
+    },
+    {
+      "id": "ucl-epl-liv-2000s-reina",
+      "name": "Pepe Reina",
+      "entity": "LIV",
+      "era": "2000s",
+      "positions": [
+        "GK"
+      ],
+      "ovr": 87,
+      "stats": {
+        "apps": 285,
+        "cs": 134
+      }
+    },
+    {
+      "id": "ucl-epl-liv-2000s-hyypia",
+      "name": "Sami Hyypiä",
+      "entity": "LIV",
+      "era": "2000s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 86,
+      "stats": {
+        "apps": 318,
+        "goals": 22
+      }
+    },
+    {
+      "id": "ucl-epl-liv-2000s-mascherano",
+      "name": "Javier Mascherano",
+      "entity": "LIV",
+      "era": "2000s",
+      "positions": [
+        "CDM"
+      ],
+      "ovr": 87,
+      "stats": {
+        "apps": 94,
+        "goals": 1
+      }
+    },
+    {
+      "id": "ucl-epl-liv-2000s-kuyt",
+      "name": "Dirk Kuyt",
+      "entity": "LIV",
+      "era": "2000s",
+      "positions": [
+        "ST",
+        "RW"
+      ],
+      "ovr": 84,
+      "stats": {
+        "apps": 208,
+        "goals": 51
+      }
+    },
+    {
+      "id": "ucl-epl-liv-2000s-riise",
+      "name": "John Arne Riise",
+      "entity": "LIV",
+      "era": "2000s",
+      "positions": [
+        "LB"
+      ],
+      "ovr": 84,
+      "stats": {
+        "apps": 233,
+        "goals": 21
+      }
+    },
+    {
+      "id": "ucl-epl-liv-2010s-salah",
+      "name": "Mohamed Salah",
+      "entity": "LIV",
+      "era": "2010s",
+      "positions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 95,
+      "stats": {
+        "apps": 97,
+        "goals": 54,
+        "assists": 15
+      },
+      "tags": [
+        "icon"
+      ]
+    },
+    {
+      "id": "ucl-epl-liv-2010s-mane",
+      "name": "Sadio Mané",
+      "entity": "LIV",
+      "era": "2010s",
+      "positions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 91,
+      "stats": {
+        "apps": 109,
+        "goals": 51
+      }
+    },
+    {
+      "id": "ucl-epl-liv-2010s-firmino",
+      "name": "Roberto Firmino",
+      "entity": "LIV",
+      "era": "2010s",
+      "positions": [
+        "ST",
+        "CAM"
+      ],
+      "ovr": 89,
+      "stats": {
+        "apps": 162,
+        "goals": 52
+      }
+    },
+    {
+      "id": "ucl-epl-liv-2010s-vvd",
+      "name": "Virgil van Dijk",
+      "entity": "LIV",
+      "era": "2010s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 94,
+      "stats": {
+        "apps": 77,
+        "goals": 7
+      }
+    },
+    {
+      "id": "ucl-epl-liv-2010s-alisson",
+      "name": "Alisson",
+      "entity": "LIV",
+      "era": "2010s",
+      "positions": [
+        "GK"
+      ],
+      "ovr": 92,
+      "stats": {
+        "apps": 67,
+        "cs": 35
+      }
+    },
+    {
+      "id": "ucl-epl-liv-2010s-taa",
+      "name": "Trent Alexander-Arnold",
+      "entity": "LIV",
+      "era": "2010s",
+      "positions": [
+        "RB"
+      ],
+      "ovr": 89,
+      "stats": {
+        "apps": 117,
+        "goals": 3,
+        "assists": 36
+      }
+    },
+    {
+      "id": "ucl-epl-liv-2010s-robertson",
+      "name": "Andy Robertson",
+      "entity": "LIV",
+      "era": "2010s",
+      "positions": [
+        "LB"
+      ],
+      "ovr": 88,
+      "stats": {
+        "apps": 113,
+        "goals": 1,
+        "assists": 31
+      }
+    },
+    {
+      "id": "ucl-epl-liv-2010s-fabinho",
+      "name": "Fabinho",
+      "entity": "LIV",
+      "era": "2010s",
+      "positions": [
+        "CDM"
+      ],
+      "ovr": 87,
+      "stats": {
+        "apps": 71,
+        "goals": 3
+      }
+    },
+    {
+      "id": "ucl-epl-liv-2010s-henderson",
+      "name": "Jordan Henderson",
+      "entity": "LIV",
+      "era": "2010s",
+      "positions": [
+        "CM",
+        "CDM"
+      ],
+      "ovr": 85,
+      "stats": {
+        "apps": 272,
+        "goals": 21
+      }
+    },
+    {
+      "id": "ucl-epl-liv-2020s-salah",
+      "name": "Mohamed Salah",
+      "entity": "LIV",
+      "era": "2020s",
+      "positions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 94,
+      "stats": {
+        "apps": 270,
+        "goals": 175,
+        "assists": 78
+      }
+    },
+    {
+      "id": "ucl-epl-liv-2020s-vvd",
+      "name": "Virgil van Dijk",
+      "entity": "LIV",
+      "era": "2020s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 92,
+      "stats": {
+        "apps": 195,
+        "goals": 14
+      }
+    },
+    {
+      "id": "ucl-epl-liv-2020s-alisson",
+      "name": "Alisson",
+      "entity": "LIV",
+      "era": "2020s",
+      "positions": [
+        "GK"
+      ],
+      "ovr": 91,
+      "stats": {
+        "apps": 196,
+        "cs": 83
+      }
+    },
+    {
+      "id": "ucl-epl-liv-2020s-mac",
+      "name": "Alexis Mac Allister",
+      "entity": "LIV",
+      "era": "2020s",
+      "positions": [
+        "CM",
+        "CDM"
+      ],
+      "ovr": 88,
+      "stats": {
+        "apps": 50,
+        "goals": 7
+      }
+    },
+    {
+      "id": "ucl-epl-liv-2020s-szoboszlai",
+      "name": "Dominik Szoboszlai",
+      "entity": "LIV",
+      "era": "2020s",
+      "positions": [
+        "CAM",
+        "CM"
+      ],
+      "ovr": 87,
+      "stats": {
+        "apps": 48,
+        "goals": 7
+      }
+    },
+    {
+      "id": "ucl-epl-liv-2020s-diaz",
+      "name": "Luis Díaz",
+      "entity": "LIV",
+      "era": "2020s",
+      "positions": [
+        "LW"
+      ],
+      "ovr": 86,
+      "stats": {
+        "apps": 80,
+        "goals": 19
+      }
+    },
+    {
+      "id": "ucl-epl-liv-2020s-nunez",
+      "name": "Darwin Núñez",
+      "entity": "LIV",
+      "era": "2020s",
+      "positions": [
+        "ST",
+        "LW"
+      ],
+      "ovr": 84,
+      "stats": {
+        "apps": 53,
+        "goals": 18
+      }
+    },
+    {
+      "id": "ucl-epl-liv-2020s-jota",
+      "name": "Diogo Jota",
+      "entity": "LIV",
+      "era": "2020s",
+      "positions": [
+        "ST",
+        "LW"
+      ],
+      "ovr": 85,
+      "stats": {
+        "apps": 120,
+        "goals": 47
+      }
+    },
+    {
+      "id": "ucl-epl-liv-2020s-gravenberch",
+      "name": "Ryan Gravenberch",
+      "entity": "LIV",
+      "era": "2020s",
+      "positions": [
+        "CM",
+        "CDM"
+      ],
+      "ovr": 84,
+      "stats": {
+        "apps": 40,
+        "goals": 4
+      }
+    },
+    {
+      "id": "ucl-epl-mci-2010s-aguero",
+      "name": "Sergio Agüero",
+      "entity": "MCI",
+      "era": "2010s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 95,
+      "stats": {
+        "apps": 275,
+        "goals": 184,
+        "assists": 48
+      },
+      "tags": [
+        "icon"
+      ]
+    },
+    {
+      "id": "ucl-epl-mci-2010s-kompany",
+      "name": "Vincent Kompany",
+      "entity": "MCI",
+      "era": "2010s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 90,
+      "stats": {
+        "apps": 265,
+        "goals": 20
+      }
+    },
+    {
+      "id": "ucl-epl-mci-2010s-toure",
+      "name": "Yaya Touré",
+      "entity": "MCI",
+      "era": "2010s",
+      "positions": [
+        "CDM",
+        "CM"
+      ],
+      "ovr": 91,
+      "stats": {
+        "apps": 230,
+        "goals": 62
+      }
+    },
+    {
+      "id": "ucl-epl-mci-2010s-silva",
+      "name": "David Silva",
+      "entity": "MCI",
+      "era": "2010s",
+      "positions": [
+        "CAM",
+        "CM"
+      ],
+      "ovr": 92,
+      "stats": {
+        "apps": 309,
+        "goals": 60,
+        "assists": 93
+      }
+    },
+    {
+      "id": "ucl-epl-mci-2010s-kdb",
+      "name": "Kevin De Bruyne",
+      "entity": "MCI",
+      "era": "2010s",
+      "positions": [
+        "CAM"
+      ],
+      "ovr": 94,
+      "stats": {
+        "apps": 133,
+        "goals": 33,
+        "assists": 68
+      }
+    },
+    {
+      "id": "ucl-epl-mci-2010s-sterling",
+      "name": "Raheem Sterling",
+      "entity": "MCI",
+      "era": "2010s",
+      "positions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 88,
+      "stats": {
+        "apps": 135,
+        "goals": 58
+      }
+    },
+    {
+      "id": "ucl-epl-mci-2010s-zabaleta",
+      "name": "Pablo Zabaleta",
+      "entity": "MCI",
+      "era": "2010s",
+      "positions": [
+        "RB"
+      ],
+      "ovr": 84,
+      "stats": {
+        "apps": 227,
+        "goals": 7
+      }
+    },
+    {
+      "id": "ucl-epl-mci-2010s-fernandinho",
+      "name": "Fernandinho",
+      "entity": "MCI",
+      "era": "2010s",
+      "positions": [
+        "CDM",
+        "CB"
+      ],
+      "ovr": 86,
+      "stats": {
+        "apps": 210,
+        "goals": 23
+      }
+    },
+    {
+      "id": "ucl-epl-mci-2010s-hart",
+      "name": "Joe Hart",
+      "entity": "MCI",
+      "era": "2010s",
+      "positions": [
+        "GK"
+      ],
+      "ovr": 84,
+      "stats": {
+        "apps": 214,
+        "cs": 89
+      }
+    },
+    {
+      "id": "ucl-epl-mci-2020s-haaland",
+      "name": "Erling Haaland",
+      "entity": "MCI",
+      "era": "2020s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 95,
+      "stats": {
+        "apps": 75,
+        "goals": 76
+      },
+      "tags": [
+        "icon"
+      ]
+    },
+    {
+      "id": "ucl-epl-mci-2020s-kdb",
+      "name": "Kevin De Bruyne",
+      "entity": "MCI",
+      "era": "2020s",
+      "positions": [
+        "CAM"
+      ],
+      "ovr": 93,
+      "stats": {
+        "apps": 250,
+        "goals": 70,
+        "assists": 118
+      }
+    },
+    {
+      "id": "ucl-epl-mci-2020s-foden",
+      "name": "Phil Foden",
+      "entity": "MCI",
+      "era": "2020s",
+      "positions": [
+        "CAM",
+        "LW",
+        "CM"
+      ],
+      "ovr": 90,
+      "stats": {
+        "apps": 195,
+        "goals": 58,
+        "assists": 35
+      }
+    },
+    {
+      "id": "ucl-epl-mci-2020s-dias",
+      "name": "Rúben Dias",
+      "entity": "MCI",
+      "era": "2020s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 90,
+      "stats": {
+        "apps": 135,
+        "goals": 5
+      }
+    },
+    {
+      "id": "ucl-epl-mci-2020s-ederson",
+      "name": "Ederson",
+      "entity": "MCI",
+      "era": "2020s",
+      "positions": [
+        "GK"
+      ],
+      "ovr": 90,
+      "stats": {
+        "apps": 196,
+        "cs": 81
+      }
+    },
+    {
+      "id": "ucl-epl-mci-2020s-rodri",
+      "name": "Rodri",
+      "entity": "MCI",
+      "era": "2020s",
+      "positions": [
+        "CDM"
+      ],
+      "ovr": 92,
+      "stats": {
+        "apps": 169,
+        "goals": 22
+      }
+    },
+    {
+      "id": "ucl-epl-mci-2020s-bernardo",
+      "name": "Bernardo Silva",
+      "entity": "MCI",
+      "era": "2020s",
+      "positions": [
+        "CAM",
+        "RW"
+      ],
+      "ovr": 90,
+      "stats": {
+        "apps": 291,
+        "goals": 50,
+        "assists": 47
+      }
+    },
+    {
+      "id": "ucl-epl-mci-2020s-grealish",
+      "name": "Jack Grealish",
+      "entity": "MCI",
+      "era": "2020s",
+      "positions": [
+        "LW",
+        "CAM"
+      ],
+      "ovr": 86,
+      "stats": {
+        "apps": 109,
+        "goals": 14
+      }
+    },
+    {
+      "id": "ucl-epl-mci-2020s-cancelo",
+      "name": "João Cancelo",
+      "entity": "MCI",
+      "era": "2020s",
+      "positions": [
+        "RB",
+        "LB"
+      ],
+      "ovr": 87,
+      "stats": {
+        "apps": 102,
+        "goals": 7
+      }
+    },
+    {
+      "id": "ucl-ll-rm-1990s-hierro",
+      "name": "Fernando Hierro",
+      "entity": "RM",
+      "era": "1990s",
+      "positions": [
+        "CB",
+        "CDM"
+      ],
+      "ovr": 90,
+      "stats": {
+        "apps": 439,
+        "goals": 102
+      },
+      "tags": [
+        "icon"
+      ]
+    },
+    {
+      "id": "ucl-ll-rm-1990s-raul",
+      "name": "Raúl",
+      "entity": "RM",
+      "era": "1990s",
+      "positions": [
+        "ST",
+        "CAM"
+      ],
+      "ovr": 92,
+      "stats": {
+        "apps": 550,
+        "goals": 228
+      }
+    },
+    {
+      "id": "ucl-ll-rm-1990s-mijatovic",
+      "name": "Predrag Mijatović",
+      "entity": "RM",
+      "era": "1990s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 86,
+      "stats": {
+        "apps": 76,
+        "goals": 18
+      }
+    },
+    {
+      "id": "ucl-ll-rm-1990s-roberto",
+      "name": "Roberto Carlos",
+      "entity": "RM",
+      "era": "1990s",
+      "positions": [
+        "LB",
+        "WB"
+      ],
+      "ovr": 92,
+      "stats": {
+        "apps": 527,
+        "goals": 68
+      }
+    },
+    {
+      "id": "ucl-ll-rm-1990s-redondo",
+      "name": "Fernando Redondo",
+      "entity": "RM",
+      "era": "1990s",
+      "positions": [
+        "CDM",
+        "CM"
+      ],
+      "ovr": 89,
+      "stats": {
+        "apps": 230,
+        "goals": 7
+      }
+    },
+    {
+      "id": "ucl-ll-rm-1990s-suker",
+      "name": "Davor Šuker",
+      "entity": "RM",
+      "era": "1990s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 87,
+      "stats": {
+        "apps": 61,
+        "goals": 24
+      }
+    },
+    {
+      "id": "ucl-ll-rm-1990s-illgner",
+      "name": "Bodo Illgner",
+      "entity": "RM",
+      "era": "1990s",
+      "positions": [
+        "GK"
+      ],
+      "ovr": 86,
+      "stats": {
+        "apps": 159
+      }
+    },
+    {
+      "id": "ucl-ll-rm-1990s-sanchis",
+      "name": "Manolo Sanchís",
+      "entity": "RM",
+      "era": "1990s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 86,
+      "stats": {
+        "apps": 523,
+        "goals": 36
+      }
+    },
+    {
+      "id": "ucl-ll-rm-2000s-zidane",
+      "name": "Zinedine Zidane",
+      "entity": "RM",
+      "era": "2000s",
+      "positions": [
+        "CAM",
+        "CM"
+      ],
+      "ovr": 97,
+      "stats": {
+        "apps": 227,
+        "goals": 49,
+        "assists": 68
+      },
+      "tags": [
+        "icon"
+      ]
+    },
+    {
+      "id": "ucl-ll-rm-2000s-figo",
+      "name": "Luís Figo",
+      "entity": "RM",
+      "era": "2000s",
+      "positions": [
+        "RW",
+        "CAM"
+      ],
+      "ovr": 94,
+      "stats": {
+        "apps": 239,
+        "goals": 57
+      }
+    },
+    {
+      "id": "ucl-ll-rm-2000s-ronaldo",
+      "name": "Ronaldo",
+      "entity": "RM",
+      "era": "2000s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 95,
+      "stats": {
+        "apps": 177,
+        "goals": 104
+      }
+    },
+    {
+      "id": "ucl-ll-rm-2000s-roberto",
+      "name": "Roberto Carlos",
+      "entity": "RM",
+      "era": "2000s",
+      "positions": [
+        "LB",
+        "WB"
+      ],
+      "ovr": 94,
+      "stats": {
+        "apps": 527,
+        "goals": 68
+      }
+    },
+    {
+      "id": "ucl-ll-rm-2000s-beckham",
+      "name": "David Beckham",
+      "entity": "RM",
+      "era": "2000s",
+      "positions": [
+        "RM",
+        "CM"
+      ],
+      "ovr": 89,
+      "stats": {
+        "apps": 159,
+        "goals": 20
+      }
+    },
+    {
+      "id": "ucl-ll-rm-2000s-casillas",
+      "name": "Iker Casillas",
+      "entity": "RM",
+      "era": "2000s",
+      "positions": [
+        "GK"
+      ],
+      "ovr": 94,
+      "stats": {
+        "apps": 725,
+        "cs": 264
+      }
+    },
+    {
+      "id": "ucl-ll-rm-2000s-raul",
+      "name": "Raúl",
+      "entity": "RM",
+      "era": "2000s",
+      "positions": [
+        "ST",
+        "CAM"
+      ],
+      "ovr": 92,
+      "stats": {
+        "apps": 550,
+        "goals": 228
+      }
+    },
+    {
+      "id": "ucl-ll-rm-2000s-guti",
+      "name": "Guti",
+      "entity": "RM",
+      "era": "2000s",
+      "positions": [
+        "CAM",
+        "CM"
+      ],
+      "ovr": 87,
+      "stats": {
+        "apps": 543,
+        "goals": 77,
+        "assists": 159
+      }
+    },
+    {
+      "id": "ucl-ll-rm-2010s-cr7",
+      "name": "Cristiano Ronaldo",
+      "entity": "RM",
+      "era": "2010s",
+      "positions": [
+        "ST",
+        "LW",
+        "RW"
+      ],
+      "ovr": 99,
+      "stats": {
+        "apps": 438,
+        "goals": 450,
+        "assists": 131
+      },
+      "tags": [
+        "icon"
+      ]
+    },
+    {
+      "id": "ucl-ll-rm-2010s-benzema",
+      "name": "Karim Benzema",
+      "entity": "RM",
+      "era": "2010s",
+      "positions": [
+        "ST",
+        "CF"
+      ],
+      "ovr": 92,
+      "stats": {
+        "apps": 648,
+        "goals": 354
+      }
+    },
+    {
+      "id": "ucl-ll-rm-2010s-modric",
+      "name": "Luka Modrić",
+      "entity": "RM",
+      "era": "2010s",
+      "positions": [
+        "CM",
+        "CAM"
+      ],
+      "ovr": 94,
+      "stats": {
+        "apps": 488,
+        "goals": 40
+      }
+    },
+    {
+      "id": "ucl-ll-rm-2010s-kroos",
+      "name": "Toni Kroos",
+      "entity": "RM",
+      "era": "2010s",
+      "positions": [
+        "CM",
+        "CDM"
+      ],
+      "ovr": 93,
+      "stats": {
+        "apps": 466,
+        "goals": 29
+      }
+    },
+    {
+      "id": "ucl-ll-rm-2010s-bale",
+      "name": "Gareth Bale",
+      "entity": "RM",
+      "era": "2010s",
+      "positions": [
+        "RW",
+        "LW"
+      ],
+      "ovr": 92,
+      "stats": {
+        "apps": 258,
+        "goals": 106
+      }
+    },
+    {
+      "id": "ucl-ll-rm-2010s-ramos",
+      "name": "Sergio Ramos",
+      "entity": "RM",
+      "era": "2010s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 93,
+      "stats": {
+        "apps": 671,
+        "goals": 101
+      }
+    },
+    {
+      "id": "ucl-ll-rm-2010s-marcelo",
+      "name": "Marcelo",
+      "entity": "RM",
+      "era": "2010s",
+      "positions": [
+        "LB",
+        "WB"
+      ],
+      "ovr": 89,
+      "stats": {
+        "apps": 546,
+        "goals": 38,
+        "assists": 99
+      }
+    },
+    {
+      "id": "ucl-ll-rm-2010s-navas",
+      "name": "Keylor Navas",
+      "entity": "RM",
+      "era": "2010s",
+      "positions": [
+        "GK"
+      ],
+      "ovr": 89,
+      "stats": {
+        "apps": 162
+      }
+    },
+    {
+      "id": "ucl-ll-rm-2020s-vinicius",
+      "name": "Vinícius Jr.",
+      "entity": "RM",
+      "era": "2020s",
+      "positions": [
+        "LW"
+      ],
+      "ovr": 94,
+      "stats": {
+        "apps": 297,
+        "goals": 92
+      },
+      "tags": [
+        "icon"
+      ]
+    },
+    {
+      "id": "ucl-ll-rm-2020s-bellingham",
+      "name": "Jude Bellingham",
+      "entity": "RM",
+      "era": "2020s",
+      "positions": [
+        "CAM",
+        "CM"
+      ],
+      "ovr": 92,
+      "stats": {
+        "apps": 56,
+        "goals": 26
+      }
+    },
+    {
+      "id": "ucl-ll-rm-2020s-mbappe",
+      "name": "Kylian Mbappé",
+      "entity": "RM",
+      "era": "2020s",
+      "positions": [
+        "ST",
+        "LW"
+      ],
+      "ovr": 96,
+      "stats": {
+        "apps": 42,
+        "goals": 36
+      }
+    },
+    {
+      "id": "ucl-ll-rm-2020s-rodrygo",
+      "name": "Rodrygo",
+      "entity": "RM",
+      "era": "2020s",
+      "positions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 89,
+      "stats": {
+        "apps": 277,
+        "goals": 68
+      }
+    },
+    {
+      "id": "ucl-ll-rm-2020s-courtois",
+      "name": "Thibaut Courtois",
+      "entity": "RM",
+      "era": "2020s",
+      "positions": [
+        "GK"
+      ],
+      "ovr": 93,
+      "stats": {
+        "apps": 273,
+        "cs": 108
+      }
+    },
+    {
+      "id": "ucl-ll-rm-2020s-modric",
+      "name": "Luka Modrić",
+      "entity": "RM",
+      "era": "2020s",
+      "positions": [
+        "CM",
+        "CAM"
+      ],
+      "ovr": 88,
+      "stats": {
+        "apps": 488,
+        "goals": 40
+      }
+    },
+    {
+      "id": "ucl-ll-rm-2020s-camavinga",
+      "name": "Eduardo Camavinga",
+      "entity": "RM",
+      "era": "2020s",
+      "positions": [
+        "CM",
+        "CDM",
+        "LB"
+      ],
+      "ovr": 86,
+      "stats": {
+        "apps": 150,
+        "goals": 3
+      }
+    },
+    {
+      "id": "ucl-ll-rm-2020s-rudiger",
+      "name": "Antonio Rüdiger",
+      "entity": "RM",
+      "era": "2020s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 88,
+      "stats": {
+        "apps": 120,
+        "goals": 7
+      }
+    },
+    {
+      "id": "ucl-ll-bar-1990s-stoichkov",
+      "name": "Hristo Stoichkov",
+      "entity": "BAR",
+      "era": "1990s",
+      "positions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 92,
+      "stats": {
+        "apps": 255,
+        "goals": 117
+      },
+      "tags": [
+        "icon"
+      ]
+    },
+    {
+      "id": "ucl-ll-bar-1990s-romario",
+      "name": "Romário",
+      "entity": "BAR",
+      "era": "1990s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 94,
+      "stats": {
+        "apps": 65,
+        "goals": 53
+      }
+    },
+    {
+      "id": "ucl-ll-bar-1990s-koeman",
+      "name": "Ronald Koeman",
+      "entity": "BAR",
+      "era": "1990s",
+      "positions": [
+        "CB",
+        "CDM"
+      ],
+      "ovr": 90,
+      "stats": {
+        "apps": 264,
+        "goals": 88
+      }
+    },
+    {
+      "id": "ucl-ll-bar-1990s-guardiola",
+      "name": "Pep Guardiola",
+      "entity": "BAR",
+      "era": "1990s",
+      "positions": [
+        "CDM",
+        "CM"
+      ],
+      "ovr": 87,
+      "stats": {
+        "apps": 379,
+        "goals": 11
+      }
+    },
+    {
+      "id": "ucl-ll-bar-1990s-bakero",
+      "name": "José Mari Bakero",
+      "entity": "BAR",
+      "era": "1990s",
+      "positions": [
+        "CM",
+        "CAM"
+      ],
+      "ovr": 85,
+      "stats": {
+        "apps": 336,
+        "goals": 78
+      }
+    },
+    {
+      "id": "ucl-ll-bar-1990s-zubizarreta",
+      "name": "Andoni Zubizarreta",
+      "entity": "BAR",
+      "era": "1990s",
+      "positions": [
+        "GK"
+      ],
+      "ovr": 88,
+      "stats": {
+        "apps": 410
+      }
+    },
+    {
+      "id": "ucl-ll-bar-1990s-laudrup",
+      "name": "Michael Laudrup",
+      "entity": "BAR",
+      "era": "1990s",
+      "positions": [
+        "CAM"
+      ],
+      "ovr": 92,
+      "stats": {
+        "apps": 167,
+        "goals": 40
+      }
+    },
+    {
+      "id": "ucl-ll-bar-1990s-rivaldo",
+      "name": "Rivaldo",
+      "entity": "BAR",
+      "era": "1990s",
+      "positions": [
+        "CAM",
+        "LW"
+      ],
+      "ovr": 92,
+      "stats": {
+        "apps": 235,
+        "goals": 130
+      }
+    },
+    {
+      "id": "ucl-ll-bar-2000s-ronaldinho",
+      "name": "Ronaldinho",
+      "entity": "BAR",
+      "era": "2000s",
+      "positions": [
+        "CAM",
+        "LW"
+      ],
+      "ovr": 97,
+      "stats": {
+        "apps": 207,
+        "goals": 94
+      },
+      "tags": [
+        "icon"
+      ]
+    },
+    {
+      "id": "ucl-ll-bar-2000s-etoo",
+      "name": "Samuel Eto'o",
+      "entity": "BAR",
+      "era": "2000s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 94,
+      "stats": {
+        "apps": 199,
+        "goals": 130
+      }
+    },
+    {
+      "id": "ucl-ll-bar-2000s-xavi",
+      "name": "Xavi",
+      "entity": "BAR",
+      "era": "2000s",
+      "positions": [
+        "CM",
+        "CAM"
+      ],
+      "ovr": 94,
+      "stats": {
+        "apps": 767,
+        "goals": 85,
+        "assists": 184
+      }
+    },
+    {
+      "id": "ucl-ll-bar-2000s-iniesta",
+      "name": "Andrés Iniesta",
+      "entity": "BAR",
+      "era": "2000s",
+      "positions": [
+        "CAM",
+        "CM"
+      ],
+      "ovr": 93,
+      "stats": {
+        "apps": 674,
+        "goals": 57,
+        "assists": 134
+      }
+    },
+    {
+      "id": "ucl-ll-bar-2000s-puyol",
+      "name": "Carles Puyol",
+      "entity": "BAR",
+      "era": "2000s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 91,
+      "stats": {
+        "apps": 593,
+        "goals": 18
+      }
+    },
+    {
+      "id": "ucl-ll-bar-2000s-valdes",
+      "name": "Víctor Valdés",
+      "entity": "BAR",
+      "era": "2000s",
+      "positions": [
+        "GK"
+      ],
+      "ovr": 89,
+      "stats": {
+        "apps": 535,
+        "cs": 243
+      }
+    },
+    {
+      "id": "ucl-ll-bar-2000s-deco",
+      "name": "Deco",
+      "entity": "BAR",
+      "era": "2000s",
+      "positions": [
+        "CAM",
+        "CM"
+      ],
+      "ovr": 88,
+      "stats": {
+        "apps": 162,
+        "goals": 20
+      }
+    },
+    {
+      "id": "ucl-ll-bar-2000s-henry",
+      "name": "Thierry Henry",
+      "entity": "BAR",
+      "era": "2000s",
+      "positions": [
+        "ST",
+        "LW"
+      ],
+      "ovr": 90,
+      "stats": {
+        "apps": 121,
+        "goals": 49
+      }
+    },
+    {
+      "id": "ucl-ll-bar-2010s-messi",
+      "name": "Lionel Messi",
+      "entity": "BAR",
+      "era": "2010s",
+      "positions": [
+        "RW",
+        "CAM",
+        "ST"
+      ],
+      "ovr": 99,
+      "stats": {
+        "apps": 778,
+        "goals": 672,
+        "assists": 268
+      },
+      "tags": [
+        "icon"
+      ]
+    },
+    {
+      "id": "ucl-ll-bar-2010s-suarez",
+      "name": "Luis Suárez",
+      "entity": "BAR",
+      "era": "2010s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 93,
+      "stats": {
+        "apps": 283,
+        "goals": 198
+      }
+    },
+    {
+      "id": "ucl-ll-bar-2010s-neymar",
+      "name": "Neymar",
+      "entity": "BAR",
+      "era": "2010s",
+      "positions": [
+        "LW",
+        "CAM"
+      ],
+      "ovr": 94,
+      "stats": {
+        "apps": 186,
+        "goals": 105
+      }
+    },
+    {
+      "id": "ucl-ll-bar-2010s-xavi",
+      "name": "Xavi",
+      "entity": "BAR",
+      "era": "2010s",
+      "positions": [
+        "CM",
+        "CAM"
+      ],
+      "ovr": 93,
+      "stats": {
+        "apps": 767,
+        "goals": 85
+      }
+    },
+    {
+      "id": "ucl-ll-bar-2010s-iniesta",
+      "name": "Andrés Iniesta",
+      "entity": "BAR",
+      "era": "2010s",
+      "positions": [
+        "CAM",
+        "CM"
+      ],
+      "ovr": 93,
+      "stats": {
+        "apps": 674,
+        "goals": 57
+      }
+    },
+    {
+      "id": "ucl-ll-bar-2010s-busquets",
+      "name": "Sergio Busquets",
+      "entity": "BAR",
+      "era": "2010s",
+      "positions": [
+        "CDM"
+      ],
+      "ovr": 92,
+      "stats": {
+        "apps": 722,
+        "goals": 18
+      }
+    },
+    {
+      "id": "ucl-ll-bar-2010s-pique",
+      "name": "Gerard Piqué",
+      "entity": "BAR",
+      "era": "2010s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 92,
+      "stats": {
+        "apps": 616,
+        "goals": 52
+      }
+    },
+    {
+      "id": "ucl-ll-bar-2010s-alba",
+      "name": "Jordi Alba",
+      "entity": "BAR",
+      "era": "2010s",
+      "positions": [
+        "LB"
+      ],
+      "ovr": 89,
+      "stats": {
+        "apps": 459,
+        "goals": 24
+      }
+    },
+    {
+      "id": "ucl-ll-bar-2010s-alves",
+      "name": "Dani Alves",
+      "entity": "BAR",
+      "era": "2010s",
+      "positions": [
+        "RB",
+        "WB"
+      ],
+      "ovr": 90,
+      "stats": {
+        "apps": 408,
+        "goals": 23
+      }
+    },
+    {
+      "id": "ucl-ll-bar-2020s-lewandowski",
+      "name": "Robert Lewandowski",
+      "entity": "BAR",
+      "era": "2020s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 94,
+      "stats": {
+        "apps": 135,
+        "goals": 107
+      },
+      "tags": [
+        "icon"
+      ]
+    },
+    {
+      "id": "ucl-ll-bar-2020s-yamal",
+      "name": "Lamine Yamal",
+      "entity": "BAR",
+      "era": "2020s",
+      "positions": [
+        "RW"
+      ],
+      "ovr": 90,
+      "stats": {
+        "apps": 106,
+        "goals": 24,
+        "assists": 34
+      }
+    },
+    {
+      "id": "ucl-ll-bar-2020s-pedri",
+      "name": "Pedri",
+      "entity": "BAR",
+      "era": "2020s",
+      "positions": [
+        "CAM",
+        "CM"
+      ],
+      "ovr": 91,
+      "stats": {
+        "apps": 172,
+        "goals": 15
+      }
+    },
+    {
+      "id": "ucl-ll-bar-2020s-gavi",
+      "name": "Gavi",
+      "entity": "BAR",
+      "era": "2020s",
+      "positions": [
+        "CM",
+        "CAM"
+      ],
+      "ovr": 88,
+      "stats": {
+        "apps": 143,
+        "goals": 7
+      }
+    },
+    {
+      "id": "ucl-ll-bar-2020s-raphinha",
+      "name": "Raphinha",
+      "entity": "BAR",
+      "era": "2020s",
+      "positions": [
+        "RW",
+        "LW"
+      ],
+      "ovr": 89,
+      "stats": {
+        "apps": 135,
+        "goals": 42,
+        "assists": 40
+      }
+    },
+    {
+      "id": "ucl-ll-bar-2020s-araujo",
+      "name": "Ronald Araújo",
+      "entity": "BAR",
+      "era": "2020s",
+      "positions": [
+        "CB",
+        "RB"
+      ],
+      "ovr": 88,
+      "stats": {
+        "apps": 175,
+        "goals": 11
+      }
+    },
+    {
+      "id": "ucl-ll-bar-2020s-stegen",
+      "name": "Marc-André ter Stegen",
+      "entity": "BAR",
+      "era": "2020s",
+      "positions": [
+        "GK"
+      ],
+      "ovr": 90,
+      "stats": {
+        "apps": 425,
+        "cs": 172
+      }
+    },
+    {
+      "id": "ucl-ll-bar-2020s-balde",
+      "name": "Alejandro Balde",
+      "entity": "BAR",
+      "era": "2020s",
+      "positions": [
+        "LB",
+        "WB"
+      ],
+      "ovr": 85,
+      "stats": {
+        "apps": 118,
+        "goals": 4
+      }
+    },
+    {
+      "id": "ucl-ll-atm-2010s-griezmann",
+      "name": "Antoine Griezmann",
+      "entity": "ATM",
+      "era": "2010s",
+      "positions": [
+        "CAM",
+        "ST"
+      ],
+      "ovr": 92,
+      "stats": {
+        "apps": 326,
+        "goals": 175
+      },
+      "tags": [
+        "icon"
+      ]
+    },
+    {
+      "id": "ucl-ll-atm-2010s-costa",
+      "name": "Diego Costa",
+      "entity": "ATM",
+      "era": "2010s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 89,
+      "stats": {
+        "apps": 215,
+        "goals": 83
+      }
+    },
+    {
+      "id": "ucl-ll-atm-2010s-godin",
+      "name": "Diego Godín",
+      "entity": "ATM",
+      "era": "2010s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 91,
+      "stats": {
+        "apps": 389,
+        "goals": 28
+      }
+    },
+    {
+      "id": "ucl-ll-atm-2010s-koke",
+      "name": "Koke",
+      "entity": "ATM",
+      "era": "2010s",
+      "positions": [
+        "CM",
+        "CAM"
+      ],
+      "ovr": 89,
+      "stats": {
+        "apps": 712,
+        "goals": 53
+      }
+    },
+    {
+      "id": "ucl-ll-atm-2010s-saul",
+      "name": "Saúl Ñíguez",
+      "entity": "ATM",
+      "era": "2010s",
+      "positions": [
+        "CM",
+        "CDM"
+      ],
+      "ovr": 86,
+      "stats": {
+        "apps": 373,
+        "goals": 33
+      }
+    },
+    {
+      "id": "ucl-ll-atm-2010s-oblak",
+      "name": "Jan Oblak",
+      "entity": "ATM",
+      "era": "2010s",
+      "positions": [
+        "GK"
+      ],
+      "ovr": 94,
+      "stats": {
+        "apps": 424,
+        "cs": 196
+      }
+    },
+    {
+      "id": "ucl-ll-atm-2010s-juanfran",
+      "name": "Juanfran",
+      "entity": "ATM",
+      "era": "2010s",
+      "positions": [
+        "RB"
+      ],
+      "ovr": 85,
+      "stats": {
+        "apps": 353,
+        "goals": 12
+      }
+    },
+    {
+      "id": "ucl-ll-atm-2010s-luis",
+      "name": "Filipe Luís",
+      "entity": "ATM",
+      "era": "2010s",
+      "positions": [
+        "LB"
+      ],
+      "ovr": 85,
+      "stats": {
+        "apps": 337,
+        "goals": 9
+      }
+    },
+    {
+      "id": "ucl-ll-atm-2020s-griezmann",
+      "name": "Antoine Griezmann",
+      "entity": "ATM",
+      "era": "2020s",
+      "positions": [
+        "CAM",
+        "ST"
+      ],
+      "ovr": 90,
+      "stats": {
+        "apps": 326,
+        "goals": 175
+      }
+    },
+    {
+      "id": "ucl-ll-atm-2020s-joao",
+      "name": "João Félix",
+      "entity": "ATM",
+      "era": "2020s",
+      "positions": [
+        "CAM",
+        "ST"
+      ],
+      "ovr": 86,
+      "stats": {
+        "apps": 131,
+        "goals": 34
+      }
+    },
+    {
+      "id": "ucl-ll-atm-2020s-llorente",
+      "name": "Marcos Llorente",
+      "entity": "ATM",
+      "era": "2020s",
+      "positions": [
+        "CM",
+        "RB"
+      ],
+      "ovr": 86,
+      "stats": {
+        "apps": 243,
+        "goals": 24
+      }
+    },
+    {
+      "id": "ucl-ll-atm-2020s-oblak",
+      "name": "Jan Oblak",
+      "entity": "ATM",
+      "era": "2020s",
+      "positions": [
+        "GK"
+      ],
+      "ovr": 91,
+      "stats": {
+        "apps": 424,
+        "cs": 196
+      }
+    },
+    {
+      "id": "ucl-ll-atm-2020s-depaul",
+      "name": "Rodrigo De Paul",
+      "entity": "ATM",
+      "era": "2020s",
+      "positions": [
+        "CM",
+        "CAM"
+      ],
+      "ovr": 87,
+      "stats": {
+        "apps": 172,
+        "goals": 15
+      }
+    },
+    {
+      "id": "ucl-ll-atm-2020s-morata",
+      "name": "Álvaro Morata",
+      "entity": "ATM",
+      "era": "2020s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 85,
+      "stats": {
+        "apps": 175,
+        "goals": 54
+      }
+    },
+    {
+      "id": "ucl-ll-atm-2020s-reinildo",
+      "name": "Reinildo Mandava",
+      "entity": "ATM",
+      "era": "2020s",
+      "positions": [
+        "LB"
+      ],
+      "ovr": 82,
+      "stats": {
+        "apps": 97,
+        "goals": 1
+      }
+    },
+    {
+      "id": "ucl-ll-atm-2020s-witsel",
+      "name": "Axel Witsel",
+      "entity": "ATM",
+      "era": "2020s",
+      "positions": [
+        "CDM",
+        "CB"
+      ],
+      "ovr": 84,
+      "stats": {
+        "apps": 110,
+        "goals": 4
+      }
+    },
+    {
+      "id": "ucl-sa-juv-1990s-delpiero",
+      "name": "Alessandro Del Piero",
+      "entity": "JUV",
+      "era": "1990s",
+      "positions": [
+        "CAM",
+        "ST"
+      ],
+      "ovr": 94,
+      "stats": {
+        "apps": 513,
+        "goals": 208
+      },
+      "tags": [
+        "icon"
+      ]
+    },
+    {
+      "id": "ucl-sa-juv-1990s-zidane",
+      "name": "Zinedine Zidane",
+      "entity": "JUV",
+      "era": "1990s",
+      "positions": [
+        "CAM",
+        "CM"
+      ],
+      "ovr": 95,
+      "stats": {
+        "apps": 151,
+        "goals": 24
+      }
+    },
+    {
+      "id": "ucl-sa-juv-1990s-vialli",
+      "name": "Gianluca Vialli",
+      "entity": "JUV",
+      "era": "1990s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 89,
+      "stats": {
+        "apps": 145,
+        "goals": 53
+      }
+    },
+    {
+      "id": "ucl-sa-juv-1990s-ravanelli",
+      "name": "Fabrizio Ravanelli",
+      "entity": "JUV",
+      "era": "1990s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 87,
+      "stats": {
+        "apps": 159,
+        "goals": 61
+      }
+    },
+    {
+      "id": "ucl-sa-juv-1990s-conte",
+      "name": "Antonio Conte",
+      "entity": "JUV",
+      "era": "1990s",
+      "positions": [
+        "CM",
+        "CDM"
+      ],
+      "ovr": 85,
+      "stats": {
+        "apps": 419,
+        "goals": 44
+      }
+    },
+    {
+      "id": "ucl-sa-juv-1990s-deschamps",
+      "name": "Didier Deschamps",
+      "entity": "JUV",
+      "era": "1990s",
+      "positions": [
+        "CDM",
+        "CM"
+      ],
+      "ovr": 86,
+      "stats": {
+        "apps": 156,
+        "goals": 4
+      }
+    },
+    {
+      "id": "ucl-sa-juv-1990s-peruzzi",
+      "name": "Angelo Peruzzi",
+      "entity": "JUV",
+      "era": "1990s",
+      "positions": [
+        "GK"
+      ],
+      "ovr": 89,
+      "stats": {
+        "apps": 240
+      }
+    },
+    {
+      "id": "ucl-sa-juv-1990s-ferrara",
+      "name": "Ciro Ferrara",
+      "entity": "JUV",
+      "era": "1990s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 86,
+      "stats": {
+        "apps": 454,
+        "goals": 18
+      }
+    },
+    {
+      "id": "ucl-sa-juv-2010s-buffon",
+      "name": "Gianluigi Buffon",
+      "entity": "JUV",
+      "era": "2010s",
+      "positions": [
+        "GK"
+      ],
+      "ovr": 93,
+      "stats": {
+        "apps": 685,
+        "cs": 300
+      },
+      "tags": [
+        "icon"
+      ]
+    },
+    {
+      "id": "ucl-sa-juv-2010s-pirlo",
+      "name": "Andrea Pirlo",
+      "entity": "JUV",
+      "era": "2010s",
+      "positions": [
+        "CM",
+        "CAM"
+      ],
+      "ovr": 93,
+      "stats": {
+        "apps": 164,
+        "goals": 19
+      }
+    },
+    {
+      "id": "ucl-sa-juv-2010s-pogba",
+      "name": "Paul Pogba",
+      "entity": "JUV",
+      "era": "2010s",
+      "positions": [
+        "CM",
+        "CAM"
+      ],
+      "ovr": 90,
+      "stats": {
+        "apps": 178,
+        "goals": 34
+      }
+    },
+    {
+      "id": "ucl-sa-juv-2010s-tevez",
+      "name": "Carlos Tevez",
+      "entity": "JUV",
+      "era": "2010s",
+      "positions": [
+        "ST",
+        "CAM"
+      ],
+      "ovr": 91,
+      "stats": {
+        "apps": 96,
+        "goals": 50
+      }
+    },
+    {
+      "id": "ucl-sa-juv-2010s-higuain",
+      "name": "Gonzalo Higuaín",
+      "entity": "JUV",
+      "era": "2010s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 89,
+      "stats": {
+        "apps": 149,
+        "goals": 66
+      }
+    },
+    {
+      "id": "ucl-sa-juv-2010s-chiellini",
+      "name": "Giorgio Chiellini",
+      "entity": "JUV",
+      "era": "2010s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 91,
+      "stats": {
+        "apps": 561,
+        "goals": 36
+      }
+    },
+    {
+      "id": "ucl-sa-juv-2010s-bonucci",
+      "name": "Leonardo Bonucci",
+      "entity": "JUV",
+      "era": "2010s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 89,
+      "stats": {
+        "apps": 502,
+        "goals": 35
+      }
+    },
+    {
+      "id": "ucl-sa-juv-2010s-vidal",
+      "name": "Arturo Vidal",
+      "entity": "JUV",
+      "era": "2010s",
+      "positions": [
+        "CM",
+        "CDM"
+      ],
+      "ovr": 89,
+      "stats": {
+        "apps": 171,
+        "goals": 48
+      }
+    },
+    {
+      "id": "ucl-sa-mil-1990s-maldini",
+      "name": "Paolo Maldini",
+      "entity": "MIL",
+      "era": "1990s",
+      "positions": [
+        "LB",
+        "CB"
+      ],
+      "ovr": 95,
+      "stats": {
+        "apps": 902,
+        "goals": 33
+      },
+      "tags": [
+        "icon"
+      ]
+    },
+    {
+      "id": "ucl-sa-mil-1990s-baresi",
+      "name": "Franco Baresi",
+      "entity": "MIL",
+      "era": "1990s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 95,
+      "stats": {
+        "apps": 719,
+        "goals": 33
+      }
+    },
+    {
+      "id": "ucl-sa-mil-1990s-vanbasten",
+      "name": "Marco van Basten",
+      "entity": "MIL",
+      "era": "1990s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 97,
+      "stats": {
+        "apps": 201,
+        "goals": 124
+      }
+    },
+    {
+      "id": "ucl-sa-mil-1990s-gullit",
+      "name": "Ruud Gullit",
+      "entity": "MIL",
+      "era": "1990s",
+      "positions": [
+        "CAM",
+        "CM"
+      ],
+      "ovr": 94,
+      "stats": {
+        "apps": 171,
+        "goals": 56
+      }
+    },
+    {
+      "id": "ucl-sa-mil-1990s-rijkaard",
+      "name": "Frank Rijkaard",
+      "entity": "MIL",
+      "era": "1990s",
+      "positions": [
+        "CDM",
+        "CB"
+      ],
+      "ovr": 91,
+      "stats": {
+        "apps": 201,
+        "goals": 26
+      }
+    },
+    {
+      "id": "ucl-sa-mil-1990s-weah",
+      "name": "George Weah",
+      "entity": "MIL",
+      "era": "1990s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 92,
+      "stats": {
+        "apps": 147,
+        "goals": 58
+      }
+    },
+    {
+      "id": "ucl-sa-mil-1990s-costacurta",
+      "name": "Alessandro Costacurta",
+      "entity": "MIL",
+      "era": "1990s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 88,
+      "stats": {
+        "apps": 663,
+        "goals": 12
+      }
+    },
+    {
+      "id": "ucl-sa-mil-1990s-savicevic",
+      "name": "Dejan Savićević",
+      "entity": "MIL",
+      "era": "1990s",
+      "positions": [
+        "CAM",
+        "LW"
+      ],
+      "ovr": 88,
+      "stats": {
+        "apps": 126,
+        "goals": 29
+      }
+    },
+    {
+      "id": "ucl-sa-mil-2000s-pirlo",
+      "name": "Andrea Pirlo",
+      "entity": "MIL",
+      "era": "2000s",
+      "positions": [
+        "CM",
+        "CAM"
+      ],
+      "ovr": 95,
+      "stats": {
+        "apps": 401,
+        "goals": 41
+      },
+      "tags": [
+        "icon"
+      ]
+    },
+    {
+      "id": "ucl-sa-mil-2000s-kaka",
+      "name": "Kaká",
+      "entity": "MIL",
+      "era": "2000s",
+      "positions": [
+        "CAM"
+      ],
+      "ovr": 96,
+      "stats": {
+        "apps": 270,
+        "goals": 95
+      }
+    },
+    {
+      "id": "ucl-sa-mil-2000s-shevchenko",
+      "name": "Andriy Shevchenko",
+      "entity": "MIL",
+      "era": "2000s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 94,
+      "stats": {
+        "apps": 322,
+        "goals": 175
+      }
+    },
+    {
+      "id": "ucl-sa-mil-2000s-inzaghi",
+      "name": "Filippo Inzaghi",
+      "entity": "MIL",
+      "era": "2000s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 89,
+      "stats": {
+        "apps": 300,
+        "goals": 126
+      }
+    },
+    {
+      "id": "ucl-sa-mil-2000s-nesta",
+      "name": "Alessandro Nesta",
+      "entity": "MIL",
+      "era": "2000s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 93,
+      "stats": {
+        "apps": 326,
+        "goals": 4
+      }
+    },
+    {
+      "id": "ucl-sa-mil-2000s-gattuso",
+      "name": "Gennaro Gattuso",
+      "entity": "MIL",
+      "era": "2000s",
+      "positions": [
+        "CDM"
+      ],
+      "ovr": 88,
+      "stats": {
+        "apps": 468,
+        "goals": 11
+      }
+    },
+    {
+      "id": "ucl-sa-mil-2000s-seedorf",
+      "name": "Clarence Seedorf",
+      "entity": "MIL",
+      "era": "2000s",
+      "positions": [
+        "CM",
+        "CAM"
+      ],
+      "ovr": 89,
+      "stats": {
+        "apps": 432,
+        "goals": 62
+      }
+    },
+    {
+      "id": "ucl-sa-mil-2000s-dida",
+      "name": "Dida",
+      "entity": "MIL",
+      "era": "2000s",
+      "positions": [
+        "GK"
+      ],
+      "ovr": 88,
+      "stats": {
+        "apps": 302
+      }
+    },
+    {
+      "id": "ucl-sa-int-2000s-zanetti",
+      "name": "Javier Zanetti",
+      "entity": "INT",
+      "era": "2000s",
+      "positions": [
+        "RB",
+        "CM"
+      ],
+      "ovr": 91,
+      "stats": {
+        "apps": 858,
+        "goals": 19
+      },
+      "tags": [
+        "icon"
+      ]
+    },
+    {
+      "id": "ucl-sa-int-2000s-ibra",
+      "name": "Zlatan Ibrahimović",
+      "entity": "INT",
+      "era": "2000s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 94,
+      "stats": {
+        "apps": 117,
+        "goals": 66
+      }
+    },
+    {
+      "id": "ucl-sa-int-2000s-materazzi",
+      "name": "Marco Materazzi",
+      "entity": "INT",
+      "era": "2000s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 86,
+      "stats": {
+        "apps": 273,
+        "goals": 35
+      }
+    },
+    {
+      "id": "ucl-sa-int-2000s-stankovic",
+      "name": "Dejan Stanković",
+      "entity": "INT",
+      "era": "2000s",
+      "positions": [
+        "CAM",
+        "CM"
+      ],
+      "ovr": 86,
+      "stats": {
+        "apps": 326,
+        "goals": 35
+      }
+    },
+    {
+      "id": "ucl-sa-int-2000s-cambiasso",
+      "name": "Esteban Cambiasso",
+      "entity": "INT",
+      "era": "2000s",
+      "positions": [
+        "CDM",
+        "CM"
+      ],
+      "ovr": 89,
+      "stats": {
+        "apps": 431,
+        "goals": 50
+      }
+    },
+    {
+      "id": "ucl-sa-int-2000s-cordoba",
+      "name": "Iván Córdoba",
+      "entity": "INT",
+      "era": "2000s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 86,
+      "stats": {
+        "apps": 456,
+        "goals": 16
+      }
+    },
+    {
+      "id": "ucl-sa-int-2000s-figo",
+      "name": "Luís Figo",
+      "entity": "INT",
+      "era": "2000s",
+      "positions": [
+        "RW",
+        "CAM"
+      ],
+      "ovr": 88,
+      "stats": {
+        "apps": 140,
+        "goals": 17
+      }
+    },
+    {
+      "id": "ucl-sa-int-2000s-julio",
+      "name": "Júlio César",
+      "entity": "INT",
+      "era": "2000s",
+      "positions": [
+        "GK"
+      ],
+      "ovr": 91,
+      "stats": {
+        "apps": 300
+      }
+    },
+    {
+      "id": "ucl-sa-int-2010s-icardi",
+      "name": "Mauro Icardi",
+      "entity": "INT",
+      "era": "2010s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 89,
+      "stats": {
+        "apps": 219,
+        "goals": 124
+      },
+      "tags": [
+        "icon"
+      ]
+    },
+    {
+      "id": "ucl-sa-int-2010s-handanovic",
+      "name": "Samir Handanović",
+      "entity": "INT",
+      "era": "2010s",
+      "positions": [
+        "GK"
+      ],
+      "ovr": 89,
+      "stats": {
+        "apps": 455,
+        "cs": 165
+      }
+    },
+    {
+      "id": "ucl-sa-int-2010s-brozovic",
+      "name": "Marcelo Brozović",
+      "entity": "INT",
+      "era": "2010s",
+      "positions": [
+        "CDM",
+        "CM"
+      ],
+      "ovr": 87,
+      "stats": {
+        "apps": 328,
+        "goals": 24
+      }
+    },
+    {
+      "id": "ucl-sa-int-2010s-skriniar",
+      "name": "Milan Škriniar",
+      "entity": "INT",
+      "era": "2010s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 88,
+      "stats": {
+        "apps": 246,
+        "goals": 11
+      }
+    },
+    {
+      "id": "ucl-sa-int-2010s-perisic",
+      "name": "Ivan Perišić",
+      "entity": "INT",
+      "era": "2010s",
+      "positions": [
+        "LW",
+        "WB"
+      ],
+      "ovr": 87,
+      "stats": {
+        "apps": 253,
+        "goals": 56
+      }
+    },
+    {
+      "id": "ucl-sa-int-2010s-lukaku",
+      "name": "Romelu Lukaku",
+      "entity": "INT",
+      "era": "2010s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 91,
+      "stats": {
+        "apps": 95,
+        "goals": 64
+      }
+    },
+    {
+      "id": "ucl-sa-int-2010s-lautaro",
+      "name": "Lautaro Martínez",
+      "entity": "INT",
+      "era": "2010s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 89,
+      "stats": {
+        "apps": 295,
+        "goals": 126
+      }
+    },
+    {
+      "id": "ucl-sa-int-2010s-barella",
+      "name": "Nicolò Barella",
+      "entity": "INT",
+      "era": "2010s",
+      "positions": [
+        "CM",
+        "CAM"
+      ],
+      "ovr": 89,
+      "stats": {
+        "apps": 273,
+        "goals": 26
+      }
+    },
+    {
+      "id": "ucl-bl-bay-1990s-kahn",
+      "name": "Oliver Kahn",
+      "entity": "BAY",
+      "era": "1990s",
+      "positions": [
+        "GK"
+      ],
+      "ovr": 94,
+      "stats": {
+        "apps": 557,
+        "cs": 196
+      },
+      "tags": [
+        "icon"
+      ]
+    },
+    {
+      "id": "ucl-bl-bay-1990s-matthaus",
+      "name": "Lothar Matthäus",
+      "entity": "BAY",
+      "era": "1990s",
+      "positions": [
+        "CM",
+        "CDM"
+      ],
+      "ovr": 93,
+      "stats": {
+        "apps": 400,
+        "goals": 85
+      }
+    },
+    {
+      "id": "ucl-bl-bay-1990s-klinsmann",
+      "name": "Jürgen Klinsmann",
+      "entity": "BAY",
+      "era": "1990s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 90,
+      "stats": {
+        "apps": 65,
+        "goals": 31
+      }
+    },
+    {
+      "id": "ucl-bl-bay-1990s-effenberg",
+      "name": "Stefan Effenberg",
+      "entity": "BAY",
+      "era": "1990s",
+      "positions": [
+        "CM"
+      ],
+      "ovr": 88,
+      "stats": {
+        "apps": 175,
+        "goals": 29
+      }
+    },
+    {
+      "id": "ucl-bl-bay-1990s-babbel",
+      "name": "Markus Babbel",
+      "entity": "BAY",
+      "era": "1990s",
+      "positions": [
+        "CB",
+        "RB"
+      ],
+      "ovr": 86,
+      "stats": {
+        "apps": 175,
+        "goals": 11
+      }
+    },
+    {
+      "id": "ucl-bl-bay-1990s-jeremies",
+      "name": "Jens Jeremies",
+      "entity": "BAY",
+      "era": "1990s",
+      "positions": [
+        "CDM"
+      ],
+      "ovr": 83,
+      "stats": {
+        "apps": 146,
+        "goals": 4
+      }
+    },
+    {
+      "id": "ucl-bl-bay-1990s-scholl",
+      "name": "Mehmet Scholl",
+      "entity": "BAY",
+      "era": "1990s",
+      "positions": [
+        "CAM"
+      ],
+      "ovr": 86,
+      "stats": {
+        "apps": 334,
+        "goals": 85
+      }
+    },
+    {
+      "id": "ucl-bl-bay-1990s-elber",
+      "name": "Giovane Élber",
+      "entity": "BAY",
+      "era": "1990s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 88,
+      "stats": {
+        "apps": 166,
+        "goals": 92
+      }
+    },
+    {
+      "id": "ucl-bl-bay-2010s-lewandowski",
+      "name": "Robert Lewandowski",
+      "entity": "BAY",
+      "era": "2010s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 97,
+      "stats": {
+        "apps": 253,
+        "goals": 238
+      },
+      "tags": [
+        "icon"
+      ]
+    },
+    {
+      "id": "ucl-bl-bay-2010s-neuer",
+      "name": "Manuel Neuer",
+      "entity": "BAY",
+      "era": "2010s",
+      "positions": [
+        "GK"
+      ],
+      "ovr": 95,
+      "stats": {
+        "apps": 332,
+        "cs": 140
+      }
+    },
+    {
+      "id": "ucl-bl-bay-2010s-robben",
+      "name": "Arjen Robben",
+      "entity": "BAY",
+      "era": "2010s",
+      "positions": [
+        "RW"
+      ],
+      "ovr": 94,
+      "stats": {
+        "apps": 201,
+        "goals": 99
+      }
+    },
+    {
+      "id": "ucl-bl-bay-2010s-ribery",
+      "name": "Franck Ribéry",
+      "entity": "BAY",
+      "era": "2010s",
+      "positions": [
+        "LW"
+      ],
+      "ovr": 94,
+      "stats": {
+        "apps": 273,
+        "goals": 86
+      }
+    },
+    {
+      "id": "ucl-bl-bay-2010s-lahm",
+      "name": "Philipp Lahm",
+      "entity": "BAY",
+      "era": "2010s",
+      "positions": [
+        "RB",
+        "LB"
+      ],
+      "ovr": 91,
+      "stats": {
+        "apps": 517,
+        "goals": 16
+      }
+    },
+    {
+      "id": "ucl-bl-bay-2010s-mullert",
+      "name": "Thomas Müller",
+      "entity": "BAY",
+      "era": "2010s",
+      "positions": [
+        "RW",
+        "CAM",
+        "ST"
+      ],
+      "ovr": 92,
+      "stats": {
+        "apps": 511,
+        "goals": 204
+      }
+    },
+    {
+      "id": "ucl-bl-bay-2010s-alaba",
+      "name": "David Alaba",
+      "entity": "BAY",
+      "era": "2010s",
+      "positions": [
+        "LB",
+        "CB"
+      ],
+      "ovr": 89,
+      "stats": {
+        "apps": 270,
+        "goals": 21
+      }
+    },
+    {
+      "id": "ucl-bl-bay-2010s-schweini",
+      "name": "Bastian Schweinsteiger",
+      "entity": "BAY",
+      "era": "2010s",
+      "positions": [
+        "CM",
+        "CDM"
+      ],
+      "ovr": 91,
+      "stats": {
+        "apps": 342,
+        "goals": 45
+      }
+    },
+    {
+      "id": "ucl-bl-bay-2020s-kane",
+      "name": "Harry Kane",
+      "entity": "BAY",
+      "era": "2020s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 94,
+      "stats": {
+        "apps": 80,
+        "goals": 78
+      },
+      "tags": [
+        "icon"
+      ]
+    },
+    {
+      "id": "ucl-bl-bay-2020s-musiala",
+      "name": "Jamal Musiala",
+      "entity": "BAY",
+      "era": "2020s",
+      "positions": [
+        "CAM",
+        "LW"
+      ],
+      "ovr": 91,
+      "stats": {
+        "apps": 140,
+        "goals": 40
+      }
+    },
+    {
+      "id": "ucl-bl-bay-2020s-kimmich",
+      "name": "Joshua Kimmich",
+      "entity": "BAY",
+      "era": "2020s",
+      "positions": [
+        "RB",
+        "CDM"
+      ],
+      "ovr": 91,
+      "stats": {
+        "apps": 380,
+        "goals": 31,
+        "assists": 92
+      }
+    },
+    {
+      "id": "ucl-bl-bay-2020s-neuer",
+      "name": "Manuel Neuer",
+      "entity": "BAY",
+      "era": "2020s",
+      "positions": [
+        "GK"
+      ],
+      "ovr": 90,
+      "stats": {
+        "apps": 332,
+        "cs": 140
+      }
+    },
+    {
+      "id": "ucl-bl-bay-2020s-sane",
+      "name": "Leroy Sané",
+      "entity": "BAY",
+      "era": "2020s",
+      "positions": [
+        "RW",
+        "LW"
+      ],
+      "ovr": 88,
+      "stats": {
+        "apps": 175,
+        "goals": 54
+      }
+    },
+    {
+      "id": "ucl-bl-bay-2020s-davies",
+      "name": "Alphonso Davies",
+      "entity": "BAY",
+      "era": "2020s",
+      "positions": [
+        "LB",
+        "WB"
+      ],
+      "ovr": 87,
+      "stats": {
+        "apps": 169,
+        "goals": 11
+      }
+    },
+    {
+      "id": "ucl-bl-bay-2020s-upamecano",
+      "name": "Dayot Upamecano",
+      "entity": "BAY",
+      "era": "2020s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 86,
+      "stats": {
+        "apps": 120,
+        "goals": 6
+      }
+    },
+    {
+      "id": "ucl-bl-bay-2020s-gnabry",
+      "name": "Serge Gnabry",
+      "entity": "BAY",
+      "era": "2020s",
+      "positions": [
+        "RW",
+        "LW"
+      ],
+      "ovr": 87,
+      "stats": {
+        "apps": 230,
+        "goals": 83
+      }
+    },
+    {
+      "id": "ucl-bl-dor-2010s-reus",
+      "name": "Marco Reus",
+      "entity": "DOR",
+      "era": "2010s",
+      "positions": [
+        "CAM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 91,
+      "stats": {
+        "apps": 421,
+        "goals": 170
+      },
+      "tags": [
+        "icon"
+      ]
+    },
+    {
+      "id": "ucl-bl-dor-2010s-auba",
+      "name": "Pierre-Emerick Aubameyang",
+      "entity": "DOR",
+      "era": "2010s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 92,
+      "stats": {
+        "apps": 213,
+        "goals": 141
+      }
+    },
+    {
+      "id": "ucl-bl-dor-2010s-lewandowski",
+      "name": "Robert Lewandowski",
+      "entity": "DOR",
+      "era": "2010s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 90,
+      "stats": {
+        "apps": 187,
+        "goals": 103
+      }
+    },
+    {
+      "id": "ucl-bl-dor-2010s-gundogan",
+      "name": "İlkay Gündoğan",
+      "entity": "DOR",
+      "era": "2010s",
+      "positions": [
+        "CM",
+        "CDM"
+      ],
+      "ovr": 86,
+      "stats": {
+        "apps": 162,
+        "goals": 14
+      }
+    },
+    {
+      "id": "ucl-bl-dor-2010s-hummels",
+      "name": "Mats Hummels",
+      "entity": "DOR",
+      "era": "2010s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 89,
+      "stats": {
+        "apps": 348,
+        "goals": 25
+      }
+    },
+    {
+      "id": "ucl-bl-dor-2010s-piszczek",
+      "name": "Łukasz Piszczek",
+      "entity": "DOR",
+      "era": "2010s",
+      "positions": [
+        "RB",
+        "WB"
+      ],
+      "ovr": 84,
+      "stats": {
+        "apps": 383,
+        "goals": 19
+      }
+    },
+    {
+      "id": "ucl-bl-dor-2010s-mkhitaryan",
+      "name": "Henrikh Mkhitaryan",
+      "entity": "DOR",
+      "era": "2010s",
+      "positions": [
+        "CAM",
+        "RW"
+      ],
+      "ovr": 87,
+      "stats": {
+        "apps": 140,
+        "goals": 41
+      }
+    },
+    {
+      "id": "ucl-bl-dor-2010s-weidenfeller",
+      "name": "Roman Weidenfeller",
+      "entity": "DOR",
+      "era": "2010s",
+      "positions": [
+        "GK"
+      ],
+      "ovr": 85,
+      "stats": {
+        "apps": 453,
+        "cs": 154
+      }
+    },
+    {
+      "id": "ucl-bl-dor-2020s-bellingham",
+      "name": "Jude Bellingham",
+      "entity": "DOR",
+      "era": "2020s",
+      "positions": [
+        "CAM",
+        "CM"
+      ],
+      "ovr": 91,
+      "stats": {
+        "apps": 132,
+        "goals": 24
+      },
+      "tags": [
+        "icon"
+      ]
+    },
+    {
+      "id": "ucl-bl-dor-2020s-reus",
+      "name": "Marco Reus",
+      "entity": "DOR",
+      "era": "2020s",
+      "positions": [
+        "CAM",
+        "LW"
+      ],
+      "ovr": 86,
+      "stats": {
+        "apps": 421,
+        "goals": 170
+      }
+    },
+    {
+      "id": "ucl-bl-dor-2020s-sancho",
+      "name": "Jadon Sancho",
+      "entity": "DOR",
+      "era": "2020s",
+      "positions": [
+        "RW",
+        "LW"
+      ],
+      "ovr": 86,
+      "stats": {
+        "apps": 182,
+        "goals": 53
+      }
+    },
+    {
+      "id": "ucl-bl-dor-2020s-guirassy",
+      "name": "Serhou Guirassy",
+      "entity": "DOR",
+      "era": "2020s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 89,
+      "stats": {
+        "apps": 55,
+        "goals": 38
+      }
+    },
+    {
+      "id": "ucl-bl-dor-2020s-emrecan",
+      "name": "Emre Can",
+      "entity": "DOR",
+      "era": "2020s",
+      "positions": [
+        "CDM",
+        "CB"
+      ],
+      "ovr": 85,
+      "stats": {
+        "apps": 143,
+        "goals": 15
+      }
+    },
+    {
+      "id": "ucl-bl-dor-2020s-haaland",
+      "name": "Erling Haaland",
+      "entity": "DOR",
+      "era": "2020s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 95,
+      "stats": {
+        "apps": 89,
+        "goals": 86
+      }
+    },
+    {
+      "id": "ucl-bl-dor-2020s-koboel",
+      "name": "Niklas Süle",
+      "entity": "DOR",
+      "era": "2020s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 83,
+      "stats": {
+        "apps": 107,
+        "goals": 4
+      }
+    },
+    {
+      "id": "ucl-bl-dor-2020s-brandt",
+      "name": "Julian Brandt",
+      "entity": "DOR",
+      "era": "2020s",
+      "positions": [
+        "CAM",
+        "LM"
+      ],
+      "ovr": 87,
+      "stats": {
+        "apps": 220,
+        "goals": 34
+      }
+    },
+    {
+      "id": "ucl-l1-psg-2010s-ibra",
+      "name": "Zlatan Ibrahimović",
+      "entity": "PSG",
+      "era": "2010s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 94,
+      "stats": {
+        "apps": 180,
+        "goals": 156
+      },
+      "tags": [
+        "icon"
+      ]
+    },
+    {
+      "id": "ucl-l1-psg-2010s-cavani",
+      "name": "Edinson Cavani",
+      "entity": "PSG",
+      "era": "2010s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 91,
+      "stats": {
+        "apps": 301,
+        "goals": 200
+      }
+    },
+    {
+      "id": "ucl-l1-psg-2010s-verratti",
+      "name": "Marco Verratti",
+      "entity": "PSG",
+      "era": "2010s",
+      "positions": [
+        "CM",
+        "CDM"
+      ],
+      "ovr": 89,
+      "stats": {
+        "apps": 416,
+        "goals": 11
+      }
+    },
+    {
+      "id": "ucl-l1-psg-2010s-thiagosilva",
+      "name": "Thiago Silva",
+      "entity": "PSG",
+      "era": "2010s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 91,
+      "stats": {
+        "apps": 315,
+        "goals": 17
+      }
+    },
+    {
+      "id": "ucl-l1-psg-2010s-pastore",
+      "name": "Javier Pastore",
+      "entity": "PSG",
+      "era": "2010s",
+      "positions": [
+        "CAM"
+      ],
+      "ovr": 86,
+      "stats": {
+        "apps": 265,
+        "goals": 54
+      }
+    },
+    {
+      "id": "ucl-l1-psg-2010s-marquinhos",
+      "name": "Marquinhos",
+      "entity": "PSG",
+      "era": "2010s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 89,
+      "stats": {
+        "apps": 454,
+        "goals": 26
+      }
+    },
+    {
+      "id": "ucl-l1-psg-2010s-matuidi",
+      "name": "Blaise Matuidi",
+      "entity": "PSG",
+      "era": "2010s",
+      "positions": [
+        "CM",
+        "CDM"
+      ],
+      "ovr": 86,
+      "stats": {
+        "apps": 295,
+        "goals": 31
+      }
+    },
+    {
+      "id": "ucl-l1-psg-2010s-aurier",
+      "name": "Serge Aurier",
+      "entity": "PSG",
+      "era": "2010s",
+      "positions": [
+        "RB"
+      ],
+      "ovr": 83,
+      "stats": {
+        "apps": 99,
+        "goals": 6
+      }
+    },
+    {
+      "id": "ucl-l1-psg-2020s-mbappe",
+      "name": "Kylian Mbappé",
+      "entity": "PSG",
+      "era": "2020s",
+      "positions": [
+        "ST",
+        "LW"
+      ],
+      "ovr": 97,
+      "stats": {
+        "apps": 308,
+        "goals": 256
+      },
+      "tags": [
+        "icon"
+      ]
+    },
+    {
+      "id": "ucl-l1-psg-2020s-neymar",
+      "name": "Neymar",
+      "entity": "PSG",
+      "era": "2020s",
+      "positions": [
+        "LW",
+        "CAM"
+      ],
+      "ovr": 94,
+      "stats": {
+        "apps": 173,
+        "goals": 118
+      }
+    },
+    {
+      "id": "ucl-l1-psg-2020s-messi",
+      "name": "Lionel Messi",
+      "entity": "PSG",
+      "era": "2020s",
+      "positions": [
+        "RW",
+        "CAM"
+      ],
+      "ovr": 95,
+      "stats": {
+        "apps": 75,
+        "goals": 32
+      }
+    },
+    {
+      "id": "ucl-l1-psg-2020s-marquinhos",
+      "name": "Marquinhos",
+      "entity": "PSG",
+      "era": "2020s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 89,
+      "stats": {
+        "apps": 454,
+        "goals": 26
+      }
+    },
+    {
+      "id": "ucl-l1-psg-2020s-donnarumma",
+      "name": "Gianluigi Donnarumma",
+      "entity": "PSG",
+      "era": "2020s",
+      "positions": [
+        "GK"
+      ],
+      "ovr": 91,
+      "stats": {
+        "apps": 127,
+        "cs": 53
+      }
+    },
+    {
+      "id": "ucl-l1-psg-2020s-hakimi",
+      "name": "Achraf Hakimi",
+      "entity": "PSG",
+      "era": "2020s",
+      "positions": [
+        "RB",
+        "WB"
+      ],
+      "ovr": 89,
+      "stats": {
+        "apps": 143,
+        "goals": 19
+      }
+    },
+    {
+      "id": "ucl-l1-psg-2020s-vitinha",
+      "name": "Vitinha",
+      "entity": "PSG",
+      "era": "2020s",
+      "positions": [
+        "CM",
+        "CDM"
+      ],
+      "ovr": 87,
+      "stats": {
+        "apps": 131,
+        "goals": 16
+      }
+    },
+    {
+      "id": "ucl-l1-psg-2020s-zaire",
+      "name": "Bradley Barcola",
+      "entity": "PSG",
+      "era": "2020s",
+      "positions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 85,
+      "stats": {
+        "apps": 86,
+        "goals": 22
+      }
+    }
+  ]
+}

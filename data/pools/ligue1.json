@@ -1,0 +1,50 @@
+{
+  "competition": "ligue1",
+  "poolVersion": 1,
+  "players": [
+    { "id":"l1-psg-2010s-ibra",      "name":"Zlatan Ibrahimović","entity":"PSG","era":"2010s","positions":["ST"],          "ovr":94, "stats":{"apps":180,"goals":156}, "tags":["icon"] },
+    { "id":"l1-psg-2010s-cavani",    "name":"Edinson Cavani",   "entity":"PSG","era":"2010s","positions":["ST"],          "ovr":91, "stats":{"apps":301,"goals":200} },
+    { "id":"l1-psg-2010s-verratti",  "name":"Marco Verratti",   "entity":"PSG","era":"2010s","positions":["CM","CDM"],    "ovr":89, "stats":{"apps":416,"goals":11} },
+    { "id":"l1-psg-2010s-thiagosilva","name":"Thiago Silva",    "entity":"PSG","era":"2010s","positions":["CB"],          "ovr":91, "stats":{"apps":315,"goals":17} },
+    { "id":"l1-psg-2010s-pastore",   "name":"Javier Pastore",   "entity":"PSG","era":"2010s","positions":["CAM"],         "ovr":86, "stats":{"apps":265,"goals":54} },
+    { "id":"l1-psg-2010s-marquinhos","name":"Marquinhos",       "entity":"PSG","era":"2010s","positions":["CB"],          "ovr":89, "stats":{"apps":454,"goals":26} },
+    { "id":"l1-psg-2010s-matuidi",   "name":"Blaise Matuidi",   "entity":"PSG","era":"2010s","positions":["CM","CDM"],    "ovr":86, "stats":{"apps":295,"goals":31} },
+    { "id":"l1-psg-2010s-aurier",    "name":"Serge Aurier",     "entity":"PSG","era":"2010s","positions":["RB"],          "ovr":83, "stats":{"apps":99,"goals":6} },
+
+    { "id":"l1-psg-2020s-mbappe",    "name":"Kylian Mbappé",    "entity":"PSG","era":"2020s","positions":["ST","LW"],     "ovr":97, "stats":{"apps":308,"goals":256}, "tags":["icon"] },
+    { "id":"l1-psg-2020s-neymar",    "name":"Neymar",           "entity":"PSG","era":"2020s","positions":["LW","CAM"],    "ovr":94, "stats":{"apps":173,"goals":118} },
+    { "id":"l1-psg-2020s-messi",     "name":"Lionel Messi",     "entity":"PSG","era":"2020s","positions":["RW","CAM"],    "ovr":95, "stats":{"apps":75,"goals":32} },
+    { "id":"l1-psg-2020s-marquinhos","name":"Marquinhos",       "entity":"PSG","era":"2020s","positions":["CB"],          "ovr":89, "stats":{"apps":454,"goals":26} },
+    { "id":"l1-psg-2020s-donnarumma","name":"Gianluigi Donnarumma","entity":"PSG","era":"2020s","positions":["GK"],       "ovr":91, "stats":{"apps":127,"cs":53} },
+    { "id":"l1-psg-2020s-hakimi",    "name":"Achraf Hakimi",    "entity":"PSG","era":"2020s","positions":["RB","WB"],     "ovr":89, "stats":{"apps":143,"goals":19} },
+    { "id":"l1-psg-2020s-vitinha",   "name":"Vitinha",          "entity":"PSG","era":"2020s","positions":["CM","CDM"],    "ovr":87, "stats":{"apps":131,"goals":16} },
+    { "id":"l1-psg-2020s-zaire",     "name":"Bradley Barcola",  "entity":"PSG","era":"2020s","positions":["LW","RW"],     "ovr":85, "stats":{"apps":86,"goals":22} },
+
+    { "id":"l1-mar-1990s-papin",     "name":"Jean-Pierre Papin","entity":"MAR","era":"1990s","positions":["ST"],          "ovr":93, "stats":{"apps":278,"goals":182}, "tags":["icon"] },
+    { "id":"l1-mar-1990s-boli",      "name":"Basile Boli",      "entity":"MAR","era":"1990s","positions":["CB"],          "ovr":86, "stats":{"apps":205,"goals":13} },
+    { "id":"l1-mar-1990s-deschamps", "name":"Didier Deschamps", "entity":"MAR","era":"1990s","positions":["CDM","CM"],    "ovr":86, "stats":{"apps":92,"goals":5} },
+    { "id":"l1-mar-1990s-blanc",     "name":"Laurent Blanc",    "entity":"MAR","era":"1990s","positions":["CB"],          "ovr":87, "stats":{"apps":41,"goals":2} },
+    { "id":"l1-mar-1990s-voller",    "name":"Rudi Völler",      "entity":"MAR","era":"1990s","positions":["ST"],          "ovr":86, "stats":{"apps":89,"goals":34} },
+    { "id":"l1-mar-1990s-pele",      "name":"Abedi Pelé",       "entity":"MAR","era":"1990s","positions":["LW","CAM"],    "ovr":88, "stats":{"apps":166,"goals":34} },
+    { "id":"l1-mar-1990s-bokšić",    "name":"Alen Bokšić",      "entity":"MAR","era":"1990s","positions":["ST"],          "ovr":86, "stats":{"apps":52,"goals":23} },
+    { "id":"l1-mar-1990s-barthez",   "name":"Fabien Barthez",   "entity":"MAR","era":"1990s","positions":["GK"],          "ovr":86, "stats":{"apps":171,"cs":54} },
+
+    { "id":"l1-mar-2010s-payet",     "name":"Dimitri Payet",    "entity":"MAR","era":"2010s","positions":["CAM","LW"],    "ovr":88, "stats":{"apps":265,"goals":54} },
+    { "id":"l1-mar-2010s-thauvin",   "name":"Florian Thauvin",  "entity":"MAR","era":"2010s","positions":["RW"],          "ovr":85, "stats":{"apps":251,"goals":75} },
+    { "id":"l1-mar-2010s-mandanda",  "name":"Steve Mandanda",   "entity":"MAR","era":"2010s","positions":["GK"],          "ovr":85, "stats":{"apps":613,"cs":196} },
+    { "id":"l1-mar-2010s-fanni",     "name":"Rod Fanni",        "entity":"MAR","era":"2010s","positions":["RB","CB"],     "ovr":81, "stats":{"apps":206,"goals":13} },
+    { "id":"l1-mar-2010s-evra",      "name":"Patrice Evra",     "entity":"MAR","era":"2010s","positions":["LB"],          "ovr":83, "stats":{"apps":74,"goals":2} },
+    { "id":"l1-mar-2010s-gignac",    "name":"André-Pierre Gignac","entity":"MAR","era":"2010s","positions":["ST"],        "ovr":84, "stats":{"apps":167,"goals":62} },
+    { "id":"l1-mar-2010s-rolando",   "name":"Rolando",          "entity":"MAR","era":"2010s","positions":["CB"],          "ovr":80, "stats":{"apps":171,"goals":7} },
+    { "id":"l1-mar-2010s-amavi",     "name":"Jordan Amavi",     "entity":"MAR","era":"2010s","positions":["LB"],          "ovr":81, "stats":{"apps":131,"goals":3} },
+
+    { "id":"l1-lyo-2000s-juninho",   "name":"Juninho Pernambucano","entity":"LYO","era":"2000s","positions":["CAM","CM"],"ovr":92, "stats":{"apps":344,"goals":100}, "tags":["icon"] },
+    { "id":"l1-lyo-2000s-diarra",    "name":"Mahamadou Diarra", "entity":"LYO","era":"2000s","positions":["CDM"],         "ovr":86, "stats":{"apps":204,"goals":14} },
+    { "id":"l1-lyo-2000s-coupet",    "name":"Grégory Coupet",   "entity":"LYO","era":"2000s","positions":["GK"],          "ovr":88, "stats":{"apps":519,"cs":204} },
+    { "id":"l1-lyo-2000s-cris",      "name":"Cris",             "entity":"LYO","era":"2000s","positions":["CB"],          "ovr":85, "stats":{"apps":227,"goals":15} },
+    { "id":"l1-lyo-2000s-malouda",   "name":"Florent Malouda",  "entity":"LYO","era":"2000s","positions":["LM","CAM"],    "ovr":86, "stats":{"apps":175,"goals":31} },
+    { "id":"l1-lyo-2000s-essien",    "name":"Michael Essien",   "entity":"LYO","era":"2000s","positions":["CDM","CM"],    "ovr":87, "stats":{"apps":71,"goals":4} },
+    { "id":"l1-lyo-2000s-benzema",   "name":"Karim Benzema",    "entity":"LYO","era":"2000s","positions":["ST"],          "ovr":86, "stats":{"apps":113,"goals":43} },
+    { "id":"l1-lyo-2000s-clerc",     "name":"François Clerc",   "entity":"LYO","era":"2000s","positions":["RB"],          "ovr":80, "stats":{"apps":138,"goals":2} }
+  ]
+}

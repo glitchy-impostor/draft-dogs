@@ -1,0 +1,1025 @@
+{
+  "slug": "mls",
+  "name": "Draft Dogs 34-0: MLS",
+  "sport": "soccer",
+  "runMode": "season",
+  "target": {
+    "games": 34,
+    "label": "34-0"
+  },
+  "eraBands": [
+    "1996-05",
+    "2006-14",
+    "2015-22",
+    "2023+"
+  ],
+  "eraRepeat": true,
+  "rerolls": {
+    "entity": 1,
+    "era": 1
+  },
+  "rounds": 11,
+  "perfectionTier": "MLS Untouchable 34-0 · TOP DOG",
+  "disclaimer": "Draft Dogs is an independent project, not affiliated with, endorsed by, or sponsored by Major League Soccer or any club.",
+  "roster": {
+    "type": "formation",
+    "formations": [
+      {
+        "id": "4-3-3",
+        "name": "4-3-3",
+        "slots": [
+          {
+            "key": "GK",
+            "eligible": [
+              "GK"
+            ],
+            "weight": 1.3,
+            "group": "GK"
+          },
+          {
+            "key": "LB",
+            "eligible": [
+              "LB",
+              "FB",
+              "WB"
+            ],
+            "weight": 1,
+            "group": "DEF",
+            "adjacent": [
+              "CB",
+              "LW"
+            ]
+          },
+          {
+            "key": "LCB",
+            "eligible": [
+              "CB"
+            ],
+            "weight": 1,
+            "group": "DEF",
+            "adjacent": [
+              "CDM"
+            ]
+          },
+          {
+            "key": "RCB",
+            "eligible": [
+              "CB"
+            ],
+            "weight": 1,
+            "group": "DEF",
+            "adjacent": [
+              "CDM"
+            ]
+          },
+          {
+            "key": "RB",
+            "eligible": [
+              "RB",
+              "FB",
+              "WB"
+            ],
+            "weight": 1,
+            "group": "DEF",
+            "adjacent": [
+              "CB",
+              "RW"
+            ]
+          },
+          {
+            "key": "CDM",
+            "eligible": [
+              "CDM",
+              "CM"
+            ],
+            "weight": 1.1,
+            "group": "MID",
+            "adjacent": [
+              "CB"
+            ]
+          },
+          {
+            "key": "LCM",
+            "eligible": [
+              "CM",
+              "CAM"
+            ],
+            "weight": 1.1,
+            "group": "MID",
+            "adjacent": [
+              "CDM",
+              "LW"
+            ]
+          },
+          {
+            "key": "RCM",
+            "eligible": [
+              "CM",
+              "CAM"
+            ],
+            "weight": 1.1,
+            "group": "MID",
+            "adjacent": [
+              "CDM",
+              "RW"
+            ]
+          },
+          {
+            "key": "LW",
+            "eligible": [
+              "LW",
+              "LM"
+            ],
+            "weight": 1.2,
+            "group": "ATT",
+            "adjacent": [
+              "ST"
+            ]
+          },
+          {
+            "key": "ST",
+            "eligible": [
+              "ST",
+              "CF"
+            ],
+            "weight": 1.2,
+            "group": "ATT",
+            "adjacent": [
+              "LW",
+              "RW"
+            ]
+          },
+          {
+            "key": "RW",
+            "eligible": [
+              "RW",
+              "RM"
+            ],
+            "weight": 1.2,
+            "group": "ATT",
+            "adjacent": [
+              "ST"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4-4-2",
+        "name": "4-4-2",
+        "slots": [
+          {
+            "key": "GK",
+            "eligible": [
+              "GK"
+            ],
+            "weight": 1.3,
+            "group": "GK"
+          },
+          {
+            "key": "LB",
+            "eligible": [
+              "LB",
+              "FB",
+              "WB"
+            ],
+            "weight": 1,
+            "group": "DEF",
+            "adjacent": [
+              "CB",
+              "LM"
+            ]
+          },
+          {
+            "key": "LCB",
+            "eligible": [
+              "CB"
+            ],
+            "weight": 1,
+            "group": "DEF",
+            "adjacent": [
+              "CDM",
+              "LB"
+            ]
+          },
+          {
+            "key": "RCB",
+            "eligible": [
+              "CB"
+            ],
+            "weight": 1,
+            "group": "DEF",
+            "adjacent": [
+              "CDM",
+              "RB"
+            ]
+          },
+          {
+            "key": "RB",
+            "eligible": [
+              "RB",
+              "FB",
+              "WB"
+            ],
+            "weight": 1,
+            "group": "DEF",
+            "adjacent": [
+              "CB",
+              "RM"
+            ]
+          },
+          {
+            "key": "LM",
+            "eligible": [
+              "LM",
+              "LW"
+            ],
+            "weight": 1.1,
+            "group": "MID",
+            "adjacent": [
+              "LB",
+              "CM"
+            ]
+          },
+          {
+            "key": "LCM",
+            "eligible": [
+              "CM",
+              "CDM",
+              "CAM"
+            ],
+            "weight": 1.1,
+            "group": "MID",
+            "adjacent": [
+              "LM"
+            ]
+          },
+          {
+            "key": "RCM",
+            "eligible": [
+              "CM",
+              "CDM",
+              "CAM"
+            ],
+            "weight": 1.1,
+            "group": "MID",
+            "adjacent": [
+              "RM"
+            ]
+          },
+          {
+            "key": "RM",
+            "eligible": [
+              "RM",
+              "RW"
+            ],
+            "weight": 1.1,
+            "group": "MID",
+            "adjacent": [
+              "RB",
+              "CM"
+            ]
+          },
+          {
+            "key": "LS",
+            "eligible": [
+              "ST",
+              "CF"
+            ],
+            "weight": 1.2,
+            "group": "ATT",
+            "adjacent": [
+              "LW",
+              "CAM"
+            ]
+          },
+          {
+            "key": "RS",
+            "eligible": [
+              "ST",
+              "CF"
+            ],
+            "weight": 1.2,
+            "group": "ATT",
+            "adjacent": [
+              "RW",
+              "CAM"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3-5-2",
+        "name": "3-5-2",
+        "slots": [
+          {
+            "key": "GK",
+            "eligible": [
+              "GK"
+            ],
+            "weight": 1.3,
+            "group": "GK"
+          },
+          {
+            "key": "LCB",
+            "eligible": [
+              "CB"
+            ],
+            "weight": 1,
+            "group": "DEF",
+            "adjacent": [
+              "LB",
+              "CDM"
+            ]
+          },
+          {
+            "key": "CCB",
+            "eligible": [
+              "CB"
+            ],
+            "weight": 1,
+            "group": "DEF",
+            "adjacent": [
+              "CDM"
+            ]
+          },
+          {
+            "key": "RCB",
+            "eligible": [
+              "CB"
+            ],
+            "weight": 1,
+            "group": "DEF",
+            "adjacent": [
+              "RB",
+              "CDM"
+            ]
+          },
+          {
+            "key": "LWB",
+            "eligible": [
+              "LB",
+              "WB",
+              "LM",
+              "FB"
+            ],
+            "weight": 1.05,
+            "group": "MID",
+            "adjacent": [
+              "CB",
+              "LW"
+            ]
+          },
+          {
+            "key": "LCM",
+            "eligible": [
+              "CM",
+              "CAM",
+              "CDM"
+            ],
+            "weight": 1.1,
+            "group": "MID",
+            "adjacent": [
+              "CDM",
+              "CAM"
+            ]
+          },
+          {
+            "key": "CDM",
+            "eligible": [
+              "CDM",
+              "CM"
+            ],
+            "weight": 1.1,
+            "group": "MID",
+            "adjacent": [
+              "CB",
+              "CM"
+            ]
+          },
+          {
+            "key": "RCM",
+            "eligible": [
+              "CM",
+              "CAM",
+              "CDM"
+            ],
+            "weight": 1.1,
+            "group": "MID",
+            "adjacent": [
+              "CDM",
+              "CAM"
+            ]
+          },
+          {
+            "key": "RWB",
+            "eligible": [
+              "RB",
+              "WB",
+              "RM",
+              "FB"
+            ],
+            "weight": 1.05,
+            "group": "MID",
+            "adjacent": [
+              "CB",
+              "RW"
+            ]
+          },
+          {
+            "key": "LS",
+            "eligible": [
+              "ST",
+              "CF"
+            ],
+            "weight": 1.2,
+            "group": "ATT",
+            "adjacent": [
+              "LW",
+              "CAM"
+            ]
+          },
+          {
+            "key": "RS",
+            "eligible": [
+              "ST",
+              "CF"
+            ],
+            "weight": 1.2,
+            "group": "ATT",
+            "adjacent": [
+              "RW",
+              "CAM"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4-2-3-1",
+        "name": "4-2-3-1",
+        "slots": [
+          {
+            "key": "GK",
+            "eligible": [
+              "GK"
+            ],
+            "weight": 1.3,
+            "group": "GK"
+          },
+          {
+            "key": "LB",
+            "eligible": [
+              "LB",
+              "FB",
+              "WB"
+            ],
+            "weight": 1,
+            "group": "DEF",
+            "adjacent": [
+              "CB",
+              "LM"
+            ]
+          },
+          {
+            "key": "LCB",
+            "eligible": [
+              "CB"
+            ],
+            "weight": 1,
+            "group": "DEF",
+            "adjacent": [
+              "CDM",
+              "LB"
+            ]
+          },
+          {
+            "key": "RCB",
+            "eligible": [
+              "CB"
+            ],
+            "weight": 1,
+            "group": "DEF",
+            "adjacent": [
+              "CDM",
+              "RB"
+            ]
+          },
+          {
+            "key": "RB",
+            "eligible": [
+              "RB",
+              "FB",
+              "WB"
+            ],
+            "weight": 1,
+            "group": "DEF",
+            "adjacent": [
+              "CB",
+              "RM"
+            ]
+          },
+          {
+            "key": "LDM",
+            "eligible": [
+              "CDM",
+              "CM"
+            ],
+            "weight": 1.1,
+            "group": "MID",
+            "adjacent": [
+              "CB",
+              "CAM"
+            ]
+          },
+          {
+            "key": "RDM",
+            "eligible": [
+              "CDM",
+              "CM"
+            ],
+            "weight": 1.1,
+            "group": "MID",
+            "adjacent": [
+              "CB",
+              "CAM"
+            ]
+          },
+          {
+            "key": "LAM",
+            "eligible": [
+              "CAM",
+              "LW",
+              "LM"
+            ],
+            "weight": 1.15,
+            "group": "MID",
+            "adjacent": [
+              "CM",
+              "ST"
+            ]
+          },
+          {
+            "key": "CAM",
+            "eligible": [
+              "CAM",
+              "CM"
+            ],
+            "weight": 1.15,
+            "group": "MID",
+            "adjacent": [
+              "CDM",
+              "ST"
+            ]
+          },
+          {
+            "key": "RAM",
+            "eligible": [
+              "CAM",
+              "RW",
+              "RM"
+            ],
+            "weight": 1.15,
+            "group": "MID",
+            "adjacent": [
+              "CM",
+              "ST"
+            ]
+          },
+          {
+            "key": "ST",
+            "eligible": [
+              "ST",
+              "CF"
+            ],
+            "weight": 1.2,
+            "group": "ATT",
+            "adjacent": [
+              "CAM",
+              "LW",
+              "RW"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5-3-2",
+        "name": "5-3-2",
+        "slots": [
+          {
+            "key": "GK",
+            "eligible": [
+              "GK"
+            ],
+            "weight": 1.3,
+            "group": "GK"
+          },
+          {
+            "key": "LWB",
+            "eligible": [
+              "LB",
+              "WB",
+              "LM",
+              "FB"
+            ],
+            "weight": 1,
+            "group": "DEF",
+            "adjacent": [
+              "CB",
+              "LW"
+            ]
+          },
+          {
+            "key": "LCB",
+            "eligible": [
+              "CB"
+            ],
+            "weight": 1,
+            "group": "DEF",
+            "adjacent": [
+              "LB",
+              "CDM"
+            ]
+          },
+          {
+            "key": "CCB",
+            "eligible": [
+              "CB"
+            ],
+            "weight": 1,
+            "group": "DEF",
+            "adjacent": [
+              "CDM"
+            ]
+          },
+          {
+            "key": "RCB",
+            "eligible": [
+              "CB"
+            ],
+            "weight": 1,
+            "group": "DEF",
+            "adjacent": [
+              "RB",
+              "CDM"
+            ]
+          },
+          {
+            "key": "RWB",
+            "eligible": [
+              "RB",
+              "WB",
+              "RM",
+              "FB"
+            ],
+            "weight": 1,
+            "group": "DEF",
+            "adjacent": [
+              "CB",
+              "RW"
+            ]
+          },
+          {
+            "key": "LCM",
+            "eligible": [
+              "CM",
+              "CAM",
+              "CDM"
+            ],
+            "weight": 1.1,
+            "group": "MID",
+            "adjacent": [
+              "CDM",
+              "CAM"
+            ]
+          },
+          {
+            "key": "CDM",
+            "eligible": [
+              "CDM",
+              "CM"
+            ],
+            "weight": 1.1,
+            "group": "MID",
+            "adjacent": [
+              "CB",
+              "CM"
+            ]
+          },
+          {
+            "key": "RCM",
+            "eligible": [
+              "CM",
+              "CAM",
+              "CDM"
+            ],
+            "weight": 1.1,
+            "group": "MID",
+            "adjacent": [
+              "CDM",
+              "CAM"
+            ]
+          },
+          {
+            "key": "LS",
+            "eligible": [
+              "ST",
+              "CF"
+            ],
+            "weight": 1.2,
+            "group": "ATT",
+            "adjacent": [
+              "LW",
+              "CAM"
+            ]
+          },
+          {
+            "key": "RS",
+            "eligible": [
+              "ST",
+              "CF"
+            ],
+            "weight": 1.2,
+            "group": "ATT",
+            "adjacent": [
+              "RW",
+              "CAM"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3-4-3",
+        "name": "3-4-3",
+        "slots": [
+          {
+            "key": "GK",
+            "eligible": [
+              "GK"
+            ],
+            "weight": 1.3,
+            "group": "GK"
+          },
+          {
+            "key": "LCB",
+            "eligible": [
+              "CB"
+            ],
+            "weight": 1,
+            "group": "DEF",
+            "adjacent": [
+              "LB",
+              "CDM"
+            ]
+          },
+          {
+            "key": "CCB",
+            "eligible": [
+              "CB"
+            ],
+            "weight": 1,
+            "group": "DEF",
+            "adjacent": [
+              "CDM"
+            ]
+          },
+          {
+            "key": "RCB",
+            "eligible": [
+              "CB"
+            ],
+            "weight": 1,
+            "group": "DEF",
+            "adjacent": [
+              "RB",
+              "CDM"
+            ]
+          },
+          {
+            "key": "LM",
+            "eligible": [
+              "LM",
+              "LB",
+              "LW",
+              "WB"
+            ],
+            "weight": 1.05,
+            "group": "MID",
+            "adjacent": [
+              "CB",
+              "LW"
+            ]
+          },
+          {
+            "key": "LCM",
+            "eligible": [
+              "CM",
+              "CDM",
+              "CAM"
+            ],
+            "weight": 1.1,
+            "group": "MID",
+            "adjacent": [
+              "CDM",
+              "LM"
+            ]
+          },
+          {
+            "key": "RCM",
+            "eligible": [
+              "CM",
+              "CDM",
+              "CAM"
+            ],
+            "weight": 1.1,
+            "group": "MID",
+            "adjacent": [
+              "CDM",
+              "RM"
+            ]
+          },
+          {
+            "key": "RM",
+            "eligible": [
+              "RM",
+              "RB",
+              "RW",
+              "WB"
+            ],
+            "weight": 1.05,
+            "group": "MID",
+            "adjacent": [
+              "CB",
+              "RW"
+            ]
+          },
+          {
+            "key": "LW",
+            "eligible": [
+              "LW",
+              "LM"
+            ],
+            "weight": 1.2,
+            "group": "ATT",
+            "adjacent": [
+              "ST",
+              "CAM"
+            ]
+          },
+          {
+            "key": "ST",
+            "eligible": [
+              "ST",
+              "CF"
+            ],
+            "weight": 1.2,
+            "group": "ATT",
+            "adjacent": [
+              "LW",
+              "RW",
+              "CAM"
+            ]
+          },
+          {
+            "key": "RW",
+            "eligible": [
+              "RW",
+              "RM"
+            ],
+            "weight": 1.2,
+            "group": "ATT",
+            "adjacent": [
+              "ST",
+              "CAM"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "tiers": [
+    {
+      "minWins": 34,
+      "label": "MLS Untouchable 34-0 · TOP DOG"
+    },
+    {
+      "stage": "top1",
+      "label": "Supporters' Shield"
+    },
+    {
+      "stage": "top4",
+      "label": "Top of the East/West"
+    },
+    {
+      "stage": "top7",
+      "label": "Playoff"
+    },
+    {
+      "minWins": 8,
+      "label": "Mid-table"
+    },
+    {
+      "minWins": 0,
+      "label": "Wooden Spoon"
+    }
+  ],
+  "sim": {
+    "k": 0.26,
+    "r50": 78,
+    "drawPeak": 0.22,
+    "opp": {
+      "season": {
+        "mean": 74,
+        "std": 7
+      }
+    }
+  },
+  "entities": [
+    {
+      "id": "LAG",
+      "name": "LA Galaxy",
+      "colors": [
+        "#00245D",
+        "#FFD200"
+      ],
+      "spinWeight": 1
+    },
+    {
+      "id": "TOR",
+      "name": "Toronto FC",
+      "colors": [
+        "#A6192E",
+        "#FFFFFF"
+      ],
+      "spinWeight": 0.85
+    },
+    {
+      "id": "SEA",
+      "name": "Seattle Sounders",
+      "colors": [
+        "#5D9741",
+        "#236192"
+      ],
+      "spinWeight": 0.85
+    },
+    {
+      "id": "NYC",
+      "name": "New York City FC",
+      "colors": [
+        "#6CADDF",
+        "#00285E"
+      ],
+      "spinWeight": 0.8
+    }
+  ],
+  "spinTable": [
+    {
+      "entity": "LAG",
+      "era": "2006-14"
+    },
+    {
+      "entity": "LAG",
+      "era": "2023+"
+    },
+    {
+      "entity": "TOR",
+      "era": "2015-22"
+    },
+    {
+      "entity": "SEA",
+      "era": "2015-22"
+    },
+    {
+      "entity": "NYC",
+      "era": "2015-22"
+    }
+  ],
+  "axisLabels": {
+    "entity": "Club",
+    "era": "Era"
+  },
+  "tableOpponents": [
+    "LAFC",
+    "Inter Miami CF",
+    "Seattle Sounders",
+    "Columbus Crew",
+    "FC Cincinnati",
+    "Atlanta United",
+    "Philadelphia Union",
+    "Real Salt Lake",
+    "Portland Timbers",
+    "New York City FC",
+    "Toronto FC",
+    "Vancouver Whitecaps",
+    "Houston Dynamo",
+    "Sporting Kansas City",
+    "Minnesota United",
+    "Orlando City",
+    "Nashville SC",
+    "FC Dallas",
+    "Austin FC",
+    "Colorado Rapids",
+    "Chicago Fire",
+    "St. Louis City",
+    "Charlotte FC",
+    "D.C. United"
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "_comment": "Real club/team names per league. Soccer leagues are flat arrays. American sports are nested by conference → division → teams; the sync script flattens these into tableOpponents AND writes tableLayout for grouped rendering. Each league keeps the real-world team count: Your XI replaces the last team in the flat list so the visible standings stay at 32 (NFL/NHL) / 30 (NBA/MLB).",
+  "epl": [
+    "Liverpool", "Arsenal", "Manchester City", "Chelsea", "Manchester United",
+    "Tottenham", "Newcastle", "Aston Villa", "Brighton", "West Ham",
+    "Crystal Palace", "Wolves", "Fulham", "Brentford", "Everton",
+    "Nottingham Forest", "Bournemouth", "Leicester", "Southampton"
+  ],
+  "laliga": [
+    "Real Madrid", "Barcelona", "Atlético Madrid", "Athletic Bilbao",
+    "Villarreal", "Real Sociedad", "Real Betis", "Sevilla", "Valencia",
+    "Celta Vigo", "Mallorca", "Girona", "Osasuna", "Getafe",
+    "Rayo Vallecano", "Las Palmas", "Espanyol", "Alavés", "Valladolid"
+  ],
+  "seriea": [
+    "Inter", "Juventus", "AC Milan", "Napoli", "Atalanta", "Roma",
+    "Lazio", "Fiorentina", "Bologna", "Torino", "Udinese", "Genoa",
+    "Cagliari", "Verona", "Lecce", "Empoli", "Parma", "Monza", "Como"
+  ],
+  "bundesliga": [
+    "Bayern Munich", "Bayer Leverkusen", "Borussia Dortmund", "RB Leipzig",
+    "Stuttgart", "Eintracht Frankfurt", "Hoffenheim", "Freiburg",
+    "Mainz", "Borussia Mönchengladbach", "Union Berlin", "Werder Bremen",
+    "Augsburg", "VfL Wolfsburg", "Heidenheim", "St. Pauli", "Holstein Kiel"
+  ],
+  "ligue1": [
+    "Paris Saint-Germain", "Marseille", "Monaco", "Lille", "Lyon", "Nice",
+    "Lens", "Rennes", "Strasbourg", "Toulouse", "Reims", "Nantes",
+    "Brest", "Le Havre", "Auxerre", "Montpellier", "Saint-Étienne"
+  ],
+  "mls": [
+    "LAFC", "Inter Miami CF", "Seattle Sounders", "Columbus Crew",
+    "FC Cincinnati", "Atlanta United", "Philadelphia Union", "Real Salt Lake",
+    "Portland Timbers", "New York City FC", "Toronto FC", "Vancouver Whitecaps",
+    "Houston Dynamo", "Sporting Kansas City", "Minnesota United", "Orlando City",
+    "Nashville SC", "FC Dallas", "Austin FC", "Colorado Rapids",
+    "Chicago Fire", "St. Louis City", "Charlotte FC", "D.C. United"
+  ],
+  "mixedbag": [
+    "Liverpool", "Manchester City", "Real Madrid", "Barcelona", "Bayern Munich",
+    "Paris Saint-Germain", "Inter", "AC Milan", "Juventus", "Manchester United",
+    "Arsenal", "Chelsea", "Borussia Dortmund", "Napoli", "Atlético Madrid",
+    "Tottenham", "Marseille", "Roma", "Newcastle"
+  ],
+  "nfl": {
+    "conferences": [
+      {
+        "name": "AFC",
+        "divisions": [
+          {"name": "East", "teams": ["Buffalo Bills", "Miami Dolphins", "New England Patriots", "New York Jets"]},
+          {"name": "North", "teams": ["Baltimore Ravens", "Cincinnati Bengals", "Cleveland Browns", "Pittsburgh Steelers"]},
+          {"name": "South", "teams": ["Houston Texans", "Indianapolis Colts", "Jacksonville Jaguars", "Tennessee Titans"]},
+          {"name": "West", "teams": ["Denver Broncos", "Kansas City Chiefs", "Las Vegas Raiders", "Los Angeles Chargers"]}
+        ]
+      },
+      {
+        "name": "NFC",
+        "divisions": [
+          {"name": "East", "teams": ["Dallas Cowboys", "New York Giants", "Philadelphia Eagles", "Washington Commanders"]},
+          {"name": "North", "teams": ["Chicago Bears", "Detroit Lions", "Green Bay Packers", "Minnesota Vikings"]},
+          {"name": "South", "teams": ["Atlanta Falcons", "Carolina Panthers", "New Orleans Saints", "Tampa Bay Buccaneers"]},
+          {"name": "West", "teams": ["Arizona Cardinals", "Los Angeles Rams", "San Francisco 49ers", "Seattle Seahawks"]}
+        ]
+      }
+    ]
+  },
+  "nba": {
+    "conferences": [
+      {
+        "name": "Eastern",
+        "divisions": [
+          {"name": "Atlantic", "teams": ["Boston Celtics", "Brooklyn Nets", "New York Knicks", "Philadelphia 76ers", "Toronto Raptors"]},
+          {"name": "Central", "teams": ["Chicago Bulls", "Cleveland Cavaliers", "Detroit Pistons", "Indiana Pacers", "Milwaukee Bucks"]},
+          {"name": "Southeast", "teams": ["Atlanta Hawks", "Charlotte Hornets", "Miami Heat", "Orlando Magic", "Washington Wizards"]}
+        ]
+      },
+      {
+        "name": "Western",
+        "divisions": [
+          {"name": "Northwest", "teams": ["Denver Nuggets", "Minnesota Timberwolves", "Oklahoma City Thunder", "Portland Trail Blazers", "Utah Jazz"]},
+          {"name": "Pacific", "teams": ["Golden State Warriors", "Los Angeles Clippers", "Los Angeles Lakers", "Phoenix Suns", "Sacramento Kings"]},
+          {"name": "Southwest", "teams": ["Dallas Mavericks", "Houston Rockets", "Memphis Grizzlies", "New Orleans Pelicans", "San Antonio Spurs"]}
+        ]
+      }
+    ]
+  },
+  "nhl": {
+    "conferences": [
+      {
+        "name": "Eastern",
+        "divisions": [
+          {"name": "Atlantic", "teams": ["Boston Bruins", "Buffalo Sabres", "Detroit Red Wings", "Florida Panthers", "Montreal Canadiens", "Ottawa Senators", "Tampa Bay Lightning", "Toronto Maple Leafs"]},
+          {"name": "Metropolitan", "teams": ["Carolina Hurricanes", "Columbus Blue Jackets", "New Jersey Devils", "New York Islanders", "New York Rangers", "Philadelphia Flyers", "Pittsburgh Penguins", "Washington Capitals"]}
+        ]
+      },
+      {
+        "name": "Western",
+        "divisions": [
+          {"name": "Central", "teams": ["Utah Hockey Club", "Chicago Blackhawks", "Colorado Avalanche", "Dallas Stars", "Minnesota Wild", "Nashville Predators", "St. Louis Blues", "Winnipeg Jets"]},
+          {"name": "Pacific", "teams": ["Calgary Flames", "Edmonton Oilers", "Vancouver Canucks", "Anaheim Ducks", "Los Angeles Kings", "San Jose Sharks", "Seattle Kraken", "Vegas Golden Knights"]}
+        ]
+      }
+    ]
+  },
+  "mlb": {
+    "conferences": [
+      {
+        "name": "American League",
+        "divisions": [
+          {"name": "East", "teams": ["New York Yankees", "Boston Red Sox", "Toronto Blue Jays", "Baltimore Orioles", "Tampa Bay Rays"]},
+          {"name": "Central", "teams": ["Chicago White Sox", "Cleveland Guardians", "Detroit Tigers", "Minnesota Twins", "Kansas City Royals"]},
+          {"name": "West", "teams": ["Houston Astros", "Texas Rangers", "Seattle Mariners", "Los Angeles Angels", "Oakland Athletics"]}
+        ]
+      },
+      {
+        "name": "National League",
+        "divisions": [
+          {"name": "East", "teams": ["Atlanta Braves", "Philadelphia Phillies", "New York Mets", "Miami Marlins", "Washington Nationals"]},
+          {"name": "Central", "teams": ["Chicago Cubs", "St. Louis Cardinals", "Cincinnati Reds", "Milwaukee Brewers", "Pittsburgh Pirates"]},
+          {"name": "West", "teams": ["Los Angeles Dodgers", "San Francisco Giants", "San Diego Padres", "Arizona Diamondbacks", "Colorado Rockies"]}
+        ]
+      }
+    ]
+  }
+}

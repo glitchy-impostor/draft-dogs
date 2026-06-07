@@ -1,0 +1,22 @@
+node_modules
+dist
+.DS_Store
+*.local
+.env
+.env.local
+.env.*.local
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.log
+coverage
+# Build caches / generated artifacts
+tsconfig.tsbuildinfo
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+# Local SQLite leaderboard (production lives on Railway volume; dev uses :memory:)
+*.db
+*.sqlite

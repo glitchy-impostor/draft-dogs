@@ -1,0 +1,423 @@
+{
+  "slug": "nfl",
+  "name": "Draft Dogs 17-0: NFL",
+  "sport": "nfl",
+  "runMode": "season",
+  "target": {
+    "games": 17,
+    "label": "17-0"
+  },
+  "eraBands": [
+    "1970s",
+    "1980s",
+    "1990s",
+    "2000s",
+    "2010s",
+    "2020s"
+  ],
+  "eraRepeat": true,
+  "rerolls": {
+    "entity": 1,
+    "era": 1
+  },
+  "rounds": 8,
+  "perfectionTier": "21-0 Immortals · TOP DOG",
+  "disclaimer": "Draft Dogs is an independent project, not affiliated with, endorsed by, or sponsored by the National Football League or any team.",
+  "axisLabels": {
+    "entity": "Franchise",
+    "era": "Era"
+  },
+  "roster": {
+    "type": "typed",
+    "slots": [
+      {
+        "key": "QB",
+        "eligible": [
+          "QB"
+        ],
+        "weight": 1.6,
+        "group": "FREE"
+      },
+      {
+        "key": "RB",
+        "eligible": [
+          "RB",
+          "FB"
+        ],
+        "weight": 1,
+        "group": "FREE"
+      },
+      {
+        "key": "WR1",
+        "eligible": [
+          "WR"
+        ],
+        "weight": 1.15,
+        "group": "FREE"
+      },
+      {
+        "key": "WR2",
+        "eligible": [
+          "WR"
+        ],
+        "weight": 1.15,
+        "group": "FREE"
+      },
+      {
+        "key": "TE",
+        "eligible": [
+          "TE"
+        ],
+        "weight": 1,
+        "group": "FREE"
+      },
+      {
+        "key": "OL",
+        "eligible": [
+          "T",
+          "G",
+          "C",
+          "OL"
+        ],
+        "weight": 1.2,
+        "group": "FREE"
+      },
+      {
+        "key": "F7",
+        "eligible": [
+          "DL",
+          "DT",
+          "DE",
+          "EDGE",
+          "LB",
+          "ILB",
+          "OLB"
+        ],
+        "weight": 1.2,
+        "group": "FREE"
+      },
+      {
+        "key": "DB",
+        "eligible": [
+          "CB",
+          "S",
+          "FS",
+          "SS",
+          "DB"
+        ],
+        "weight": 1.1,
+        "group": "FREE"
+      }
+    ]
+  },
+  "tiers": [
+    {
+      "stage": "champion",
+      "label": "Super Bowl Champion"
+    },
+    {
+      "stage": "final",
+      "label": "Super Bowl Loser"
+    },
+    {
+      "stage": "conference",
+      "label": "Conference Final exit"
+    },
+    {
+      "stage": "divisional",
+      "label": "Divisional Round exit"
+    },
+    {
+      "stage": "wildcard",
+      "label": "Wild Card exit"
+    },
+    {
+      "minWins": 9,
+      "label": "Just Missed Playoffs"
+    },
+    {
+      "minWins": 6,
+      "label": "Mid-table"
+    },
+    {
+      "minWins": 3,
+      "label": "Rebuilding"
+    },
+    {
+      "minWins": 0,
+      "label": "Tanking for #1"
+    }
+  ],
+  "sim": {
+    "k": 0.22,
+    "r50": 85,
+    "drawPeak": 0,
+    "opp": {
+      "season": {
+        "mean": 87,
+        "std": 5
+      }
+    },
+    "playoffThreshold": 10,
+    "playoffStages": [
+      {
+        "id": "wildcard",
+        "label": "Wild Card",
+        "opp": {
+          "mean": 88,
+          "std": 5
+        }
+      },
+      {
+        "id": "divisional",
+        "label": "Divisional Round",
+        "opp": {
+          "mean": 90,
+          "std": 4
+        }
+      },
+      {
+        "id": "conference",
+        "label": "Conference Final",
+        "opp": {
+          "mean": 93,
+          "std": 3
+        }
+      },
+      {
+        "id": "final",
+        "label": "Super Bowl",
+        "opp": {
+          "mean": 95,
+          "std": 3
+        }
+      }
+    ]
+  },
+  "entities": [
+    {
+      "id": "NE",
+      "name": "New England Patriots",
+      "colors": [
+        "#002244",
+        "#C60C30"
+      ],
+      "spinWeight": 1
+    },
+    {
+      "id": "KC",
+      "name": "Kansas City Chiefs",
+      "colors": [
+        "#E31837",
+        "#FFB81C"
+      ],
+      "spinWeight": 1
+    },
+    {
+      "id": "PIT",
+      "name": "Pittsburgh Steelers",
+      "colors": [
+        "#000000",
+        "#FFB612"
+      ],
+      "spinWeight": 1
+    },
+    {
+      "id": "SF",
+      "name": "San Francisco 49ers",
+      "colors": [
+        "#AA0000",
+        "#B3995D"
+      ],
+      "spinWeight": 1
+    },
+    {
+      "id": "DAL",
+      "name": "Dallas Cowboys",
+      "colors": [
+        "#003594",
+        "#869397"
+      ],
+      "spinWeight": 1
+    },
+    {
+      "id": "GB",
+      "name": "Green Bay Packers",
+      "colors": [
+        "#203731",
+        "#FFB612"
+      ],
+      "spinWeight": 1
+    }
+  ],
+  "spinTable": [
+    {
+      "entity": "NE",
+      "era": "2000s"
+    },
+    {
+      "entity": "NE",
+      "era": "2010s"
+    },
+    {
+      "entity": "KC",
+      "era": "2010s"
+    },
+    {
+      "entity": "KC",
+      "era": "2020s"
+    },
+    {
+      "entity": "PIT",
+      "era": "1970s"
+    },
+    {
+      "entity": "PIT",
+      "era": "2000s"
+    },
+    {
+      "entity": "SF",
+      "era": "1980s"
+    },
+    {
+      "entity": "SF",
+      "era": "1990s"
+    },
+    {
+      "entity": "DAL",
+      "era": "1990s"
+    },
+    {
+      "entity": "DAL",
+      "era": "2020s"
+    },
+    {
+      "entity": "GB",
+      "era": "1990s"
+    },
+    {
+      "entity": "GB",
+      "era": "2010s"
+    }
+  ],
+  "tableOpponents": [
+    "Buffalo Bills",
+    "Miami Dolphins",
+    "New England Patriots",
+    "New York Jets",
+    "Baltimore Ravens",
+    "Cincinnati Bengals",
+    "Cleveland Browns",
+    "Pittsburgh Steelers",
+    "Houston Texans",
+    "Indianapolis Colts",
+    "Jacksonville Jaguars",
+    "Tennessee Titans",
+    "Denver Broncos",
+    "Kansas City Chiefs",
+    "Las Vegas Raiders",
+    "Los Angeles Chargers",
+    "Dallas Cowboys",
+    "New York Giants",
+    "Philadelphia Eagles",
+    "Washington Commanders",
+    "Chicago Bears",
+    "Detroit Lions",
+    "Green Bay Packers",
+    "Minnesota Vikings",
+    "Atlanta Falcons",
+    "Carolina Panthers",
+    "New Orleans Saints",
+    "Tampa Bay Buccaneers",
+    "Arizona Cardinals",
+    "Los Angeles Rams",
+    "San Francisco 49ers",
+    "Seattle Seahawks"
+  ],
+  "tableLayout": {
+    "conferences": [
+      {
+        "name": "AFC",
+        "divisions": [
+          {
+            "name": "East",
+            "teams": [
+              "Buffalo Bills",
+              "Miami Dolphins",
+              "New England Patriots",
+              "New York Jets"
+            ]
+          },
+          {
+            "name": "North",
+            "teams": [
+              "Baltimore Ravens",
+              "Cincinnati Bengals",
+              "Cleveland Browns",
+              "Pittsburgh Steelers"
+            ]
+          },
+          {
+            "name": "South",
+            "teams": [
+              "Houston Texans",
+              "Indianapolis Colts",
+              "Jacksonville Jaguars",
+              "Tennessee Titans"
+            ]
+          },
+          {
+            "name": "West",
+            "teams": [
+              "Denver Broncos",
+              "Kansas City Chiefs",
+              "Las Vegas Raiders",
+              "Los Angeles Chargers"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "NFC",
+        "divisions": [
+          {
+            "name": "East",
+            "teams": [
+              "Dallas Cowboys",
+              "New York Giants",
+              "Philadelphia Eagles",
+              "Washington Commanders"
+            ]
+          },
+          {
+            "name": "North",
+            "teams": [
+              "Chicago Bears",
+              "Detroit Lions",
+              "Green Bay Packers",
+              "Minnesota Vikings"
+            ]
+          },
+          {
+            "name": "South",
+            "teams": [
+              "Atlanta Falcons",
+              "Carolina Panthers",
+              "New Orleans Saints",
+              "Tampa Bay Buccaneers"
+            ]
+          },
+          {
+            "name": "West",
+            "teams": [
+              "Arizona Cardinals",
+              "Los Angeles Rams",
+              "San Francisco 49ers",
+              "Seattle Seahawks"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

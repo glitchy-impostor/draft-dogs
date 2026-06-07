@@ -1,0 +1,50 @@
+{
+  "competition": "bundesliga",
+  "poolVersion": 1,
+  "players": [
+    { "id":"bl-bay-1990s-kahn",       "name":"Oliver Kahn",        "entity":"BAY","era":"1990s","positions":["GK"],          "ovr":94, "stats":{"apps":557,"cs":196}, "tags":["icon"] },
+    { "id":"bl-bay-1990s-matthaus",   "name":"Lothar Matthäus",    "entity":"BAY","era":"1990s","positions":["CM","CDM"],    "ovr":93, "stats":{"apps":400,"goals":85} },
+    { "id":"bl-bay-1990s-klinsmann",  "name":"Jürgen Klinsmann",   "entity":"BAY","era":"1990s","positions":["ST"],          "ovr":90, "stats":{"apps":65,"goals":31} },
+    { "id":"bl-bay-1990s-effenberg",  "name":"Stefan Effenberg",   "entity":"BAY","era":"1990s","positions":["CM"],          "ovr":88, "stats":{"apps":175,"goals":29} },
+    { "id":"bl-bay-1990s-babbel",     "name":"Markus Babbel",      "entity":"BAY","era":"1990s","positions":["CB","RB"],     "ovr":86, "stats":{"apps":175,"goals":11} },
+    { "id":"bl-bay-1990s-jeremies",   "name":"Jens Jeremies",      "entity":"BAY","era":"1990s","positions":["CDM"],         "ovr":83, "stats":{"apps":146,"goals":4} },
+    { "id":"bl-bay-1990s-scholl",     "name":"Mehmet Scholl",      "entity":"BAY","era":"1990s","positions":["CAM"],         "ovr":86, "stats":{"apps":334,"goals":85} },
+    { "id":"bl-bay-1990s-elber",      "name":"Giovane Élber",      "entity":"BAY","era":"1990s","positions":["ST"],          "ovr":88, "stats":{"apps":166,"goals":92} },
+
+    { "id":"bl-bay-2010s-lewandowski","name":"Robert Lewandowski", "entity":"BAY","era":"2010s","positions":["ST"],          "ovr":97, "stats":{"apps":253,"goals":238}, "tags":["icon"] },
+    { "id":"bl-bay-2010s-neuer",      "name":"Manuel Neuer",       "entity":"BAY","era":"2010s","positions":["GK"],          "ovr":95, "stats":{"apps":332,"cs":140} },
+    { "id":"bl-bay-2010s-robben",     "name":"Arjen Robben",       "entity":"BAY","era":"2010s","positions":["RW"],          "ovr":94, "stats":{"apps":201,"goals":99} },
+    { "id":"bl-bay-2010s-ribery",     "name":"Franck Ribéry",      "entity":"BAY","era":"2010s","positions":["LW"],          "ovr":94, "stats":{"apps":273,"goals":86} },
+    { "id":"bl-bay-2010s-lahm",       "name":"Philipp Lahm",       "entity":"BAY","era":"2010s","positions":["RB","LB"],     "ovr":91, "stats":{"apps":517,"goals":16} },
+    { "id":"bl-bay-2010s-mullert",    "name":"Thomas Müller",      "entity":"BAY","era":"2010s","positions":["RW","CAM","ST"],"ovr":92, "stats":{"apps":511,"goals":204} },
+    { "id":"bl-bay-2010s-alaba",      "name":"David Alaba",        "entity":"BAY","era":"2010s","positions":["LB","CB"],     "ovr":89, "stats":{"apps":270,"goals":21} },
+    { "id":"bl-bay-2010s-schweini",   "name":"Bastian Schweinsteiger","entity":"BAY","era":"2010s","positions":["CM","CDM"], "ovr":91, "stats":{"apps":342,"goals":45} },
+
+    { "id":"bl-bay-2020s-kane",       "name":"Harry Kane",         "entity":"BAY","era":"2020s","positions":["ST"],          "ovr":94, "stats":{"apps":80,"goals":78}, "tags":["icon"] },
+    { "id":"bl-bay-2020s-musiala",    "name":"Jamal Musiala",      "entity":"BAY","era":"2020s","positions":["CAM","LW"],    "ovr":91, "stats":{"apps":140,"goals":40} },
+    { "id":"bl-bay-2020s-kimmich",    "name":"Joshua Kimmich",     "entity":"BAY","era":"2020s","positions":["RB","CDM"],    "ovr":91, "stats":{"apps":380,"goals":31,"assists":92} },
+    { "id":"bl-bay-2020s-neuer",      "name":"Manuel Neuer",       "entity":"BAY","era":"2020s","positions":["GK"],          "ovr":90, "stats":{"apps":332,"cs":140} },
+    { "id":"bl-bay-2020s-sane",       "name":"Leroy Sané",         "entity":"BAY","era":"2020s","positions":["RW","LW"],     "ovr":88, "stats":{"apps":175,"goals":54} },
+    { "id":"bl-bay-2020s-davies",     "name":"Alphonso Davies",    "entity":"BAY","era":"2020s","positions":["LB","WB"],     "ovr":87, "stats":{"apps":169,"goals":11} },
+    { "id":"bl-bay-2020s-upamecano",  "name":"Dayot Upamecano",    "entity":"BAY","era":"2020s","positions":["CB"],          "ovr":86, "stats":{"apps":120,"goals":6} },
+    { "id":"bl-bay-2020s-gnabry",     "name":"Serge Gnabry",       "entity":"BAY","era":"2020s","positions":["RW","LW"],     "ovr":87, "stats":{"apps":230,"goals":83} },
+
+    { "id":"bl-dor-2010s-reus",       "name":"Marco Reus",         "entity":"DOR","era":"2010s","positions":["CAM","LW","RW"],"ovr":91,"stats":{"apps":421,"goals":170}, "tags":["icon"] },
+    { "id":"bl-dor-2010s-auba",       "name":"Pierre-Emerick Aubameyang","entity":"DOR","era":"2010s","positions":["ST"],    "ovr":92, "stats":{"apps":213,"goals":141} },
+    { "id":"bl-dor-2010s-lewandowski","name":"Robert Lewandowski", "entity":"DOR","era":"2010s","positions":["ST"],          "ovr":90, "stats":{"apps":187,"goals":103} },
+    { "id":"bl-dor-2010s-gundogan",   "name":"İlkay Gündoğan",     "entity":"DOR","era":"2010s","positions":["CM","CDM"],    "ovr":86, "stats":{"apps":162,"goals":14} },
+    { "id":"bl-dor-2010s-hummels",    "name":"Mats Hummels",       "entity":"DOR","era":"2010s","positions":["CB"],          "ovr":89, "stats":{"apps":348,"goals":25} },
+    { "id":"bl-dor-2010s-piszczek",   "name":"Łukasz Piszczek",    "entity":"DOR","era":"2010s","positions":["RB","WB"],     "ovr":84, "stats":{"apps":383,"goals":19} },
+    { "id":"bl-dor-2010s-mkhitaryan", "name":"Henrikh Mkhitaryan", "entity":"DOR","era":"2010s","positions":["CAM","RW"],    "ovr":87, "stats":{"apps":140,"goals":41} },
+    { "id":"bl-dor-2010s-weidenfeller","name":"Roman Weidenfeller","entity":"DOR","era":"2010s","positions":["GK"],          "ovr":85, "stats":{"apps":453,"cs":154} },
+
+    { "id":"bl-dor-2020s-bellingham", "name":"Jude Bellingham",    "entity":"DOR","era":"2020s","positions":["CAM","CM"],    "ovr":91, "stats":{"apps":132,"goals":24}, "tags":["icon"] },
+    { "id":"bl-dor-2020s-reus",       "name":"Marco Reus",         "entity":"DOR","era":"2020s","positions":["CAM","LW"],    "ovr":86, "stats":{"apps":421,"goals":170} },
+    { "id":"bl-dor-2020s-sancho",     "name":"Jadon Sancho",       "entity":"DOR","era":"2020s","positions":["RW","LW"],     "ovr":86, "stats":{"apps":182,"goals":53} },
+    { "id":"bl-dor-2020s-guirassy",   "name":"Serhou Guirassy",    "entity":"DOR","era":"2020s","positions":["ST"],          "ovr":89, "stats":{"apps":55,"goals":38} },
+    { "id":"bl-dor-2020s-emrecan",    "name":"Emre Can",           "entity":"DOR","era":"2020s","positions":["CDM","CB"],    "ovr":85, "stats":{"apps":143,"goals":15} },
+    { "id":"bl-dor-2020s-haaland",    "name":"Erling Haaland",     "entity":"DOR","era":"2020s","positions":["ST"],          "ovr":95, "stats":{"apps":89,"goals":86} },
+    { "id":"bl-dor-2020s-koboel",     "name":"Niklas Süle",        "entity":"DOR","era":"2020s","positions":["CB"],          "ovr":83, "stats":{"apps":107,"goals":4} },
+    { "id":"bl-dor-2020s-brandt",     "name":"Julian Brandt",      "entity":"DOR","era":"2020s","positions":["CAM","LM"],    "ovr":87, "stats":{"apps":220,"goals":34} }
+  ]
+}

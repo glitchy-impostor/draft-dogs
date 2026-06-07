@@ -1,0 +1,426 @@
+{
+  "slug": "mlb",
+  "name": "Draft Dogs 162-0: MLB",
+  "sport": "mlb",
+  "runMode": "season",
+  "target": {
+    "games": 162,
+    "label": "162-0"
+  },
+  "eraBands": [
+    "1960s",
+    "1970s",
+    "1980s",
+    "1990s",
+    "2000s",
+    "2010s",
+    "2020s"
+  ],
+  "eraRepeat": true,
+  "rerolls": {
+    "entity": 1,
+    "era": 1
+  },
+  "rounds": 10,
+  "perfectionTier": "162-0 Mythic · TOP DOG",
+  "disclaimer": "Draft Dogs is an independent project, not affiliated with, endorsed by, or sponsored by Major League Baseball or any team.",
+  "axisLabels": {
+    "entity": "Franchise",
+    "era": "Era"
+  },
+  "roster": {
+    "type": "typed",
+    "slots": [
+      {
+        "key": "SP",
+        "eligible": [
+          "SP",
+          "P"
+        ],
+        "weight": 1.4,
+        "group": "FREE"
+      },
+      {
+        "key": "C",
+        "eligible": [
+          "C"
+        ],
+        "weight": 1,
+        "group": "FREE"
+      },
+      {
+        "key": "1B",
+        "eligible": [
+          "1B"
+        ],
+        "weight": 1,
+        "group": "FREE"
+      },
+      {
+        "key": "2B",
+        "eligible": [
+          "2B"
+        ],
+        "weight": 1,
+        "group": "FREE"
+      },
+      {
+        "key": "3B",
+        "eligible": [
+          "3B"
+        ],
+        "weight": 1,
+        "group": "FREE"
+      },
+      {
+        "key": "SS",
+        "eligible": [
+          "SS"
+        ],
+        "weight": 1,
+        "group": "FREE"
+      },
+      {
+        "key": "LF",
+        "eligible": [
+          "LF",
+          "OF"
+        ],
+        "weight": 1,
+        "group": "FREE"
+      },
+      {
+        "key": "CF",
+        "eligible": [
+          "CF",
+          "OF"
+        ],
+        "weight": 1,
+        "group": "FREE"
+      },
+      {
+        "key": "RF",
+        "eligible": [
+          "RF",
+          "OF"
+        ],
+        "weight": 1,
+        "group": "FREE"
+      },
+      {
+        "key": "DH",
+        "eligible": [
+          "DH",
+          "1B",
+          "2B",
+          "3B",
+          "SS",
+          "LF",
+          "CF",
+          "RF",
+          "OF",
+          "C"
+        ],
+        "weight": 1,
+        "group": "FREE"
+      }
+    ]
+  },
+  "tiers": [
+    {
+      "stage": "champion",
+      "label": "World Series Champion"
+    },
+    {
+      "stage": "final",
+      "label": "World Series Loser"
+    },
+    {
+      "stage": "championship",
+      "label": "Championship Series exit"
+    },
+    {
+      "stage": "division",
+      "label": "Division Series exit"
+    },
+    {
+      "stage": "wildcard",
+      "label": "Wild Card exit"
+    },
+    {
+      "minWins": 80,
+      "label": "Just Missed Playoffs"
+    },
+    {
+      "minWins": 65,
+      "label": "Bubble Team"
+    },
+    {
+      "minWins": 50,
+      "label": "Cellar Dweller"
+    },
+    {
+      "minWins": 0,
+      "label": "Tanking"
+    }
+  ],
+  "sim": {
+    "k": 0.18,
+    "r50": 80,
+    "drawPeak": 0,
+    "opp": {
+      "season": {
+        "mean": 82,
+        "std": 5
+      }
+    },
+    "playoffThreshold": 85,
+    "playoffStages": [
+      {
+        "id": "wildcard",
+        "label": "Wild Card",
+        "opp": {
+          "mean": 85,
+          "std": 4
+        }
+      },
+      {
+        "id": "division",
+        "label": "Division Series",
+        "opp": {
+          "mean": 88,
+          "std": 3
+        }
+      },
+      {
+        "id": "championship",
+        "label": "Championship Series",
+        "opp": {
+          "mean": 91,
+          "std": 3
+        }
+      },
+      {
+        "id": "final",
+        "label": "World Series",
+        "opp": {
+          "mean": 94,
+          "std": 3
+        }
+      }
+    ]
+  },
+  "entities": [
+    {
+      "id": "NYY",
+      "name": "New York Yankees",
+      "colors": [
+        "#003087",
+        "#FFFFFF"
+      ],
+      "spinWeight": 1
+    },
+    {
+      "id": "BOS",
+      "name": "Boston Red Sox",
+      "colors": [
+        "#BD3039",
+        "#0C2340"
+      ],
+      "spinWeight": 0.95
+    },
+    {
+      "id": "LAD",
+      "name": "Los Angeles Dodgers",
+      "colors": [
+        "#005A9C",
+        "#FFFFFF"
+      ],
+      "spinWeight": 1
+    },
+    {
+      "id": "SF",
+      "name": "San Francisco Giants",
+      "colors": [
+        "#FD5A1E",
+        "#27251F"
+      ],
+      "spinWeight": 0.85
+    },
+    {
+      "id": "STL",
+      "name": "St. Louis Cardinals",
+      "colors": [
+        "#C41E3A",
+        "#0C2340"
+      ],
+      "spinWeight": 0.85
+    },
+    {
+      "id": "ATL",
+      "name": "Atlanta Braves",
+      "colors": [
+        "#13274F",
+        "#CE1141"
+      ],
+      "spinWeight": 0.85
+    },
+    {
+      "id": "HOU",
+      "name": "Houston Astros",
+      "colors": [
+        "#002D62",
+        "#EB6E1F"
+      ],
+      "spinWeight": 0.8
+    }
+  ],
+  "spinTable": [
+    {
+      "entity": "NYY",
+      "era": "2000s"
+    },
+    {
+      "entity": "NYY",
+      "era": "2010s"
+    },
+    {
+      "entity": "BOS",
+      "era": "2000s"
+    },
+    {
+      "entity": "BOS",
+      "era": "2010s"
+    },
+    {
+      "entity": "LAD",
+      "era": "2010s"
+    },
+    {
+      "entity": "LAD",
+      "era": "2020s"
+    },
+    {
+      "entity": "SF",
+      "era": "2010s"
+    },
+    {
+      "entity": "STL",
+      "era": "2000s"
+    },
+    {
+      "entity": "ATL",
+      "era": "1990s"
+    },
+    {
+      "entity": "HOU",
+      "era": "2010s"
+    }
+  ],
+  "tableOpponents": [
+    "New York Yankees",
+    "Boston Red Sox",
+    "Toronto Blue Jays",
+    "Baltimore Orioles",
+    "Tampa Bay Rays",
+    "Chicago White Sox",
+    "Cleveland Guardians",
+    "Detroit Tigers",
+    "Minnesota Twins",
+    "Kansas City Royals",
+    "Houston Astros",
+    "Texas Rangers",
+    "Seattle Mariners",
+    "Los Angeles Angels",
+    "Oakland Athletics",
+    "Atlanta Braves",
+    "Philadelphia Phillies",
+    "New York Mets",
+    "Miami Marlins",
+    "Washington Nationals",
+    "Chicago Cubs",
+    "St. Louis Cardinals",
+    "Cincinnati Reds",
+    "Milwaukee Brewers",
+    "Pittsburgh Pirates",
+    "Los Angeles Dodgers",
+    "San Francisco Giants",
+    "San Diego Padres",
+    "Arizona Diamondbacks",
+    "Colorado Rockies"
+  ],
+  "tableLayout": {
+    "conferences": [
+      {
+        "name": "American League",
+        "divisions": [
+          {
+            "name": "East",
+            "teams": [
+              "New York Yankees",
+              "Boston Red Sox",
+              "Toronto Blue Jays",
+              "Baltimore Orioles",
+              "Tampa Bay Rays"
+            ]
+          },
+          {
+            "name": "Central",
+            "teams": [
+              "Chicago White Sox",
+              "Cleveland Guardians",
+              "Detroit Tigers",
+              "Minnesota Twins",
+              "Kansas City Royals"
+            ]
+          },
+          {
+            "name": "West",
+            "teams": [
+              "Houston Astros",
+              "Texas Rangers",
+              "Seattle Mariners",
+              "Los Angeles Angels",
+              "Oakland Athletics"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "National League",
+        "divisions": [
+          {
+            "name": "East",
+            "teams": [
+              "Atlanta Braves",
+              "Philadelphia Phillies",
+              "New York Mets",
+              "Miami Marlins",
+              "Washington Nationals"
+            ]
+          },
+          {
+            "name": "Central",
+            "teams": [
+              "Chicago Cubs",
+              "St. Louis Cardinals",
+              "Cincinnati Reds",
+              "Milwaukee Brewers",
+              "Pittsburgh Pirates"
+            ]
+          },
+          {
+            "name": "West",
+            "teams": [
+              "Los Angeles Dodgers",
+              "San Francisco Giants",
+              "San Diego Padres",
+              "Arizona Diamondbacks",
+              "Colorado Rockies"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

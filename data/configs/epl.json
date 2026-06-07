@@ -1,0 +1,1149 @@
+{
+  "slug": "epl",
+  "name": "Draft Dogs 38-0: Premier League",
+  "sport": "soccer",
+  "runMode": "season",
+  "target": {
+    "games": 38,
+    "label": "38-0"
+  },
+  "eraBands": [
+    "1992-99",
+    "2000s",
+    "2010s",
+    "2020s"
+  ],
+  "eraRepeat": true,
+  "rerolls": {
+    "entity": 1,
+    "era": 1
+  },
+  "rounds": 11,
+  "perfectionTier": "Invincible · TOP DOG",
+  "disclaimer": "Draft Dogs is an independent project, not affiliated with, endorsed by, or sponsored by the Premier League, any club, or any football governing body.",
+  "roster": {
+    "type": "formation",
+    "formations": [
+      {
+        "id": "4-3-3",
+        "name": "4-3-3",
+        "slots": [
+          {
+            "key": "GK",
+            "eligible": [
+              "GK"
+            ],
+            "weight": 1.3,
+            "group": "GK"
+          },
+          {
+            "key": "LB",
+            "eligible": [
+              "LB",
+              "FB",
+              "WB"
+            ],
+            "weight": 1,
+            "group": "DEF",
+            "adjacent": [
+              "CB",
+              "LW",
+              "LM"
+            ]
+          },
+          {
+            "key": "LCB",
+            "eligible": [
+              "CB"
+            ],
+            "weight": 1,
+            "group": "DEF",
+            "adjacent": [
+              "CDM",
+              "FB",
+              "LB"
+            ]
+          },
+          {
+            "key": "RCB",
+            "eligible": [
+              "CB"
+            ],
+            "weight": 1,
+            "group": "DEF",
+            "adjacent": [
+              "CDM",
+              "FB",
+              "RB"
+            ]
+          },
+          {
+            "key": "RB",
+            "eligible": [
+              "RB",
+              "FB",
+              "WB"
+            ],
+            "weight": 1,
+            "group": "DEF",
+            "adjacent": [
+              "CB",
+              "RW",
+              "RM"
+            ]
+          },
+          {
+            "key": "CDM",
+            "eligible": [
+              "CDM",
+              "CM"
+            ],
+            "weight": 1.1,
+            "group": "MID",
+            "adjacent": [
+              "CB",
+              "CAM"
+            ]
+          },
+          {
+            "key": "LCM",
+            "eligible": [
+              "CM",
+              "CAM"
+            ],
+            "weight": 1.1,
+            "group": "MID",
+            "adjacent": [
+              "CDM",
+              "LW",
+              "LM"
+            ]
+          },
+          {
+            "key": "RCM",
+            "eligible": [
+              "CM",
+              "CAM"
+            ],
+            "weight": 1.1,
+            "group": "MID",
+            "adjacent": [
+              "CDM",
+              "RW",
+              "RM"
+            ]
+          },
+          {
+            "key": "LW",
+            "eligible": [
+              "LW",
+              "LM"
+            ],
+            "weight": 1.2,
+            "group": "ATT",
+            "adjacent": [
+              "ST",
+              "CAM",
+              "LB",
+              "LCM"
+            ]
+          },
+          {
+            "key": "ST",
+            "eligible": [
+              "ST",
+              "CF"
+            ],
+            "weight": 1.2,
+            "group": "ATT",
+            "adjacent": [
+              "LW",
+              "RW",
+              "CAM"
+            ]
+          },
+          {
+            "key": "RW",
+            "eligible": [
+              "RW",
+              "RM"
+            ],
+            "weight": 1.2,
+            "group": "ATT",
+            "adjacent": [
+              "ST",
+              "CAM",
+              "RB",
+              "RCM"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4-4-2",
+        "name": "4-4-2",
+        "slots": [
+          {
+            "key": "GK",
+            "eligible": [
+              "GK"
+            ],
+            "weight": 1.3,
+            "group": "GK"
+          },
+          {
+            "key": "LB",
+            "eligible": [
+              "LB",
+              "FB",
+              "WB"
+            ],
+            "weight": 1,
+            "group": "DEF",
+            "adjacent": [
+              "CB",
+              "LM"
+            ]
+          },
+          {
+            "key": "LCB",
+            "eligible": [
+              "CB"
+            ],
+            "weight": 1,
+            "group": "DEF",
+            "adjacent": [
+              "CDM",
+              "LB"
+            ]
+          },
+          {
+            "key": "RCB",
+            "eligible": [
+              "CB"
+            ],
+            "weight": 1,
+            "group": "DEF",
+            "adjacent": [
+              "CDM",
+              "RB"
+            ]
+          },
+          {
+            "key": "RB",
+            "eligible": [
+              "RB",
+              "FB",
+              "WB"
+            ],
+            "weight": 1,
+            "group": "DEF",
+            "adjacent": [
+              "CB",
+              "RM"
+            ]
+          },
+          {
+            "key": "LM",
+            "eligible": [
+              "LM",
+              "LW"
+            ],
+            "weight": 1.1,
+            "group": "MID",
+            "adjacent": [
+              "LB",
+              "CM"
+            ]
+          },
+          {
+            "key": "LCM",
+            "eligible": [
+              "CM",
+              "CDM",
+              "CAM"
+            ],
+            "weight": 1.1,
+            "group": "MID",
+            "adjacent": [
+              "LM"
+            ]
+          },
+          {
+            "key": "RCM",
+            "eligible": [
+              "CM",
+              "CDM",
+              "CAM"
+            ],
+            "weight": 1.1,
+            "group": "MID",
+            "adjacent": [
+              "RM"
+            ]
+          },
+          {
+            "key": "RM",
+            "eligible": [
+              "RM",
+              "RW"
+            ],
+            "weight": 1.1,
+            "group": "MID",
+            "adjacent": [
+              "RB",
+              "CM"
+            ]
+          },
+          {
+            "key": "LS",
+            "eligible": [
+              "ST",
+              "CF"
+            ],
+            "weight": 1.2,
+            "group": "ATT",
+            "adjacent": [
+              "LW",
+              "CAM"
+            ]
+          },
+          {
+            "key": "RS",
+            "eligible": [
+              "ST",
+              "CF"
+            ],
+            "weight": 1.2,
+            "group": "ATT",
+            "adjacent": [
+              "RW",
+              "CAM"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4-2-3-1",
+        "name": "4-2-3-1",
+        "slots": [
+          {
+            "key": "GK",
+            "eligible": [
+              "GK"
+            ],
+            "weight": 1.3,
+            "group": "GK"
+          },
+          {
+            "key": "LB",
+            "eligible": [
+              "LB",
+              "FB",
+              "WB"
+            ],
+            "weight": 1,
+            "group": "DEF",
+            "adjacent": [
+              "CB",
+              "LM"
+            ]
+          },
+          {
+            "key": "LCB",
+            "eligible": [
+              "CB"
+            ],
+            "weight": 1,
+            "group": "DEF",
+            "adjacent": [
+              "CDM",
+              "LB"
+            ]
+          },
+          {
+            "key": "RCB",
+            "eligible": [
+              "CB"
+            ],
+            "weight": 1,
+            "group": "DEF",
+            "adjacent": [
+              "CDM",
+              "RB"
+            ]
+          },
+          {
+            "key": "RB",
+            "eligible": [
+              "RB",
+              "FB",
+              "WB"
+            ],
+            "weight": 1,
+            "group": "DEF",
+            "adjacent": [
+              "CB",
+              "RM"
+            ]
+          },
+          {
+            "key": "LDM",
+            "eligible": [
+              "CDM",
+              "CM"
+            ],
+            "weight": 1.1,
+            "group": "MID",
+            "adjacent": [
+              "CB",
+              "CAM"
+            ]
+          },
+          {
+            "key": "RDM",
+            "eligible": [
+              "CDM",
+              "CM"
+            ],
+            "weight": 1.1,
+            "group": "MID",
+            "adjacent": [
+              "CB",
+              "CAM"
+            ]
+          },
+          {
+            "key": "LAM",
+            "eligible": [
+              "CAM",
+              "LW",
+              "LM"
+            ],
+            "weight": 1.15,
+            "group": "MID",
+            "adjacent": [
+              "CM",
+              "ST"
+            ]
+          },
+          {
+            "key": "CAM",
+            "eligible": [
+              "CAM",
+              "CM"
+            ],
+            "weight": 1.15,
+            "group": "MID",
+            "adjacent": [
+              "CDM",
+              "ST"
+            ]
+          },
+          {
+            "key": "RAM",
+            "eligible": [
+              "CAM",
+              "RW",
+              "RM"
+            ],
+            "weight": 1.15,
+            "group": "MID",
+            "adjacent": [
+              "CM",
+              "ST"
+            ]
+          },
+          {
+            "key": "ST",
+            "eligible": [
+              "ST",
+              "CF"
+            ],
+            "weight": 1.2,
+            "group": "ATT",
+            "adjacent": [
+              "CAM",
+              "LW",
+              "RW"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3-5-2",
+        "name": "3-5-2",
+        "slots": [
+          {
+            "key": "GK",
+            "eligible": [
+              "GK"
+            ],
+            "weight": 1.3,
+            "group": "GK"
+          },
+          {
+            "key": "LCB",
+            "eligible": [
+              "CB"
+            ],
+            "weight": 1,
+            "group": "DEF",
+            "adjacent": [
+              "LB",
+              "CDM"
+            ]
+          },
+          {
+            "key": "CCB",
+            "eligible": [
+              "CB"
+            ],
+            "weight": 1,
+            "group": "DEF",
+            "adjacent": [
+              "CDM"
+            ]
+          },
+          {
+            "key": "RCB",
+            "eligible": [
+              "CB"
+            ],
+            "weight": 1,
+            "group": "DEF",
+            "adjacent": [
+              "RB",
+              "CDM"
+            ]
+          },
+          {
+            "key": "LWB",
+            "eligible": [
+              "LB",
+              "WB",
+              "LM",
+              "FB"
+            ],
+            "weight": 1.05,
+            "group": "MID",
+            "adjacent": [
+              "CB",
+              "LW"
+            ]
+          },
+          {
+            "key": "LCM",
+            "eligible": [
+              "CM",
+              "CAM",
+              "CDM"
+            ],
+            "weight": 1.1,
+            "group": "MID",
+            "adjacent": [
+              "CDM",
+              "CAM"
+            ]
+          },
+          {
+            "key": "CDM",
+            "eligible": [
+              "CDM",
+              "CM"
+            ],
+            "weight": 1.1,
+            "group": "MID",
+            "adjacent": [
+              "CB",
+              "CM"
+            ]
+          },
+          {
+            "key": "RCM",
+            "eligible": [
+              "CM",
+              "CAM",
+              "CDM"
+            ],
+            "weight": 1.1,
+            "group": "MID",
+            "adjacent": [
+              "CDM",
+              "CAM"
+            ]
+          },
+          {
+            "key": "RWB",
+            "eligible": [
+              "RB",
+              "WB",
+              "RM",
+              "FB"
+            ],
+            "weight": 1.05,
+            "group": "MID",
+            "adjacent": [
+              "CB",
+              "RW"
+            ]
+          },
+          {
+            "key": "LS",
+            "eligible": [
+              "ST",
+              "CF"
+            ],
+            "weight": 1.2,
+            "group": "ATT",
+            "adjacent": [
+              "LW",
+              "CAM"
+            ]
+          },
+          {
+            "key": "RS",
+            "eligible": [
+              "ST",
+              "CF"
+            ],
+            "weight": 1.2,
+            "group": "ATT",
+            "adjacent": [
+              "RW",
+              "CAM"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5-3-2",
+        "name": "5-3-2",
+        "slots": [
+          {
+            "key": "GK",
+            "eligible": [
+              "GK"
+            ],
+            "weight": 1.3,
+            "group": "GK"
+          },
+          {
+            "key": "LWB",
+            "eligible": [
+              "LB",
+              "WB",
+              "LM",
+              "FB"
+            ],
+            "weight": 1,
+            "group": "DEF",
+            "adjacent": [
+              "CB",
+              "LW"
+            ]
+          },
+          {
+            "key": "LCB",
+            "eligible": [
+              "CB"
+            ],
+            "weight": 1,
+            "group": "DEF",
+            "adjacent": [
+              "LB",
+              "CDM"
+            ]
+          },
+          {
+            "key": "CCB",
+            "eligible": [
+              "CB"
+            ],
+            "weight": 1,
+            "group": "DEF",
+            "adjacent": [
+              "CDM"
+            ]
+          },
+          {
+            "key": "RCB",
+            "eligible": [
+              "CB"
+            ],
+            "weight": 1,
+            "group": "DEF",
+            "adjacent": [
+              "RB",
+              "CDM"
+            ]
+          },
+          {
+            "key": "RWB",
+            "eligible": [
+              "RB",
+              "WB",
+              "RM",
+              "FB"
+            ],
+            "weight": 1,
+            "group": "DEF",
+            "adjacent": [
+              "CB",
+              "RW"
+            ]
+          },
+          {
+            "key": "LCM",
+            "eligible": [
+              "CM",
+              "CAM",
+              "CDM"
+            ],
+            "weight": 1.1,
+            "group": "MID",
+            "adjacent": [
+              "CDM",
+              "CAM"
+            ]
+          },
+          {
+            "key": "CDM",
+            "eligible": [
+              "CDM",
+              "CM"
+            ],
+            "weight": 1.1,
+            "group": "MID",
+            "adjacent": [
+              "CB",
+              "CM"
+            ]
+          },
+          {
+            "key": "RCM",
+            "eligible": [
+              "CM",
+              "CAM",
+              "CDM"
+            ],
+            "weight": 1.1,
+            "group": "MID",
+            "adjacent": [
+              "CDM",
+              "CAM"
+            ]
+          },
+          {
+            "key": "LS",
+            "eligible": [
+              "ST",
+              "CF"
+            ],
+            "weight": 1.2,
+            "group": "ATT",
+            "adjacent": [
+              "LW",
+              "CAM"
+            ]
+          },
+          {
+            "key": "RS",
+            "eligible": [
+              "ST",
+              "CF"
+            ],
+            "weight": 1.2,
+            "group": "ATT",
+            "adjacent": [
+              "RW",
+              "CAM"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3-4-3",
+        "name": "3-4-3",
+        "slots": [
+          {
+            "key": "GK",
+            "eligible": [
+              "GK"
+            ],
+            "weight": 1.3,
+            "group": "GK"
+          },
+          {
+            "key": "LCB",
+            "eligible": [
+              "CB"
+            ],
+            "weight": 1,
+            "group": "DEF",
+            "adjacent": [
+              "LB",
+              "CDM"
+            ]
+          },
+          {
+            "key": "CCB",
+            "eligible": [
+              "CB"
+            ],
+            "weight": 1,
+            "group": "DEF",
+            "adjacent": [
+              "CDM"
+            ]
+          },
+          {
+            "key": "RCB",
+            "eligible": [
+              "CB"
+            ],
+            "weight": 1,
+            "group": "DEF",
+            "adjacent": [
+              "RB",
+              "CDM"
+            ]
+          },
+          {
+            "key": "LM",
+            "eligible": [
+              "LM",
+              "LB",
+              "LW",
+              "WB"
+            ],
+            "weight": 1.05,
+            "group": "MID",
+            "adjacent": [
+              "CB",
+              "LW"
+            ]
+          },
+          {
+            "key": "LCM",
+            "eligible": [
+              "CM",
+              "CDM",
+              "CAM"
+            ],
+            "weight": 1.1,
+            "group": "MID",
+            "adjacent": [
+              "CDM",
+              "LM"
+            ]
+          },
+          {
+            "key": "RCM",
+            "eligible": [
+              "CM",
+              "CDM",
+              "CAM"
+            ],
+            "weight": 1.1,
+            "group": "MID",
+            "adjacent": [
+              "CDM",
+              "RM"
+            ]
+          },
+          {
+            "key": "RM",
+            "eligible": [
+              "RM",
+              "RB",
+              "RW",
+              "WB"
+            ],
+            "weight": 1.05,
+            "group": "MID",
+            "adjacent": [
+              "CB",
+              "RW"
+            ]
+          },
+          {
+            "key": "LW",
+            "eligible": [
+              "LW",
+              "LM"
+            ],
+            "weight": 1.2,
+            "group": "ATT",
+            "adjacent": [
+              "ST",
+              "CAM"
+            ]
+          },
+          {
+            "key": "ST",
+            "eligible": [
+              "ST",
+              "CF"
+            ],
+            "weight": 1.2,
+            "group": "ATT",
+            "adjacent": [
+              "LW",
+              "RW",
+              "CAM"
+            ]
+          },
+          {
+            "key": "RW",
+            "eligible": [
+              "RW",
+              "RM"
+            ],
+            "weight": 1.2,
+            "group": "ATT",
+            "adjacent": [
+              "ST",
+              "CAM"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "tiers": [
+    {
+      "minWins": 38,
+      "label": "Invincible 38-0 · TOP DOG"
+    },
+    {
+      "stage": "top1",
+      "label": "Champions"
+    },
+    {
+      "stage": "top4",
+      "label": "Top Four · UCL"
+    },
+    {
+      "stage": "top7",
+      "label": "Top Half"
+    },
+    {
+      "minWins": 10,
+      "label": "Mid-table Mush"
+    },
+    {
+      "exact": 0,
+      "label": "Relegated"
+    },
+    {
+      "minWins": 0,
+      "label": "Relegation Battle"
+    }
+  ],
+  "sim": {
+    "k": 0.26,
+    "r50": 80,
+    "drawPeak": 0.26,
+    "opp": {
+      "season": {
+        "mean": 76,
+        "std": 7
+      }
+    }
+  },
+  "entities": [
+    {
+      "id": "MUN",
+      "name": "Manchester United",
+      "colors": [
+        "#DA291C",
+        "#FBE122"
+      ],
+      "spinWeight": 1
+    },
+    {
+      "id": "ARS",
+      "name": "Arsenal",
+      "colors": [
+        "#EF0107",
+        "#FFFFFF"
+      ],
+      "spinWeight": 1
+    },
+    {
+      "id": "CHE",
+      "name": "Chelsea",
+      "colors": [
+        "#034694",
+        "#FFFFFF"
+      ],
+      "spinWeight": 1
+    },
+    {
+      "id": "LIV",
+      "name": "Liverpool",
+      "colors": [
+        "#C8102E",
+        "#F6EB61"
+      ],
+      "spinWeight": 1
+    },
+    {
+      "id": "MCI",
+      "name": "Manchester City",
+      "colors": [
+        "#6CABDD",
+        "#FFFFFF"
+      ],
+      "spinWeight": 0.9
+    },
+    {
+      "id": "TOT",
+      "name": "Tottenham",
+      "colors": [
+        "#132257",
+        "#FFFFFF"
+      ],
+      "spinWeight": 0.9
+    },
+    {
+      "id": "NEW",
+      "name": "Newcastle",
+      "colors": [
+        "#241F20",
+        "#FFFFFF"
+      ],
+      "spinWeight": 0.7
+    },
+    {
+      "id": "BLA",
+      "name": "Blackburn Rovers",
+      "colors": [
+        "#009EE0",
+        "#FFFFFF"
+      ],
+      "spinWeight": 0.6
+    },
+    {
+      "id": "LEI",
+      "name": "Leicester City",
+      "colors": [
+        "#003090",
+        "#FDBE11"
+      ],
+      "spinWeight": 0.6
+    }
+  ],
+  "spinTable": [
+    {
+      "entity": "MUN",
+      "era": "1992-99"
+    },
+    {
+      "entity": "MUN",
+      "era": "2000s"
+    },
+    {
+      "entity": "MUN",
+      "era": "2010s"
+    },
+    {
+      "entity": "ARS",
+      "era": "1992-99"
+    },
+    {
+      "entity": "ARS",
+      "era": "2000s"
+    },
+    {
+      "entity": "ARS",
+      "era": "2010s"
+    },
+    {
+      "entity": "ARS",
+      "era": "2020s"
+    },
+    {
+      "entity": "CHE",
+      "era": "2000s"
+    },
+    {
+      "entity": "CHE",
+      "era": "2010s"
+    },
+    {
+      "entity": "CHE",
+      "era": "2020s"
+    },
+    {
+      "entity": "LIV",
+      "era": "1992-99"
+    },
+    {
+      "entity": "LIV",
+      "era": "2000s"
+    },
+    {
+      "entity": "LIV",
+      "era": "2010s"
+    },
+    {
+      "entity": "LIV",
+      "era": "2020s"
+    },
+    {
+      "entity": "MCI",
+      "era": "2010s"
+    },
+    {
+      "entity": "MCI",
+      "era": "2020s"
+    },
+    {
+      "entity": "TOT",
+      "era": "2010s"
+    },
+    {
+      "entity": "TOT",
+      "era": "2020s"
+    },
+    {
+      "entity": "NEW",
+      "era": "1992-99"
+    },
+    {
+      "entity": "BLA",
+      "era": "1992-99"
+    },
+    {
+      "entity": "LEI",
+      "era": "2010s"
+    }
+  ],
+  "axisLabels": {
+    "entity": "Club",
+    "era": "Era"
+  },
+  "tableOpponents": [
+    "Liverpool",
+    "Arsenal",
+    "Manchester City",
+    "Chelsea",
+    "Manchester United",
+    "Tottenham",
+    "Newcastle",
+    "Aston Villa",
+    "Brighton",
+    "West Ham",
+    "Crystal Palace",
+    "Wolves",
+    "Fulham",
+    "Brentford",
+    "Everton",
+    "Nottingham Forest",
+    "Bournemouth",
+    "Leicester",
+    "Southampton"
+  ]
+}

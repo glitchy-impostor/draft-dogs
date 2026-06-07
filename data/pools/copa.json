@@ -1,0 +1,1468 @@
+{
+  "competition": "copa",
+  "poolVersion": 1,
+  "players": [
+    {
+      "id": "co-wc-bra-1970s-pele",
+      "name": "Pelé",
+      "entity": "BRA",
+      "era": "1970s",
+      "positions": [
+        "ST",
+        "CAM"
+      ],
+      "ovr": 99,
+      "stats": {
+        "caps": 92,
+        "goals": 77
+      },
+      "tags": [
+        "icon"
+      ]
+    },
+    {
+      "id": "co-wc-bra-1970s-tostao",
+      "name": "Tostão",
+      "entity": "BRA",
+      "era": "1970s",
+      "positions": [
+        "ST",
+        "CAM"
+      ],
+      "ovr": 90,
+      "stats": {
+        "caps": 54,
+        "goals": 32
+      }
+    },
+    {
+      "id": "co-wc-bra-1970s-jairzinho",
+      "name": "Jairzinho",
+      "entity": "BRA",
+      "era": "1970s",
+      "positions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 92,
+      "stats": {
+        "caps": 81,
+        "goals": 33
+      }
+    },
+    {
+      "id": "co-wc-bra-1970s-rivellino",
+      "name": "Rivellino",
+      "entity": "BRA",
+      "era": "1970s",
+      "positions": [
+        "CAM",
+        "LM"
+      ],
+      "ovr": 90,
+      "stats": {
+        "caps": 92,
+        "goals": 26
+      }
+    },
+    {
+      "id": "co-wc-bra-1970s-carlosalberto",
+      "name": "Carlos Alberto",
+      "entity": "BRA",
+      "era": "1970s",
+      "positions": [
+        "RB",
+        "CB"
+      ],
+      "ovr": 92,
+      "stats": {
+        "caps": 53,
+        "goals": 8
+      }
+    },
+    {
+      "id": "co-wc-bra-1970s-gerson",
+      "name": "Gérson",
+      "entity": "BRA",
+      "era": "1970s",
+      "positions": [
+        "CM",
+        "CAM"
+      ],
+      "ovr": 88,
+      "stats": {
+        "caps": 78,
+        "goals": 14
+      }
+    },
+    {
+      "id": "co-wc-bra-1970s-clodoaldo",
+      "name": "Clodoaldo",
+      "entity": "BRA",
+      "era": "1970s",
+      "positions": [
+        "CDM",
+        "CM"
+      ],
+      "ovr": 85,
+      "stats": {
+        "caps": 50,
+        "goals": 2
+      }
+    },
+    {
+      "id": "co-wc-bra-1970s-felix",
+      "name": "Félix",
+      "entity": "BRA",
+      "era": "1970s",
+      "positions": [
+        "GK"
+      ],
+      "ovr": 81,
+      "stats": {
+        "caps": 38
+      }
+    },
+    {
+      "id": "co-wc-bra-1970s-pianalto",
+      "name": "Piazza",
+      "entity": "BRA",
+      "era": "1970s",
+      "positions": [
+        "CB",
+        "CDM"
+      ],
+      "ovr": 84,
+      "stats": {
+        "caps": 51,
+        "goals": 2
+      }
+    },
+    {
+      "id": "co-wc-bra-1990s-romario",
+      "name": "Romário",
+      "entity": "BRA",
+      "era": "1990s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 96,
+      "stats": {
+        "caps": 70,
+        "goals": 55
+      },
+      "tags": [
+        "icon"
+      ]
+    },
+    {
+      "id": "co-wc-bra-1990s-bebeto",
+      "name": "Bebeto",
+      "entity": "BRA",
+      "era": "1990s",
+      "positions": [
+        "ST",
+        "CAM"
+      ],
+      "ovr": 90,
+      "stats": {
+        "caps": 75,
+        "goals": 39
+      }
+    },
+    {
+      "id": "co-wc-bra-1990s-cafu",
+      "name": "Cafu",
+      "entity": "BRA",
+      "era": "1990s",
+      "positions": [
+        "RB",
+        "WB"
+      ],
+      "ovr": 93,
+      "stats": {
+        "caps": 142,
+        "goals": 5
+      }
+    },
+    {
+      "id": "co-wc-bra-1990s-robertocarlos",
+      "name": "Roberto Carlos",
+      "entity": "BRA",
+      "era": "1990s",
+      "positions": [
+        "LB",
+        "WB"
+      ],
+      "ovr": 95,
+      "stats": {
+        "caps": 125,
+        "goals": 11
+      }
+    },
+    {
+      "id": "co-wc-bra-1990s-rivaldo",
+      "name": "Rivaldo",
+      "entity": "BRA",
+      "era": "1990s",
+      "positions": [
+        "CAM",
+        "LW",
+        "ST"
+      ],
+      "ovr": 92,
+      "stats": {
+        "caps": 74,
+        "goals": 35
+      }
+    },
+    {
+      "id": "co-wc-bra-1990s-dunga",
+      "name": "Dunga",
+      "entity": "BRA",
+      "era": "1990s",
+      "positions": [
+        "CDM",
+        "CM"
+      ],
+      "ovr": 88,
+      "stats": {
+        "caps": 91,
+        "goals": 6
+      }
+    },
+    {
+      "id": "co-wc-bra-1990s-aldair",
+      "name": "Aldair",
+      "entity": "BRA",
+      "era": "1990s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 87,
+      "stats": {
+        "caps": 81,
+        "goals": 3
+      }
+    },
+    {
+      "id": "co-wc-bra-1990s-taffarel",
+      "name": "Taffarel",
+      "entity": "BRA",
+      "era": "1990s",
+      "positions": [
+        "GK"
+      ],
+      "ovr": 87,
+      "stats": {
+        "caps": 101
+      }
+    },
+    {
+      "id": "co-wc-bra-1990s-leonardo",
+      "name": "Leonardo",
+      "entity": "BRA",
+      "era": "1990s",
+      "positions": [
+        "LM",
+        "LB",
+        "CM"
+      ],
+      "ovr": 86,
+      "stats": {
+        "caps": 60,
+        "goals": 8
+      }
+    },
+    {
+      "id": "co-wc-bra-2000s-ronaldo",
+      "name": "Ronaldo",
+      "entity": "BRA",
+      "era": "2000s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 99,
+      "stats": {
+        "caps": 98,
+        "goals": 62
+      },
+      "tags": [
+        "icon"
+      ]
+    },
+    {
+      "id": "co-wc-bra-2000s-ronaldinho",
+      "name": "Ronaldinho",
+      "entity": "BRA",
+      "era": "2000s",
+      "positions": [
+        "CAM",
+        "LW"
+      ],
+      "ovr": 97,
+      "stats": {
+        "caps": 97,
+        "goals": 33
+      },
+      "tags": [
+        "icon"
+      ]
+    },
+    {
+      "id": "co-wc-bra-2000s-kaka",
+      "name": "Kaká",
+      "entity": "BRA",
+      "era": "2000s",
+      "positions": [
+        "CAM",
+        "CM"
+      ],
+      "ovr": 95,
+      "stats": {
+        "caps": 92,
+        "goals": 29
+      }
+    },
+    {
+      "id": "co-wc-bra-2000s-cafu",
+      "name": "Cafu",
+      "entity": "BRA",
+      "era": "2000s",
+      "positions": [
+        "RB",
+        "WB"
+      ],
+      "ovr": 92,
+      "stats": {
+        "caps": 142,
+        "goals": 5
+      }
+    },
+    {
+      "id": "co-wc-bra-2000s-robcarlos",
+      "name": "Roberto Carlos",
+      "entity": "BRA",
+      "era": "2000s",
+      "positions": [
+        "LB",
+        "WB"
+      ],
+      "ovr": 94,
+      "stats": {
+        "caps": 125,
+        "goals": 11
+      }
+    },
+    {
+      "id": "co-wc-bra-2000s-lucio",
+      "name": "Lúcio",
+      "entity": "BRA",
+      "era": "2000s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 90,
+      "stats": {
+        "caps": 105,
+        "goals": 4
+      }
+    },
+    {
+      "id": "co-wc-bra-2000s-dida",
+      "name": "Dida",
+      "entity": "BRA",
+      "era": "2000s",
+      "positions": [
+        "GK"
+      ],
+      "ovr": 88,
+      "stats": {
+        "caps": 91
+      }
+    },
+    {
+      "id": "co-wc-bra-2000s-robinho",
+      "name": "Robinho",
+      "entity": "BRA",
+      "era": "2000s",
+      "positions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 88,
+      "stats": {
+        "caps": 100,
+        "goals": 28
+      }
+    },
+    {
+      "id": "co-wc-bra-2000s-gilberto",
+      "name": "Gilberto Silva",
+      "entity": "BRA",
+      "era": "2000s",
+      "positions": [
+        "CDM",
+        "CM"
+      ],
+      "ovr": 87,
+      "stats": {
+        "caps": 93,
+        "goals": 3
+      }
+    },
+    {
+      "id": "co-wc-bra-2020s-neymar",
+      "name": "Neymar",
+      "entity": "BRA",
+      "era": "2020s",
+      "positions": [
+        "LW",
+        "CAM",
+        "ST"
+      ],
+      "ovr": 95,
+      "stats": {
+        "caps": 128,
+        "goals": 79
+      },
+      "tags": [
+        "icon"
+      ]
+    },
+    {
+      "id": "co-wc-bra-2020s-vini",
+      "name": "Vinícius Jr.",
+      "entity": "BRA",
+      "era": "2020s",
+      "positions": [
+        "LW"
+      ],
+      "ovr": 93,
+      "stats": {
+        "caps": 36,
+        "goals": 5
+      }
+    },
+    {
+      "id": "co-wc-bra-2020s-rodrygo",
+      "name": "Rodrygo",
+      "entity": "BRA",
+      "era": "2020s",
+      "positions": [
+        "RW",
+        "CAM",
+        "ST"
+      ],
+      "ovr": 88,
+      "stats": {
+        "caps": 31,
+        "goals": 7
+      }
+    },
+    {
+      "id": "co-wc-bra-2020s-casemiro",
+      "name": "Casemiro",
+      "entity": "BRA",
+      "era": "2020s",
+      "positions": [
+        "CDM",
+        "CM"
+      ],
+      "ovr": 91,
+      "stats": {
+        "caps": 76,
+        "goals": 7
+      }
+    },
+    {
+      "id": "co-wc-bra-2020s-marquinhos",
+      "name": "Marquinhos",
+      "entity": "BRA",
+      "era": "2020s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 90,
+      "stats": {
+        "caps": 85,
+        "goals": 6
+      }
+    },
+    {
+      "id": "co-wc-bra-2020s-thiagosilva",
+      "name": "Thiago Silva",
+      "entity": "BRA",
+      "era": "2020s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 88,
+      "stats": {
+        "caps": 113,
+        "goals": 7
+      }
+    },
+    {
+      "id": "co-wc-bra-2020s-alisson",
+      "name": "Alisson",
+      "entity": "BRA",
+      "era": "2020s",
+      "positions": [
+        "GK"
+      ],
+      "ovr": 92,
+      "stats": {
+        "caps": 76
+      }
+    },
+    {
+      "id": "co-wc-bra-2020s-raphinha",
+      "name": "Raphinha",
+      "entity": "BRA",
+      "era": "2020s",
+      "positions": [
+        "RW",
+        "LW"
+      ],
+      "ovr": 87,
+      "stats": {
+        "caps": 34,
+        "goals": 12
+      }
+    },
+    {
+      "id": "co-wc-bra-2020s-richarlison",
+      "name": "Richarlison",
+      "entity": "BRA",
+      "era": "2020s",
+      "positions": [
+        "ST",
+        "LW"
+      ],
+      "ovr": 86,
+      "stats": {
+        "caps": 52,
+        "goals": 21
+      }
+    },
+    {
+      "id": "co-wc-arg-1980s-maradona",
+      "name": "Diego Maradona",
+      "entity": "ARG",
+      "era": "1980s",
+      "positions": [
+        "CAM",
+        "ST"
+      ],
+      "ovr": 99,
+      "stats": {
+        "caps": 91,
+        "goals": 34
+      },
+      "tags": [
+        "icon"
+      ]
+    },
+    {
+      "id": "co-wc-arg-1980s-passarella",
+      "name": "Daniel Passarella",
+      "entity": "ARG",
+      "era": "1980s",
+      "positions": [
+        "CB",
+        "CDM"
+      ],
+      "ovr": 89,
+      "stats": {
+        "caps": 70,
+        "goals": 22
+      }
+    },
+    {
+      "id": "co-wc-arg-1980s-burruchaga",
+      "name": "Jorge Burruchaga",
+      "entity": "ARG",
+      "era": "1980s",
+      "positions": [
+        "CAM",
+        "ST",
+        "RM"
+      ],
+      "ovr": 87,
+      "stats": {
+        "caps": 59,
+        "goals": 13
+      }
+    },
+    {
+      "id": "co-wc-arg-1980s-batista",
+      "name": "Sergio Batista",
+      "entity": "ARG",
+      "era": "1980s",
+      "positions": [
+        "CDM",
+        "CM"
+      ],
+      "ovr": 84,
+      "stats": {
+        "caps": 54,
+        "goals": 3
+      }
+    },
+    {
+      "id": "co-wc-arg-1980s-valdano",
+      "name": "Jorge Valdano",
+      "entity": "ARG",
+      "era": "1980s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 86,
+      "stats": {
+        "caps": 22,
+        "goals": 7
+      }
+    },
+    {
+      "id": "co-wc-arg-1980s-ruggeri",
+      "name": "Oscar Ruggeri",
+      "entity": "ARG",
+      "era": "1980s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 85,
+      "stats": {
+        "caps": 97,
+        "goals": 7
+      }
+    },
+    {
+      "id": "co-wc-arg-1980s-pumpido",
+      "name": "Nery Pumpido",
+      "entity": "ARG",
+      "era": "1980s",
+      "positions": [
+        "GK"
+      ],
+      "ovr": 82,
+      "stats": {
+        "caps": 36
+      }
+    },
+    {
+      "id": "co-wc-arg-1980s-giusti",
+      "name": "Ricardo Giusti",
+      "entity": "ARG",
+      "era": "1980s",
+      "positions": [
+        "CDM",
+        "RM"
+      ],
+      "ovr": 81,
+      "stats": {
+        "caps": 53,
+        "goals": 2
+      }
+    },
+    {
+      "id": "co-wc-arg-1980s-olarticoechea",
+      "name": "Julio Olarticoechea",
+      "entity": "ARG",
+      "era": "1980s",
+      "positions": [
+        "LB",
+        "LM"
+      ],
+      "ovr": 80,
+      "stats": {
+        "caps": 31,
+        "goals": 0
+      }
+    },
+    {
+      "id": "co-wc-arg-1990s-batistuta",
+      "name": "Gabriel Batistuta",
+      "entity": "ARG",
+      "era": "1990s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 95,
+      "stats": {
+        "caps": 78,
+        "goals": 54
+      },
+      "tags": [
+        "icon"
+      ]
+    },
+    {
+      "id": "co-wc-arg-1990s-simeone",
+      "name": "Diego Simeone",
+      "entity": "ARG",
+      "era": "1990s",
+      "positions": [
+        "CDM",
+        "CM"
+      ],
+      "ovr": 88,
+      "stats": {
+        "caps": 106,
+        "goals": 11
+      }
+    },
+    {
+      "id": "co-wc-arg-1990s-veron",
+      "name": "Juan Sebastián Verón",
+      "entity": "ARG",
+      "era": "1990s",
+      "positions": [
+        "CM",
+        "CAM"
+      ],
+      "ovr": 87,
+      "stats": {
+        "caps": 73,
+        "goals": 9
+      }
+    },
+    {
+      "id": "co-wc-arg-1990s-ayala",
+      "name": "Roberto Ayala",
+      "entity": "ARG",
+      "era": "1990s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 88,
+      "stats": {
+        "caps": 115,
+        "goals": 7
+      }
+    },
+    {
+      "id": "co-wc-arg-1990s-zanetti",
+      "name": "Javier Zanetti",
+      "entity": "ARG",
+      "era": "1990s",
+      "positions": [
+        "RB",
+        "RM"
+      ],
+      "ovr": 89,
+      "stats": {
+        "caps": 143,
+        "goals": 5
+      }
+    },
+    {
+      "id": "co-wc-arg-1990s-crespo",
+      "name": "Hernán Crespo",
+      "entity": "ARG",
+      "era": "1990s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 87,
+      "stats": {
+        "caps": 64,
+        "goals": 35
+      }
+    },
+    {
+      "id": "co-wc-arg-1990s-ortega",
+      "name": "Ariel Ortega",
+      "entity": "ARG",
+      "era": "1990s",
+      "positions": [
+        "CAM",
+        "LW"
+      ],
+      "ovr": 87,
+      "stats": {
+        "caps": 87,
+        "goals": 17
+      }
+    },
+    {
+      "id": "co-wc-arg-1990s-redondo",
+      "name": "Fernando Redondo",
+      "entity": "ARG",
+      "era": "1990s",
+      "positions": [
+        "CDM",
+        "CM"
+      ],
+      "ovr": 90,
+      "stats": {
+        "caps": 29,
+        "goals": 1
+      }
+    },
+    {
+      "id": "co-wc-arg-1990s-maradona",
+      "name": "Diego Maradona",
+      "entity": "ARG",
+      "era": "1990s",
+      "positions": [
+        "CAM"
+      ],
+      "ovr": 92,
+      "stats": {
+        "caps": 91,
+        "goals": 34
+      }
+    },
+    {
+      "id": "co-wc-arg-2010s-messi",
+      "name": "Lionel Messi",
+      "entity": "ARG",
+      "era": "2010s",
+      "positions": [
+        "RW",
+        "CAM",
+        "ST"
+      ],
+      "ovr": 99,
+      "stats": {
+        "caps": 167,
+        "goals": 98,
+        "assists": 56
+      },
+      "tags": [
+        "icon"
+      ]
+    },
+    {
+      "id": "co-wc-arg-2010s-aguero",
+      "name": "Sergio Agüero",
+      "entity": "ARG",
+      "era": "2010s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 92,
+      "stats": {
+        "caps": 101,
+        "goals": 42
+      }
+    },
+    {
+      "id": "co-wc-arg-2010s-higuain",
+      "name": "Gonzalo Higuaín",
+      "entity": "ARG",
+      "era": "2010s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 89,
+      "stats": {
+        "caps": 75,
+        "goals": 31
+      }
+    },
+    {
+      "id": "co-wc-arg-2010s-dimaria",
+      "name": "Ángel Di María",
+      "entity": "ARG",
+      "era": "2010s",
+      "positions": [
+        "LW",
+        "RW",
+        "CAM"
+      ],
+      "ovr": 92,
+      "stats": {
+        "caps": 145,
+        "goals": 31
+      }
+    },
+    {
+      "id": "co-wc-arg-2010s-mascherano",
+      "name": "Javier Mascherano",
+      "entity": "ARG",
+      "era": "2010s",
+      "positions": [
+        "CDM",
+        "CB"
+      ],
+      "ovr": 89,
+      "stats": {
+        "caps": 147,
+        "goals": 3
+      }
+    },
+    {
+      "id": "co-wc-arg-2010s-zabaleta",
+      "name": "Pablo Zabaleta",
+      "entity": "ARG",
+      "era": "2010s",
+      "positions": [
+        "RB"
+      ],
+      "ovr": 84,
+      "stats": {
+        "caps": 58,
+        "goals": 0
+      }
+    },
+    {
+      "id": "co-wc-arg-2010s-romero",
+      "name": "Sergio Romero",
+      "entity": "ARG",
+      "era": "2010s",
+      "positions": [
+        "GK"
+      ],
+      "ovr": 84,
+      "stats": {
+        "caps": 96
+      }
+    },
+    {
+      "id": "co-wc-arg-2010s-rojo",
+      "name": "Marcos Rojo",
+      "entity": "ARG",
+      "era": "2010s",
+      "positions": [
+        "CB",
+        "LB"
+      ],
+      "ovr": 81,
+      "stats": {
+        "caps": 62,
+        "goals": 3
+      }
+    },
+    {
+      "id": "co-wc-arg-2020s-messi",
+      "name": "Lionel Messi",
+      "entity": "ARG",
+      "era": "2020s",
+      "positions": [
+        "RW",
+        "CAM",
+        "ST"
+      ],
+      "ovr": 97,
+      "stats": {
+        "caps": 189,
+        "goals": 112,
+        "assists": 58
+      },
+      "tags": [
+        "icon"
+      ]
+    },
+    {
+      "id": "co-wc-arg-2020s-julian",
+      "name": "Julián Álvarez",
+      "entity": "ARG",
+      "era": "2020s",
+      "positions": [
+        "ST",
+        "CAM"
+      ],
+      "ovr": 89,
+      "stats": {
+        "caps": 40,
+        "goals": 11
+      }
+    },
+    {
+      "id": "co-wc-arg-2020s-lautaro",
+      "name": "Lautaro Martínez",
+      "entity": "ARG",
+      "era": "2020s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 91,
+      "stats": {
+        "caps": 61,
+        "goals": 29
+      }
+    },
+    {
+      "id": "co-wc-arg-2020s-dimaria",
+      "name": "Ángel Di María",
+      "entity": "ARG",
+      "era": "2020s",
+      "positions": [
+        "RW",
+        "LW"
+      ],
+      "ovr": 90,
+      "stats": {
+        "caps": 145,
+        "goals": 31
+      }
+    },
+    {
+      "id": "co-wc-arg-2020s-enzo",
+      "name": "Enzo Fernández",
+      "entity": "ARG",
+      "era": "2020s",
+      "positions": [
+        "CM",
+        "CDM"
+      ],
+      "ovr": 88,
+      "stats": {
+        "caps": 34,
+        "goals": 3
+      }
+    },
+    {
+      "id": "co-wc-arg-2020s-depaul",
+      "name": "Rodrigo De Paul",
+      "entity": "ARG",
+      "era": "2020s",
+      "positions": [
+        "CM",
+        "CAM"
+      ],
+      "ovr": 88,
+      "stats": {
+        "caps": 67,
+        "goals": 4
+      }
+    },
+    {
+      "id": "co-wc-arg-2020s-romerocuti",
+      "name": "Cristian Romero",
+      "entity": "ARG",
+      "era": "2020s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 89,
+      "stats": {
+        "caps": 40,
+        "goals": 1
+      }
+    },
+    {
+      "id": "co-wc-arg-2020s-emi",
+      "name": "Emiliano Martínez",
+      "entity": "ARG",
+      "era": "2020s",
+      "positions": [
+        "GK"
+      ],
+      "ovr": 92,
+      "stats": {
+        "caps": 52
+      }
+    },
+    {
+      "id": "co-wc-arg-2020s-mactallister",
+      "name": "Alexis Mac Allister",
+      "entity": "ARG",
+      "era": "2020s",
+      "positions": [
+        "CM",
+        "CAM"
+      ],
+      "ovr": 88,
+      "stats": {
+        "caps": 40,
+        "goals": 3
+      }
+    },
+    {
+      "id": "co-wc-bra-1980s-zico",
+      "name": "Zico",
+      "entity": "BRA",
+      "era": "1980s",
+      "positions": [
+        "CAM",
+        "ST"
+      ],
+      "ovr": 95,
+      "stats": {
+        "caps": 71,
+        "goals": 48
+      },
+      "tags": [
+        "icon"
+      ]
+    },
+    {
+      "id": "co-wc-bra-1980s-socrates",
+      "name": "Sócrates",
+      "entity": "BRA",
+      "era": "1980s",
+      "positions": [
+        "CAM",
+        "CDM"
+      ],
+      "ovr": 91,
+      "stats": {
+        "caps": 60,
+        "goals": 22
+      }
+    },
+    {
+      "id": "co-wc-bra-1980s-falcao",
+      "name": "Falcão",
+      "entity": "BRA",
+      "era": "1980s",
+      "positions": [
+        "CDM",
+        "CM"
+      ],
+      "ovr": 89,
+      "stats": {
+        "caps": 34,
+        "goals": 6
+      }
+    },
+    {
+      "id": "co-wc-bra-1980s-junior",
+      "name": "Júnior",
+      "entity": "BRA",
+      "era": "1980s",
+      "positions": [
+        "LB",
+        "CDM"
+      ],
+      "ovr": 87,
+      "stats": {
+        "caps": 75,
+        "goals": 6
+      }
+    },
+    {
+      "id": "co-wc-bra-1980s-cerezo",
+      "name": "Cerezo",
+      "entity": "BRA",
+      "era": "1980s",
+      "positions": [
+        "CDM",
+        "CM"
+      ],
+      "ovr": 84,
+      "stats": {
+        "caps": 57,
+        "goals": 7
+      }
+    },
+    {
+      "id": "co-wc-bra-1980s-eder",
+      "name": "Éder",
+      "entity": "BRA",
+      "era": "1980s",
+      "positions": [
+        "LW",
+        "CAM"
+      ],
+      "ovr": 86,
+      "stats": {
+        "caps": 51,
+        "goals": 8
+      }
+    },
+    {
+      "id": "co-wc-bra-1980s-careca",
+      "name": "Careca",
+      "entity": "BRA",
+      "era": "1980s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 91,
+      "stats": {
+        "caps": 60,
+        "goals": 30
+      }
+    },
+    {
+      "id": "co-wc-bra-1980s-juliocesar",
+      "name": "Júlio César",
+      "entity": "BRA",
+      "era": "1980s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 82,
+      "stats": {
+        "caps": 56,
+        "goals": 0
+      }
+    },
+    {
+      "id": "co-wc-bra-1980s-leao",
+      "name": "Leão",
+      "entity": "BRA",
+      "era": "1980s",
+      "positions": [
+        "GK"
+      ],
+      "ovr": 80,
+      "stats": {
+        "caps": 81
+      }
+    },
+    {
+      "id": "co-wc-uru-2010s-suarez",
+      "name": "Luis Suárez",
+      "entity": "URU",
+      "era": "2010s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 93,
+      "stats": {
+        "caps": 144,
+        "goals": 69
+      },
+      "tags": [
+        "icon"
+      ]
+    },
+    {
+      "id": "co-wc-uru-2010s-cavani",
+      "name": "Edinson Cavani",
+      "entity": "URU",
+      "era": "2010s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 90,
+      "stats": {
+        "caps": 137,
+        "goals": 58
+      }
+    },
+    {
+      "id": "co-wc-uru-2010s-forlan",
+      "name": "Diego Forlán",
+      "entity": "URU",
+      "era": "2010s",
+      "positions": [
+        "ST",
+        "CAM"
+      ],
+      "ovr": 89,
+      "stats": {
+        "caps": 112,
+        "goals": 36
+      }
+    },
+    {
+      "id": "co-wc-uru-2010s-godin",
+      "name": "Diego Godín",
+      "entity": "URU",
+      "era": "2010s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 91,
+      "stats": {
+        "caps": 161,
+        "goals": 8
+      }
+    },
+    {
+      "id": "co-wc-uru-2010s-gimenez",
+      "name": "José Giménez",
+      "entity": "URU",
+      "era": "2010s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 87,
+      "stats": {
+        "caps": 99,
+        "goals": 7
+      }
+    },
+    {
+      "id": "co-wc-uru-2010s-muslera",
+      "name": "Fernando Muslera",
+      "entity": "URU",
+      "era": "2010s",
+      "positions": [
+        "GK"
+      ],
+      "ovr": 86,
+      "stats": {
+        "caps": 134
+      }
+    },
+    {
+      "id": "co-wc-uru-2010s-pereira",
+      "name": "Maxi Pereira",
+      "entity": "URU",
+      "era": "2010s",
+      "positions": [
+        "RB"
+      ],
+      "ovr": 84,
+      "stats": {
+        "caps": 125,
+        "goals": 6
+      }
+    },
+    {
+      "id": "co-wc-uru-2010s-rodriguez",
+      "name": "Cristian Rodríguez",
+      "entity": "URU",
+      "era": "2010s",
+      "positions": [
+        "LM",
+        "CM"
+      ],
+      "ovr": 82,
+      "stats": {
+        "caps": 85,
+        "goals": 8
+      }
+    },
+    {
+      "id": "co-wc-uru-2010s-arevalo",
+      "name": "Egidio Arévalo Ríos",
+      "entity": "URU",
+      "era": "2010s",
+      "positions": [
+        "CDM"
+      ],
+      "ovr": 80,
+      "stats": {
+        "caps": 83,
+        "goals": 1
+      }
+    },
+    {
+      "id": "co-wc-uru-2020s-valverde",
+      "name": "Federico Valverde",
+      "entity": "URU",
+      "era": "2020s",
+      "positions": [
+        "CM",
+        "CDM"
+      ],
+      "ovr": 90,
+      "stats": {
+        "caps": 75,
+        "goals": 12
+      }
+    },
+    {
+      "id": "co-wc-uru-2020s-nunez",
+      "name": "Darwin Núñez",
+      "entity": "URU",
+      "era": "2020s",
+      "positions": [
+        "ST",
+        "LW"
+      ],
+      "ovr": 86,
+      "stats": {
+        "caps": 35,
+        "goals": 9
+      }
+    },
+    {
+      "id": "co-wc-uru-2020s-suarez",
+      "name": "Luis Suárez",
+      "entity": "URU",
+      "era": "2020s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 88,
+      "stats": {
+        "caps": 144,
+        "goals": 69
+      }
+    },
+    {
+      "id": "co-wc-uru-2020s-cavani",
+      "name": "Edinson Cavani",
+      "entity": "URU",
+      "era": "2020s",
+      "positions": [
+        "ST"
+      ],
+      "ovr": 85,
+      "stats": {
+        "caps": 137,
+        "goals": 58
+      }
+    },
+    {
+      "id": "co-wc-uru-2020s-gimenez",
+      "name": "José Giménez",
+      "entity": "URU",
+      "era": "2020s",
+      "positions": [
+        "CB"
+      ],
+      "ovr": 87,
+      "stats": {
+        "caps": 99,
+        "goals": 7
+      }
+    },
+    {
+      "id": "co-wc-uru-2020s-rochet",
+      "name": "Sergio Rochet",
+      "entity": "URU",
+      "era": "2020s",
+      "positions": [
+        "GK"
+      ],
+      "ovr": 82,
+      "stats": {
+        "caps": 28
+      }
+    },
+    {
+      "id": "co-wc-uru-2020s-bentancur",
+      "name": "Rodrigo Bentancur",
+      "entity": "URU",
+      "era": "2020s",
+      "positions": [
+        "CM",
+        "CDM"
+      ],
+      "ovr": 86,
+      "stats": {
+        "caps": 60,
+        "goals": 2
+      }
+    },
+    {
+      "id": "co-wc-uru-2020s-ugarte",
+      "name": "Manuel Ugarte",
+      "entity": "URU",
+      "era": "2020s",
+      "positions": [
+        "CDM"
+      ],
+      "ovr": 83,
+      "stats": {
+        "caps": 30,
+        "goals": 0
+      }
+    },
+    {
+      "id": "co-wc-uru-2020s-delacruz",
+      "name": "Nicolás de la Cruz",
+      "entity": "URU",
+      "era": "2020s",
+      "positions": [
+        "CAM"
+      ],
+      "ovr": 84,
+      "stats": {
+        "caps": 40,
+        "goals": 6
+      }
+    }
+  ]
+}

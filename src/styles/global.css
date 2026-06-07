@@ -1,0 +1,121 @@
+:root {
+  /* Draft Dogs brand palette (sourced from draft-dogs-pwa) */
+  --bg: #0D0E0D;
+  --bg-2: #1A1B1A;
+  --bg-3: #2A2B2A;
+  --fg: #FEFAF4;
+  --fg-dim: #B8B5B4;
+
+  /* Brand primary & secondary */
+  --accent: #3C905F;
+  --accent-hover: #4AA66F;
+  --accent-2: #C58326;
+  --accent-2-hover: #D69436;
+  --accent-3: #E3E0DF;
+
+  /* Outcome / status */
+  --success: #4AAF50;
+  --warn: #C58326;
+  --error: #F44336;
+  --info: #2196F3;
+
+  /* Sport-accent system — pages set .sport-{soccer|nba|nfl|nhl|mlb} on
+     a wrapper to tint chrome (hub-card record glow, game header, share
+     card highlights) without overriding the brand. Default = brand green. */
+  --sport-accent: var(--accent);
+  --sport-accent-dim: rgba(60, 144, 95, 0.35);
+
+  --border: #2A2B2A;
+
+  font-family: 'VT323', 'Geist Mono', ui-monospace, 'Courier New', monospace;
+  color-scheme: dark;
+}
+
+.sport-soccer { --sport-accent: #3C905F; --sport-accent-dim: rgba(60, 144, 95, 0.35); }
+.sport-nba    { --sport-accent: #FF8800; --sport-accent-dim: rgba(255, 136, 0, 0.30); }
+.sport-nfl    { --sport-accent: #4FC3F7; --sport-accent-dim: rgba(79, 195, 247, 0.30); }
+.sport-nhl    { --sport-accent: #29B6F6; --sport-accent-dim: rgba(41, 182, 246, 0.30); }
+.sport-mlb    { --sport-accent: #EC407A; --sport-accent-dim: rgba(236, 64, 122, 0.30); }
+
+* { box-sizing: border-box; }
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--fg);
+  min-height: 100dvh;
+  font-size: 16px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Subtle CRT scanline overlay app-wide. Pure decoration; no pointer events. */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background: repeating-linear-gradient(
+    0deg,
+    rgba(255,255,255,0.012) 0,
+    rgba(255,255,255,0.012) 1px,
+    transparent 1px,
+    transparent 3px
+  );
+  z-index: 9999;
+  mix-blend-mode: overlay;
+}
+
+a { color: inherit; text-decoration: none; }
+button { font-family: inherit; cursor: pointer; }
+
+.loading {
+  display: grid;
+  place-items: center;
+  min-height: 100dvh;
+  color: var(--fg-dim);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+/* Generic broadcast-graphics primitives shared across screens. */
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 2px 8px;
+  font-size: 0.65rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  line-height: 1;
+}
+.chip--live::before {
+  content: '';
+  width: 6px;
+  height: 6px;
+  background: var(--error);
+  border-radius: 50%;
+  box-shadow: 0 0 8px var(--error);
+  animation: chip-pulse 1.3s ease-in-out infinite;
+}
+@keyframes chip-pulse {
+  0%, 100% { opacity: 0.6; transform: scale(0.85); }
+  50%      { opacity: 1;   transform: scale(1.15); }
+}
+
+.brand-mark {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.78rem;
+  letter-spacing: 0.32em;
+  color: var(--sport-accent);
+  text-transform: uppercase;
+}
+.brand-mark::before {
+  content: '🐾';
+  font-size: 1em;
+  filter: grayscale(0.2);
+}
