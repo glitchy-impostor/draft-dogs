@@ -121,6 +121,16 @@ function rewriteHead(tpl, headFragment) {
 const index = fs.readFileSync(path.join(DIST, 'index.html'), 'utf8');
 let written = 0;
 
+// /arcade — the hub. dist/index.html already has the hub's SEO baked in, so
+// the file at dist/arcade/index.html is just a copy. Without this, GH Pages
+// returns 404 for /arcade (no static file maps to that path) and Googlebot
+// sees the 404 status from the SPA fallback even though the SPA still
+// renders client-side — that's what breaks Search Console indexing.
+fs.mkdirSync(path.join(DIST, 'arcade'), { recursive: true });
+fs.writeFileSync(path.join(DIST, 'arcade', 'index.html'), index);
+written++;
+
+// /arcade/<slug> — per-game pages with game-specific meta.
 for (const c of COMPS) {
   if (!c.live) continue;
   const dir = path.join(DIST, 'arcade', c.slug);
@@ -129,6 +139,27 @@ for (const c of COMPS) {
   fs.writeFileSync(path.join(dir, 'index.html'), html);
   written++;
 }
+
+// /privacy — privacy policy with its own canonical + title.
+const privacyHead = `
+    <title>Privacy Policy — Draft Dogs Arcade</title>
+    <meta name="description" content="What Draft Dogs Arcade collects, why, and how to delete your data. No tracking, no ads, no third parties." />
+    <link rel="canonical" href="${SITE}/privacy" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:type" content="article" />
+    <meta property="og:site_name" content="Draft Dogs Arcade" />
+    <meta property="og:title" content="Privacy Policy — Draft Dogs Arcade" />
+    <meta property="og:description" content="What we collect, why, and how to delete your data." />
+    <meta property="og:url" content="${SITE}/privacy" />
+    <meta property="og:image" content="${SITE}/icon-512.png" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Privacy Policy — Draft Dogs Arcade" />
+    <meta name="twitter:description" content="What we collect, why, and how to delete your data." />
+    <meta name="twitter:image" content="${SITE}/icon-512.png" />
+  `.trim();
+fs.mkdirSync(path.join(DIST, 'privacy'), { recursive: true });
+fs.writeFileSync(path.join(DIST, 'privacy', 'index.html'), rewriteHead(index, privacyHead));
+written++;
 
 // Sitemap
 const urls = [
